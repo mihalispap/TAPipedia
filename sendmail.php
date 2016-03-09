@@ -17,8 +17,7 @@ $msg = "First line of text\nSecond line of text";
 $msg = wordwrap($msg,70);
 
 // send email
-$v=mail("mihalispapak@gmail.com","My subject",$msg);
-//mail("mihalispapak@hotmail.com","My subject",$msg);
+$v=mail("somemail@somemail.com","My subject",$msg);
 print_r(error_get_last());
 if($v===true)
 	echo "sent?!";

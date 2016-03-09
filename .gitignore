@@ -1,0 +1,3 @@
+./sites/default/files/bib_harvested/*
+./sites/default/files/biblio/*
+./sites/*/settings*.php
