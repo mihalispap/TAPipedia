@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Global Value Chains Meet Innovation Systems: Are there Learning Opportunities for Developing Countries?</dc:title>
+      <dc:subject>ad&amp;case geographical cross cutting</dc:subject>
+      <dc:subject>capacity assessment</dc:subject>
+      <dc:subject>cd geographical cross cutting</dc:subject>
+      <dc:subject>cd level system or policy</dc:subject>
+      <dc:subject>cd organizational environment</dc:subject>
+      <dc:subject>cd system or policy</dc:subject>
+      <dc:subject>development impact market</dc:subject>
+      <dc:subject>development impact stakeholder partenership or int</dc:subject>
+      <dc:subject>innovation</dc:subject>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>is actor private</dc:subject>
+      <dc:subject>is actor public</dc:subject>
+      <dc:subject>is international</dc:subject>
+      <dc:creator>Pietrobelli, Carlo</dc:creator>
+      <dc:creator>Rabellotti, Roberta</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2010</dcterms:dateIssued>
+      </dc:date>
+      <dc:description>
+         <dcterms:abstract>Analysis of the role of GVC in accessing knowledge and enhancing learning and innovation. Global Value Chains, Innovation Systems, Governance, Foreign Direct Investment, Learning, Upgrading, Productivity. Three main conclusions emerge from the analytical framework and evidence presented in this paper. First, learning mechanisms can vary widely within the various forms of governance of GVCs;Second, as innovations systems are “opened” to foreign sources of knowledge, the relationship between GVCs and ISs is nonlinear and endogenous, allowing all actors involved to benefit;Third, the internal governance of a GVC is a dynamic phenomenon that is subject to continuous adjustments and changes, and the nature of the innovation system affects this co-evolution</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Pietrobelli, Rabellotti - 2010 - Global Value Chains Meet Innovation Systems Are there Learning Opportunities for Developing Countries.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Unpublished Work</dc:type>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

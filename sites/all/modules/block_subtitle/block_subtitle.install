@@ -1,0 +1,151 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the block_subtitle module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function block_subtitle_install() {
+  $schema['block'] = array();
+  block_subtitle_schema_alter($schema);
+  foreach ($schema['block']['fields'] as $field => $spec) {
+    if (db_field_exists('block', $field)) {
+      watchdog('system', 'Module install: Attempt to recreate field: "%field", when it already exists.', array('%field' => $field), WATCHDOG_WARNING);
+    }
+    else {
+      db_add_field('block', $field, $spec);
+    }
+  }
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function block_subtitle_uninstall() {
+  $schema['block'] = array();
+  block_subtitle_schema_alter($schema);
+  foreach ($schema['block']['fields'] as $field => $specs) {
+    db_drop_field('block', $field);
+  }
+}
+
+/**
+ * Implements hook_schema_alter().
+ *
+ * Other modules, such as i18n_block also modify the block database table.
+ */
+function block_subtitle_schema_alter(&$schema) {
+  if (isset($schema['block'])) {
+    $schema['block']['fields']['block_subtitle'] = array(
+      'type' => 'varchar',
+      'length' => 255,
+      'not null' => TRUE,
+      'default' => '',
+      'description' => 'String containing the classes for the block.',
+    );
+  }
+}
+
+/**
+ * Alters the structure of {block_subtitle} schema.
+ */
+function block_subtitle_update_7100() {
+  // Check if the block_subtitle table exists to prevent installation profiles
+  // from running this update for versions without the block_subtitle table.
+  if (db_table_exists('block_subtitle')) {
+    // Update the schema.
+    db_drop_primary_key('block_subtitle');
+
+    db_change_field('block_subtitle', 'module', 'module',
+      array(
+        'type' => 'varchar',
+        'length' => '255',
+        'not null' => TRUE,
+        'default' => '',
+        'description' => 'The module to which the block belongs.',
+      )
+    );
+
+    db_change_field('block_subtitle', 'delta', 'delta',
+      array(
+        'type' => 'varchar',
+        'length' => '255',
+        'not null' => TRUE,
+        'default' => '',
+        'description' => "The ID of the module's block.",
+      )
+    );
+
+    db_change_field('block_subtitle', 'block_subtitle', 'block_subtitle',
+      array(
+        'type' => 'varchar',
+        'length' => '255',
+        'not null' => TRUE,
+        'default' => '',
+        'description' => 'String containing the classes for the block.',
+      )
+    );
+
+    // Restore the primary key.
+    db_add_primary_key('block_subtitle', array('module', 'delta'));
+  }
+}
+
+/**
+ * Fix too long primary key length in {block_subtitle}.
+ */
+function block_subtitle_update_7101() {
+  // Ensure the block_subtitle table exists, which is not true for all versions.
+  if (db_table_exists('block_subtitle')) {
+    // Drop current primary key.
+    db_drop_primary_key('block_subtitle');
+
+    db_change_field('block_subtitle', 'module', 'module', array(
+      'type' => 'varchar',
+      'length' => 64,
+      'not null' => TRUE,
+      'default' => '',
+      'description' => 'The module to which the block belongs.',
+    ));
+    db_change_field('block_subtitle', 'delta', 'delta', array(
+      'type' => 'varchar',
+      'length' => 32,
+      'not null' => TRUE,
+      'default' => '',
+      'description' => "The ID of the module's block.",
+    ));
+
+    // Create new primary key.
+    db_add_primary_key('block_subtitle', array('module', 'delta'));
+  }
+}
+
+/**
+ * Migration from block_subtitle table to new field block_subtitle in core block table.
+ */
+function block_subtitle_update_7103() {
+  if (!db_field_exists('block', 'block_subtitle')) {
+    $schema['block'] = array();
+    block_subtitle_schema_alter($schema);
+    foreach ($schema['block']['fields'] as $field => $specs) {
+      db_add_field('block', $field, $specs);
+    }
+  }
+
+  if (db_table_exists('block_subtitle')) {
+    // Migrate all existing records from block_subtitle table to block table.
+    $result = db_query('SELECT block_subtitle, module, delta FROM {block_subtitle}');
+    while ($record = $result->fetchObject()) {
+      db_update('block')
+        ->fields(array('block_subtitle' => $record->block_subtitle))
+        ->condition('module', $record->module)
+        ->condition('delta', $record->delta)
+        ->execute();
+    }
+    // Remove the block_subtitle table.
+    db_drop_table('block_subtitle');
+  }
+}

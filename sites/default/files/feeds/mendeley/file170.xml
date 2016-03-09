@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>The Role of Innovation Brokers in Agricultural Innovation Systems<dcterms:alternative>Agricultural Innovation Systems: an Investment Sourcebook</dcterms:alternative>
+      </dc:title>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>is extension</dc:subject>
+      <dc:subject>is research</dc:subject>
+      <dc:subject>knowledge brokering</dc:subject>
+      <dc:subject>learning&amp;facilitation</dc:subject>
+      <dc:creator>Klerkx, Laurens</dc:creator>
+      <dc:creator>Gildemacher, Peter</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>World Bank</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2012</dcterms:dateIssued>
+      </dc:date>
+      <dc:description>
+         <dcterms:abstract>This section discusses the role of innovation brokers in bridging communication gaps between various actors of innovation systems. On the basis of recent experience in the Netherlands, it outlines the success of brokers in finding solutions adapted to the needs of farmers and industry, and thus their positive impact on innovation adoption. This section also examines some issues on how brokers function, particularly with regard to balancing interests, funding their activities, and the role of government.</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Klerkx, Gildemacher - 2012 - The Role of Innovation Brokers in Agricultural Innovation Systems.pdf</dc:identifier>
+      <dc:identifier scheme="dcterms:URI">
+            http://siteresources.worldbank.org/INTARD/Resources/335807-1330620492317/8478371-1330712142266/Module3-TN4.pdf
+         </dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Book Section</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 221-230</dcterms:extent>
+      </dc:format>
+      <ags:citation>
+         <ags:citationTitle>Agricultural Innovation Systems: an Investment Sourcebook</ags:citationTitle>
+         <ags:citationIdentifier scheme="ags:ISSN">10.1787/9789264167445-19-en</ags:citationIdentifier>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

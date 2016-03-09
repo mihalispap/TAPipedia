@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Report on Prioritization of Demand-driven Agricultural Research for Development in South-Asia</dc:title>
+      <dc:subject>agricultural research</dc:subject>
+      <dc:subject>south asia</dc:subject>
+      <dc:creator>Mruthyunjaya</dc:creator>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Mruthyunjaya - Unknown - Report on Prioritization of Demand-driven Agricultural Research for Development in South-Asia.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Report</dc:type>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

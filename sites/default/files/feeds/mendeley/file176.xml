@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Towards optimal coordination of the Chilean Agricultural Innovation System: Design for a MINAGRI Agricultural Innovation Coordination Unit<dcterms:alternative>The World Bank Group</dcterms:alternative>
+      </dc:title>
+      <dc:subject>cd</dc:subject>
+      <dc:subject>chile</dc:subject>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>latin america</dc:subject>
+      <dc:creator>Klerkx, Laurens</dc:creator>
+      <dc:creator>Theis, Sophie</dc:creator>
+      <dc:creator>Janssen, Willem</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>World Bank</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2013</dcterms:dateIssued>
+      </dc:date>
+      <dc:description>
+         <dcterms:abstract>The present study pursues the recommendation in the action plan to enhance the coordination of the Chilean Agricultural Innovation System (AIS) by the Chilean Ministry of Agriculture (MINAGRI) with the creation of a Directorate for Agricultural Innovation. In response to this recommendation, MINAGRI established an informal coordination unit within the Subsecretary’s office, which started to follow up on the recommendations of the three reports. At the request of the Subsecretary and the informal coordination unit, in the current paper the World Bank elaborates a proposal for how such a Directorate for Agricultural Innovation could be established and how it could function</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Klerkx, Theis, Janssen - 2013 - Towards optimal coordination of the Chilean Agricultural Innovation System Design for a MINAGRI Agricult.pdf</dc:identifier>
+      <dc:identifier scheme="dcterms:URI">
+            http://www.fia.cl/Portals/0/BancoMundial/Chile_Report_2013_Final_Revised2 (1).pdf
+         </dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Book</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 70</dcterms:extent>
+      </dc:format>
+      <ags:citation>
+         <ags:citationTitle>The World Bank Group</ags:citationTitle>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

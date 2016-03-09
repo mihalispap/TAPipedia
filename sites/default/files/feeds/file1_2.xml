@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Integrated Agricultural Research for Development ...from concept to practice</dc:title>
+      <dc:subject>capacity building</dc:subject>
+      <dc:subject>capacity assesments</dc:subject>
+      <dc:subject>cd tools</dc:subject>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>is extension</dc:subject>
+      <dc:subject>is institutional</dc:subject>
+      <dc:subject>is research</dc:subject>
+      <dc:subject>knowled and learning</dc:subject>
+      <dc:creator>A. Adewale, Adekunle</dc:creator>
+      <dc:creator>A. Oluwole, Oluwole</dc:creator>
+      <dc:creator>Buruchara, Robin</dc:creator>
+      <dc:creator>Nyamwaro, Sospeter</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2013</dcterms:dateIssued>
+      </dc:date>
+      <dc:description>
+         <dcterms:abstract>This publication presents a synthesis of methods and lessons learnt in the implementation of the Integrated Agricultural Research for Development (IAR4D) concept within the Sub-Saharan Africa Challenge Program (SSA CP). It relates lessons learnt and impact gained from the program between 2005 to 2010.The IAR4D concept utilizes the principles of innovation systems approach to foster significant changes in agriculture through wholesome engagement of stakeholders in useful partnership, market integration and participatory innovation along technological, institutional and infrastructural realm.</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://A. Adewale et al. - 2013 - Integrated Agricultural Research for Development ...from concept to practice.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Report</dc:type>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

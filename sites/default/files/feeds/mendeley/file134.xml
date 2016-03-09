@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Research into use: Investigating the relationship between agricultural research and innovation</dc:title>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>is research</dc:subject>
+      <dc:creator>Hall, Andy</dc:creator>
+      <dc:creator>Dijkman, Jeroen</dc:creator>
+      <dc:creator>Sulaiman, Rasheed</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2010</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Hall, Dijkman, Sulaiman - 2010 - Research into use Investigating the relationship between agricultural research and innovation.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Unpublished Work</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 1-48</dcterms:extent>
+      </dc:format>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

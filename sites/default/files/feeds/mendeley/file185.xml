@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Agribusiness and Innovation Systems in Africa</dc:title>
+      <dc:subject>ad &amp;case africa</dc:subject>
+      <dc:subject>africa</dc:subject>
+      <dc:subject>cd concept assessment</dc:subject>
+      <dc:subject>improving knowledge and capacity of farmers</dc:subject>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>is actor farmer organization</dc:subject>
+      <dc:subject>is actor marke</dc:subject>
+      <dc:subject>is institutional</dc:subject>
+      <dc:subject>is market</dc:subject>
+      <dc:subject>kenya</dc:subject>
+      <dc:subject>tanzania</dc:subject>
+      <dc:subject>tis africa</dc:subject>
+      <dc:creator>Larsen, Kurt</dc:creator>
+      <dc:creator>Kim, Ronald</dc:creator>
+      <dc:creator>Theus, Florian</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>World Bank</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2009</dcterms:dateIssued>
+      </dc:date>
+      <dc:description>
+         <dcterms:abstract>Links between innovation systems and value chains. Conceptual discussion and case studies in SSA (Ghana, Uganda, Tanzania, Kenya, different food crops). Valuable because the attempt to link innovation systems perspective and the value chain analysis. It touches the “cross” value chain issues, bur not quite clearly</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Larsen, Kim, Theus - 2009 - Agribusiness and Innovation Systems in Africa.pdf</dc:identifier>
+      <dc:identifier scheme="ags:ISBN">9780821379448</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Book</dc:type>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

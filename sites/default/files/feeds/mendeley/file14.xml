@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>The institutional structure of rural extension and public-private relations in Latin America</dc:title>
+      <dc:subject>innovation sysytems</dc:subject>
+      <dc:subject>is extension</dc:subject>
+      <dc:subject>is institutional</dc:subject>
+      <dc:subject>is research</dc:subject>
+      <dc:subject>latin america</dc:subject>
+      <dc:creator>Alarcon, Enrique</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>Rimisp - Latin American Center for Rural Development</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2012</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Alarcon - 2012 - The institutional structure of rural extension and public-private relations in Latin America.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Generic</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 1-7</dcterms:extent>
+      </dc:format>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

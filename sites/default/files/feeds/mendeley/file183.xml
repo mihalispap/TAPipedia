@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Linking international agricultural research knowledge with action for sustainable development<dcterms:alternative>Proceedings of the National Academy of Sciences of the United States of America</dcterms:alternative>
+      </dc:title>
+      <dc:subject>africa</dc:subject>
+      <dc:subject>agricultural research</dc:subject>
+      <dc:subject>asia</dc:subject>
+      <dc:subject>ethiopia</dc:subject>
+      <dc:subject>learning&amp;facilitation</dc:subject>
+      <dc:creator>Kristjanson, Patti</dc:creator>
+      <dc:creator>Reid, Robin S</dc:creator>
+      <dc:creator>Dickson, Nancy</dc:creator>
+      <dc:creator>Clark, William C</dc:creator>
+      <dc:creator>Romney, Dannie</dc:creator>
+      <dc:creator>Puskur, Ranjitha</dc:creator>
+      <dc:creator>Macmillan, Susan</dc:creator>
+      <dc:creator>Grace, Delia</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2009</dcterms:dateIssued>
+      </dc:date>
+      <dc:description>
+         <dcterms:abstract>We applied an innovation framework to sustainable livestock development research projects in Africa and Asia. The focus of these projects ranged from pastoral systems to poverty and ecosystems services mapping to market access by the poor to fodder and natural resource management to livestock parasite drug resistance. We found that these projects closed gaps between knowledge and action by combining different kinds of knowledge, learning, and boundary spanning approaches; by providing all partners with the same opportunities; and by building the capacity of all partners to innovate and communicate.</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Kristjanson et al. - 2009 - Linking international agricultural research knowledge with action for sustainable development(2).pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Journal Article</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 5047-5052</dcterms:extent>
+      </dc:format>
+      <ags:citation>
+         <ags:citationTitle>Proceedings of the National Academy of Sciences of the United States of America</ags:citationTitle>
+         <ags:citationIdentifier scheme="ags:ISSN">10.1073/pnas.0807414106</ags:citationIdentifier>
+         <ags:citationNumber>v.106(13)</ags:citationNumber>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

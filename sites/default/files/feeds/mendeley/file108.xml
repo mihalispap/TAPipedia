@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Analysing policy for inlcusive innovation: the mobile sector and base-of-the-Pyramid Markets in Kenya<dcterms:alternative>Innovation and Development</dcterms:alternative>
+      </dc:title>
+      <dc:subject>africa</dc:subject>
+      <dc:subject>innovation policies</dc:subject>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>kenya</dc:subject>
+      <dc:creator>Foster, Christopher</dc:creator>
+      <dc:creator>Heeks, Richard</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2013</dcterms:dateIssued>
+      </dc:date>
+      <dc:subject>ac</dc:subject>
+      <dc:subject>arthur lewis building</dc:subject>
+      <dc:subject>base</dc:subject>
+      <dc:subject>centre for development informatics</dc:subject>
+      <dc:subject>corresponding author</dc:subject>
+      <dc:subject>heeks</dc:subject>
+      <dc:subject>idpm</dc:subject>
+      <dc:subject>inclusive innovation</dc:subject>
+      <dc:subject>innovation policy</dc:subject>
+      <dc:subject>kenya</dc:subject>
+      <dc:subject>m13 9pl</dc:subject>
+      <dc:subject>manchester</dc:subject>
+      <dc:subject>mobile</dc:subject>
+      <dc:subject>of</dc:subject>
+      <dc:subject>prof</dc:subject>
+      <dc:subject>pyramid</dc:subject>
+      <dc:subject>richard heeks</dc:subject>
+      <dc:subject>systems of innovation</dc:subject>
+      <dc:subject>the</dc:subject>
+      <dc:subject>uk</dc:subject>
+      <dc:subject>uk richard</dc:subject>
+      <dc:subject>university of</dc:subject>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Foster, Heeks - 2013 - Analysing policy for inlcusive innovation the mobile sector and base-of-the-Pyramid Markets in Kenya.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Journal Article</dc:type>
+      <ags:citation>
+         <ags:citationTitle>Innovation and Development</ags:citationTitle>
+         <ags:citationNumber>v.3(1)</ags:citationNumber>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

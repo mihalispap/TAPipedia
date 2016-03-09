@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the General Importer feature.
+ */
+
+include_once 'generalimporter.features.inc';

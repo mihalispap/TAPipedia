@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Participatory scenarios as a tool to link science and policy on food security under climate change in East Africa<dcterms:alternative>Regional Environmental Change</dcterms:alternative>
+      </dc:title>
+      <dc:subject>cd</dc:subject>
+      <dc:subject>cd institutional</dc:subject>
+      <dc:subject>cd organizational</dc:subject>
+      <dc:subject>climate change</dc:subject>
+      <dc:subject>east africa</dc:subject>
+      <dc:creator>Chaudhury, Moushumi</dc:creator>
+      <dc:creator>Vervoort, Joost</dc:creator>
+      <dc:creator>Kristjanson, Patti</dc:creator>
+      <dc:creator>Ericksen, Polly</dc:creator>
+      <dc:creator>Ainslie, Andrew</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2013</dcterms:dateIssued>
+      </dc:date>
+      <dc:subject>Boundary work</dc:subject>
+      <dc:subject>Capacity building</dc:subject>
+      <dc:subject>Credibility</dc:subject>
+      <dc:subject>East Africa</dc:subject>
+      <dc:subject>Legitimacy</dc:subject>
+      <dc:subject>Multi-stakeholder scenarios</dc:subject>
+      <dc:subject>Salience</dc:subject>
+      <dc:description>
+         <dcterms:abstract>How effective are multi-stakeholder scenarios-building processes to bring diverse actors together and create a policy-making tool to support sustainable development and promote food security in the developing world under climate change? The effectiveness of a participatory scenario development process highlights the importance of “boundary work” that links actors and organizations involved in generating knowledge on the one hand, and practitioners and policymakers who take actions based on that knowledge on the other. This study reports on the application of criteria for effective boundary work to a multi-stakeholder scenarios process in East Africa that brought together a range of regional agriculture and food systems actors. This analysis has enabled us to evaluate the extent to which these scenarios were seen by the different actors as credible, legitimate and salient, and thus more likely to be useful. The analysis has shown gaps and opportunities for improvement on these criteria, such as the quantification of scenarios, attention to translating and communicating the results through various channels and new approaches to enable a more inclusive and diverse group of participants. We conclude that applying boundary work criteria to multi-stakeholder scenarios processes can do much to increase the likelihood of developing sustainable development and food security policies that are more appropriate.</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Chaudhury et al. - 2013 - Participatory scenarios as a tool to link science and policy on food security under climate change in East Afr.pdf</dc:identifier>
+      <dc:identifier scheme="ags:ISBN">1011301203501</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Journal Article</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 389-398</dcterms:extent>
+      </dc:format>
+      <ags:citation>
+         <ags:citationTitle>Regional Environmental Change</ags:citationTitle>
+         <ags:citationIdentifier scheme="ags:ISSN">10.1007/s10113-012-0350-1</ags:citationIdentifier>
+         <ags:citationNumber>v.13(2)</ags:citationNumber>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

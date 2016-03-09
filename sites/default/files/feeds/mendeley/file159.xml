@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>CCAFS Theory of Change Facilitation Guide</dc:title>
+      <dc:subject>learning&amp;facilitation</dc:subject>
+      <dc:subject>lf organizational</dc:subject>
+      <dc:creator>Jost, Christine</dc:creator>
+      <dc:creator>Alvarez, Sophie</dc:creator>
+      <dc:creator>Schuetz, Tonya</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2014</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Jost, Alvarez, Schuetz - 2014 - CCAFS Theory of Change Facilitation Guide.pdf</dc:identifier>
+      <dc:identifier scheme="dcterms:URI">
+            https://cgspace.cgiar.org/bitstream/handle/10568/41674/CCAFS TOC facilitation 2014 FINAL.pdf?sequence=1
+         </dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Report</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 1--117</dcterms:extent>
+      </dc:format>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

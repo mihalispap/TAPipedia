@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Research in Development: the approach of Aquatic Agricultural Systems</dc:title>
+      <dc:subject>cd</dc:subject>
+      <dc:subject>cd learning</dc:subject>
+      <dc:subject>is research</dc:subject>
+      <dc:creator>Patrick, Dugan</dc:creator>
+      <dc:creator>Marina, Apgar</dc:creator>
+      <dc:creator>Boru, Douthwaite</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2008</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Patrick, Marina, Boru - 2008 - Research in Development the approach of Aquatic Agricultural Systems.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Unpublished Work</dc:type>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

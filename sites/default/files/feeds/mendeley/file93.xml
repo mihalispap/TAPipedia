@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Do all roads lead to market? Learning from AGRA's Market Access Programme</dc:title>
+      <dc:subject>Mozambique</dc:subject>
+      <dc:subject>africa</dc:subject>
+      <dc:subject>cd</dc:subject>
+      <dc:subject>cd market</dc:subject>
+      <dc:subject>ghana</dc:subject>
+      <dc:subject>kenya</dc:subject>
+      <dc:subject>malawi</dc:subject>
+      <dc:subject>tanzania</dc:subject>
+      <dc:subject>uganda</dc:subject>
+      <dc:creator>Emma, Kambewa</dc:creator>
+      <dc:creator>Matieyedou, Konlambigue</dc:creator>
+      <dc:creator>Bertus, Wennink</dc:creator>
+      <dc:creator>Mariana, Wongtschowski</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>Royal Tropical Institute (KIT) and Allicance for a Green Revolution in Africa (AGRA)</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2013</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Emma et al. - 2013 - Do all roads lead to market Learning from AGRA's Market Access Programme.pdf</dc:identifier>
+      <dc:identifier scheme="ags:ISBN">9781450322638</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Book</dc:type>
+      <ags:citation>
+         <ags:citationIdentifier scheme="ags:ISSN">10.1145/2505515.2505753</ags:citationIdentifier>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

@@ -1,0 +1,31 @@
+diff --git a/sites/all/modules/contrib/taxonomy_csv/import/taxonomy_csv.import.line.api.inc b/sites/all/modules/contrib/taxonomy_csv/import/taxonomy_csv.import.line.api.inc
+index 4ba8f36..a043299 100644
+--- a/sites/all/modules/contrib/taxonomy_csv/import/taxonomy_csv.import.line.api.inc
++++ b/sites/all/modules/contrib/taxonomy_csv/import/taxonomy_csv.import.line.api.inc
+@@ -777,6 +777,26 @@
+           $term->{$field_name}[$language][0] = array('value' => $value);
+           break;
+ 
++        case 'link_field':
++          $url_title = $instance['settings']['title'];
++          if (($url_title === 'none') || ($url_title === 'optional')) {
++          	$url_title = '';
++          }
++          $value = array(
++          	'attributes' => $instance['settings']['attributes'],
++          	'title' => $url_title,
++          	'url' => $value
++          );
++          if (is_array($term->{$field_name}) && !empty($term->{$field_name})) {
++          	foreach ($term->{$field_name} as $field_language => &$delta_array) {
++          	  $delta_array[] = $value;
++          	}
++          }
++          // Else complete term directly.
++          else {
++          	$term->{$field_name}[$language][0] = $value; 
++          }
++          break;
+         // Managed by default:
+         // case 'number_decimal':
+         // case 'number_integer':

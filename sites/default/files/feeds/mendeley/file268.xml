@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>The Capacity Development Results Framework: a strategic and results-oriented approach to learning for capacity development</dc:title>
+      <dc:subject>cd</dc:subject>
+      <dc:subject>cd learning</dc:subject>
+      <dc:subject>cd system</dc:subject>
+      <dc:subject>knowled and information sharing</dc:subject>
+      <dc:subject>m&amp;e</dc:subject>
+      <dc:creator>Samuel, Otoo</dc:creator>
+      <dc:creator>Natalia, Agapitova</dc:creator>
+      <dc:creator>Joy, Behrens</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2009</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Samuel, Natalia, Joy - 2009 - The Capacity Development Results Framework a strategic and results-oriented approach to learning for capac.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Report</dc:type>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

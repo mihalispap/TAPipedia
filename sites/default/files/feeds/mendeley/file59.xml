@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Contribution of Farmer-to-Farmer Video to Capital Assets Building: Evidence from Bangladesh<dcterms:alternative>Journal of Sustainable Agriculture</dcterms:alternative>
+      </dc:title>
+      <dc:subject>asia</dc:subject>
+      <dc:subject>bangladesh</dc:subject>
+      <dc:subject>knowledge and information sharing</dc:subject>
+      <dc:subject>learning&amp;facilitation</dc:subject>
+      <dc:creator>Chowdhury, Ataharul Huq</dc:creator>
+      <dc:creator>Van Mele, Paul</dc:creator>
+      <dc:creator>Hauser, Michael</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2011</dcterms:dateIssued>
+      </dc:date>
+      <dc:description>
+         <dcterms:abstract>Sustainable agriculture requires suitable group learning approa- ches that trigger capital assets building. Drawing mainly on face-to-face extension, methods and approaches used in sustain- able agricultural projects aim at triggering learning and capital assets building. To target and to reach out to a large number of resource-poor households the potential role of media, such as video, has received less attention. In Bangladesh, videos on sustainable rice seed practices were developed with farmers and then shown in multiple villages. This study reports on the contribution of farmer– to-farmer video-mediated group learning to capital assets building of women in resource-poor households. Data were collected using structured interviews with 140 randomly selected women in 28 video villages and 40 women in four control villages in north-west Bangladesh. Video-mediated group learning enhanced women’s ability to apply and experiment with seed technologies. It also stim- ulated reciprocal sharing of new knowledge and skills between them, other farmers and service providers. Rice yields increased by 15%, which improved the women’s social and economic status and intra-household decision-making. Over 20% of the households attained rice self-sufficiency, with no changes observed in con- trol villages. This study has provided insights into the potential use of farmer-to-farmer video in sustainable agriculture to strengthen human, social and financial capital and to reduce poverty.</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Chowdhury, Van Mele, Hauser - 2011 - Contribution of Farmer-to-Farmer Video to Capital Assets Building Evidence from Bangladesh.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Journal Article</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 408-435</dcterms:extent>
+      </dc:format>
+      <ags:citation>
+         <ags:citationTitle>Journal of Sustainable Agriculture</ags:citationTitle>
+         <ags:citationIdentifier scheme="ags:ISSN">10.1080/10440046.2011.562059</ags:citationIdentifier>
+         <ags:citationNumber>v.35(4)</ags:citationNumber>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

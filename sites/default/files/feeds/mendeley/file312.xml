@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Dealing with complexity through Planning, Monitoring, &amp; Evaluation<dcterms:alternative>Praxis Paper 26</dcterms:alternative>
+      </dc:title>
+      <dc:subject>m&amp;e</dc:subject>
+      <dc:subject>m&amp;e impact assessment</dc:subject>
+      <dc:subject>m&amp;e tools</dc:subject>
+      <dc:creator>Van Ongevalle, Jan</dc:creator>
+      <dc:creator>Maarse, Anneke</dc:creator>
+      <dc:creator>Temmink, Cristien</dc:creator>
+      <dc:creator>Boutylkova, Eugenia</dc:creator>
+      <dc:creator>Huyse, Huib</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2012</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Van Ongevalle et al. - 2012 - Dealing with complexity through Planning, Monitoring, &amp; Evaluation.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Journal Article</dc:type>
+      <ags:citation>
+         <ags:citationTitle>Praxis Paper 26</ags:citationTitle>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

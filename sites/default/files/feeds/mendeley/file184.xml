@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Capacity development: between planned interventions and emergent</dc:title>
+      <dc:subject>m&amp;e</dc:subject>
+      <dc:subject>m&amp;e tools</dc:subject>
+      <dc:creator>Land, Tony</dc:creator>
+      <dc:creator>Hauck, Volker</dc:creator>
+      <dc:creator>Baser, Heather</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>European Centre for Development Policy Management</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2009</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Land, Hauck, Baser - 2009 - Capacity development between planned interventions and emergent.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Generic</dc:type>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

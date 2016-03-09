@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>A systematic review on the impacts of capacity strengthening of agricultural research systems for development and the conditions of success</dc:title>
+      <dc:subject>agricultural research</dc:subject>
+      <dc:subject>cd</dc:subject>
+      <dc:subject>cd africa</dc:subject>
+      <dc:creator>Posthumus, Helena</dc:creator>
+      <dc:creator>Martin, Adrienne</dc:creator>
+      <dc:creator>Chancellor, Timothy</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>EPPI-Centre, Social Science Research Unit, Institute of Education, University of London</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2013</dcterms:dateIssued>
+      </dc:date>
+      <dc:subject>agricultural research systems</dc:subject>
+      <dc:subject>capacity strengthening</dc:subject>
+      <dc:subject>review</dc:subject>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Posthumus, Martin, Chancellor - 2013 - A systematic review on the impacts of capacity strengthening of agricultural research systems (2).pdf</dc:identifier>
+      <dc:identifier scheme="dcterms:URI">
+            http://www.dfid.gov.uk/r4d/pdf/outputs/systematicreviews/Capacity_strengthening_2013Posthumus.pdf
+         </dc:identifier>
+      <dc:identifier scheme="ags:ISBN">9781907345463</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Report</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 174</dcterms:extent>
+      </dc:format>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

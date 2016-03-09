@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Gathering of Wild Food Plants in Anthropogenic Environments across the Seasons: Implications for Poor and Vulnerable Farm Households.<dcterms:alternative>Ecology of food and nutrition</dcterms:alternative>
+      </dc:title>
+      <dc:subject>asia</dc:subject>
+      <dc:subject>km</dc:subject>
+      <dc:subject>small farmers</dc:subject>
+      <dc:creator>Cruz-Garcia, Gisella S</dc:creator>
+      <dc:creator>Price, Lisa L</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2014</dcterms:dateIssued>
+      </dc:date>
+      <dc:description>
+         <dcterms:abstract>This article presents the results of a study conducted in Northeast Thailand on wild food plant gathering in anthropogenic areas and the implications for vulnerable households. A sub-sample of 40 farming households was visited every month to conduct seven-day recalls over a 12-month period on wild food plant acquisition events. Results show that these plants are an essential part of the diet, constituting a "rural safety net" particularly for vulnerable households. Findings reveal that anthropogenic environments have seasonal complementarity throughout the year with respect to wild food gathering and farmer's gathering of wild food plants from anthropogenic environments complements seasonal crop availability. This study contributes to a deeper understanding of these plants as a household asset and their potential contribution to household well-being. The results of this study furthers our understanding of dietary traditions and the scientific challenge of the partitions that have for decades divided agriculturalists and gatherers.</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Cruz-Garcia, Price - 2014 - Gathering of Wild Food Plants in Anthropogenic Environments across the Seasons Implications for Poor and Vul.pdf</dc:identifier>
+      <dc:identifier scheme="dcterms:URI">
+            http://dx.doi.org/10.1080/03670244.2013.808631
+         </dc:identifier>
+      <dc:identifier scheme="ags:ISBN">0367-0244</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Journal Article</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 363-89</dcterms:extent>
+      </dc:format>
+      <ags:citation>
+         <ags:citationTitle>Ecology of food and nutrition</ags:citationTitle>
+         <ags:citationIdentifier scheme="ags:ISSN">10.1080/03670244.2013.808631</ags:citationIdentifier>
+         <ags:citationNumber>v.53(4)</ags:citationNumber>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

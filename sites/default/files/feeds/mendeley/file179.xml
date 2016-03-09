@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Facilitating Agricultural Innovation Systems: A critical realist approach<dcterms:alternative>Studies in Agricultural Economics</dcterms:alternative>
+      </dc:title>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>learning&amp;facilitation</dc:subject>
+      <dc:subject>lf facilitator</dc:subject>
+      <dc:creator>Koutsouris, Alex</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2012</dcterms:dateIssued>
+      </dc:date>
+      <dc:subject>11855 athinai</dc:subject>
+      <dc:subject>75 iera odos</dc:subject>
+      <dc:subject>agricultural innovation systems</dc:subject>
+      <dc:subject>agricultural university of athens</dc:subject>
+      <dc:subject>aua</dc:subject>
+      <dc:subject>critical realism</dc:subject>
+      <dc:subject>facilitation</dc:subject>
+      <dc:subject>gr</dc:subject>
+      <dc:subject>greece</dc:subject>
+      <dc:subject>intermediation</dc:subject>
+      <dc:subject>knowledge</dc:subject>
+      <dc:subject>koutsouris</dc:subject>
+      <dc:subject>participation</dc:subject>
+      <dc:description>
+         <dcterms:abstract>The turn of agrarian sciences and agricultural extension from reductionist and transfer of technology, respectively, towards systemic approaches has transformed agricultural/rural development thinking in the last decades. Nevertheless, the emergence of Agricultural Innovation Systems (AIS) has to confront a number of gaps among which the expert – lay knowledge gap is of major importance. This paper aims at exploring such a gap as well as obstacles to participatory development from a critical realist point of view. Critical realism (CR) with its realist, differentiated and stratifi ed ontology aims at interpreting the world in order to ultimately bring about transformation. CR allows for new insights on the nature of knowledge as well as on development research and practice. It thus provides useful guidelines concerning the emerging ‘intermediation’ functions within AIS.</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Koutsouris - 2012 - Facilitating Agricultural Innovation Systems A critical realist approach.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Journal Article</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 64-70</dcterms:extent>
+      </dc:format>
+      <ags:citation>
+         <ags:citationTitle>Studies in Agricultural Economics</ags:citationTitle>
+         <ags:citationIdentifier scheme="ags:ISSN">10.7896/j.1210</ags:citationIdentifier>
+         <ags:citationNumber>v.114(2)</ags:citationNumber>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

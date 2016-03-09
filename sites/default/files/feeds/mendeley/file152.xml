@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Innovation Strategy</dc:title>
+      <dc:subject>cd geographical cross-cutting</dc:subject>
+      <dc:subject>cd organizational</dc:subject>
+      <dc:subject>cd system</dc:subject>
+      <dc:subject>cd tools</dc:subject>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>is cross cutting</dc:subject>
+      <dc:subject>is knowledge and information sharing</dc:subject>
+      <dc:creator>IFAD</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2007</dcterms:dateIssued>
+      </dc:date>
+      <dc:description>
+         <dcterms:abstract>The IFAD Innovation Strategy does not set new objectives for staff, but rather defines what is needed to create an innovation-friendly environment and to support staff in achieving the expected results.To strengthen its innovative capabilities and become a better catalyst of pro-poor innovation, IFAD will focus on four clusters of activities: (i) Building capabilities and understanding of challenges requiring innovation; (ii) Nurturing partnerships and facilitating an innovation network; (iii) Embedding rigorous innovation processes and the related risk management into IFAD’s core business practices; (iv) Facilitating a more supportive organizational environment for innovation.</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://IFAD - 2007 - Innovation Strategy.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Report</dc:type>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

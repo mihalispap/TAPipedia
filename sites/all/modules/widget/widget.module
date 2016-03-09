@@ -1,0 +1,191 @@
+<?php
+/*Implementation of hook_block_info()*/
+function widget_block_info() {
+	//FOOTER
+	$blocks['widget_twitter'] = array(
+        'info' => t('[Navi] Latest Twitter'),
+    );
+	$blocks['widget_flickr'] = array(
+        'info' => t('[Navi] Flickr Widget'),
+    );
+	
+    return $blocks;
+}
+
+/*Implementation of hook_block_configure()*/
+function widget_block_configure($delta = '') {
+    $form = array();
+    switch ($delta) {
+		//FOOTER
+		case 'widget_twitter':
+            $form['widget_twitter_username'] = array(
+                '#type' => 'textfield',
+                '#title' => t('Your twitter username'),
+                '#default_value' => variable_get('widget_twitter_username', 'drupal'),
+                '#description' => t('Eg: drupal')
+            );
+
+            $form['widget_twitter_tweets_count'] = array(
+                '#type' => 'select',
+                '#title' => t('Number of recent tweets items to display'),
+                '#default_value' => variable_get('widget_twitter_tweets_count', 2),
+                '#options' => drupal_map_assoc(array(2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 25, 30)),
+            );
+            break;
+		case 'widget_flickr':
+            $form['widget_flickr_id'] = array(
+                '#type' => 'textfield',
+                '#title' => t('Your flickr ID'),
+                '#default_value' => variable_get('widget_flickr_id', 'gabenphotography'),
+                '#description' => t('Eg: gabenphotography')
+            );
+            $form['widget_flickr_photo_count'] = array(
+                '#type' => 'select',
+                '#title' => t('Number of recent photos items to display'),
+                '#default_value' => variable_get('widget_flickr_photo_count', 6),
+                '#options' => drupal_map_assoc(array(2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 25, 30)),
+            );
+            break;
+		
+    }
+
+    return $form;
+}
+
+/*Implementation of hook_block_save()*/
+
+function widget_block_save($delta = '', $edit = array()) {
+    switch ($delta) {
+		//FOOTER
+		case 'widget_twitter':
+            variable_set('widget_twitter_username', $edit['widget_twitter_username']);
+            variable_set('widget_twitter_tweets_count', $edit['widget_twitter_tweets_count']);
+            break;
+		case 'widget_flickr':
+            variable_set('widget_flickr_id', $edit['widget_flickr_id']);
+            variable_set('widget_flickr_photo_count', $edit['widget_flickr_photo_count']);
+            break;
+		
+    }
+}
+
+/*Implementation of hook_block_view()*/
+
+function widget_block_view($delta = '') {
+    // This example is adapted from node.module.
+    $block = array();
+
+    switch ($delta) {
+		//FOOTER
+		case 'widget_twitter':
+            $block['title'] = widget_block_get_title($delta);
+            $block['content'] = array(
+                '#theme' => 'widget_twitter',
+                '#settings' => array(
+                    'widget_twitter_username' => variable_get('widget_twitter_username', 'drupal'),
+                    'widget_twitter_tweets_count' => variable_get('widget_twitter_tweets_count', 2),
+                ),
+            );
+            break;
+		case 'widget_flickr':
+            $block['title'] = widget_block_get_title($delta);
+			$block['content'] = array(
+                '#theme' => 'widget_flickr',
+                '#settings' => array(
+                    'widget_flickr_id' => variable_get('widget_flickr_id', 'gabenphotography'),
+                    'widget_flickr_photo_count' => variable_get('widget_flickr_photo_count', 6),
+                ),
+            );
+            break;
+		
+		
+    }
+    return $block;
+}
+
+/*Implementation of hook_theme()*/
+function widget_theme($existing, $type, $theme, $path) {
+    return array(
+		
+		//FOOTER
+		'widget_twitter' => array(
+            'variables' => array('settings' => array('widget_twitter_username' => NULL, 'widget_twitter_tweets_count' => NULL)),
+            'template' => 'widget_twitter'
+        ),
+		'widget_flickr' => array(
+            'variables' => array('settings' => array('widget_flickr_id' => NULL, 'widget_flickr_photo_count' => NULL)),
+            'template' => 'widget_flickr'
+        ),
+		
+    );
+}
+
+function widget_block_get_title($delta) {
+  $block = db_query('SELECT title FROM {block} WHERE delta = :delta', array(':delta' => $delta))->fetchObject();
+  return $block->title ? $block->title : '';
+}
+
+
+function widget_trim_text($alter, $value) {
+	if (drupal_strlen($value) > $alter['max_length']) {
+		$value = drupal_substr($value, 0, $alter['max_length']);
+		// TODO: replace this with cleanstring of ctools
+		if (!empty($alter['word_boundary'])) {
+			$regex = "(.*)\b.+";
+			if (function_exists('mb_ereg')) {
+				mb_regex_encoding('UTF-8');
+				$found = mb_ereg($regex, $value, $matches);
+			} else {
+				$found = preg_match("/$regex/us", $value, $matches);
+			}
+			if ($found) {
+				$value = $matches[1];
+			}
+		}
+		// Remove scraps of HTML entities from the end of a strings
+		$value = rtrim(preg_replace('/(?:<(?!.+>)|&(?!.+;)).*$/us', '', $value));
+		
+		if (!empty($alter['ellipsis'])) {
+			$value .= t('...');
+		}
+	}
+	if (!empty($alter['html'])) {
+		$value = _filter_htmlcorrector($value);
+	}
+
+	return $value;
+}
+
+
+//delete attributes width, height.
+function widget_preprocess_image(&$variables) {
+  foreach (array('width', 'height') as $key) {
+    unset($variables[$key]);
+  }
+}
+
+
+function widget_format_terms($field_category, $node, $limit = NULL) {
+  
+    $category_arr = array();
+    $category = '';
+    
+    if (!empty($node->{$field_category}[LANGUAGE_NONE])) {
+        foreach ($node->{$field_category}[LANGUAGE_NONE] as $item) {
+            $term = taxonomy_term_load($item['tid']);
+            if ($term) {
+                $category_arr[] = $term->name;
+            }
+
+            if ($limit) {
+                if (count($category_arr) == $limit) {
+                    $category = implode(', ', $category_arr);
+                    return $category;
+                }
+            }
+        }
+    }
+    $category = implode(', ', $category_arr);
+
+    return $category;
+}

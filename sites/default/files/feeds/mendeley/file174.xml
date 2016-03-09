@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Evolution of systems approaches to agricultural innovation: concepts , analysis and interventions</dc:title>
+      <dc:subject>capacity assessment</dc:subject>
+      <dc:subject>capacity buiding</dc:subject>
+      <dc:subject>innovation system</dc:subject>
+      <dc:subject>is knowledge and learning</dc:subject>
+      <dc:subject>knowledge management</dc:subject>
+      <dc:creator>Klerkx, Laurens</dc:creator>
+      <dc:creator>Mierlo, Barbara Van</dc:creator>
+      <dc:creator>Leeuwis, Cees</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2012</dcterms:dateIssued>
+      </dc:date>
+      <dc:description>
+         <dcterms:abstract>The paper is an attempt to synthesize and organize the existing literature, this chapter reviews the literature on agricultural innovation, with the threefold goal of (1) sketching the evolution of systemic approaches to agricultural innovation and unravelling the different interpretations; (2) assessing key factors for innovation system performance and demonstrating the use of system thinking in the facilitation of processes of agricultural innovation by means of innovation brokers and reflexive process monitoring; and (3) formulating an agenda for future research.</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Klerkx, Mierlo, Leeuwis - 2012 - Evolution of systems approaches to agricultural innovation concepts , analysis and interventions.pdf</dc:identifier>
+      <dc:identifier scheme="ags:ISBN">9789400745032</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Book</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 457-483</dcterms:extent>
+      </dc:format>
+      <ags:citation>
+         <ags:citationIdentifier scheme="ags:ISSN">10.1007/978-94-007-4503-2</ags:citationIdentifier>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

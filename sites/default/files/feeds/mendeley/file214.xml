@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Similarities Among FARA-Led IAR4D Innovation Platforms<dcterms:alternative>European Scientific Journal</dcterms:alternative>
+      </dc:title>
+      <dc:subject>africa</dc:subject>
+      <dc:subject>capacity development</dc:subject>
+      <dc:subject>environment</dc:subject>
+      <dc:subject>food security</dc:subject>
+      <dc:subject>impact assessments</dc:subject>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>is africa</dc:subject>
+      <dc:subject>is farmer organizations</dc:subject>
+      <dc:subject>is knowledge and learning</dc:subject>
+      <dc:subject>is research</dc:subject>
+      <dc:subject>multi-stakeholders interactions</dc:subject>
+      <dc:creator>Nokoe, K Sagary</dc:creator>
+      <dc:creator>Adekunle, Adewale A</dc:creator>
+      <dc:creator>Ayanwale, Adeolu B</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2012</dcterms:dateIssued>
+      </dc:date>
+      <dc:subject>clustering</dc:subject>
+      <dc:subject>cohesiveness</dc:subject>
+      <dc:subject>impact</dc:subject>
+      <dc:subject>sub-saharan africa</dc:subject>
+      <dc:description>
+         <dcterms:abstract>Comparison of the performance of a number of innovation platforms on which FARA is involved, highlighting key factors which may influence differences in innovation performance results.</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Nokoe, Adekunle, Ayanwale - 2012 - Similarities Among FARA-Led IAR4D Innovation Platforms.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Journal Article</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 472-484</dcterms:extent>
+      </dc:format>
+      <ags:citation>
+         <ags:citationTitle>European Scientific Journal</ags:citationTitle>
+         <ags:citationNumber>v.9(36)</ags:citationNumber>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

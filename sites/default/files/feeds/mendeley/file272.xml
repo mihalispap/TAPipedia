@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>The Family Economy and Agricultural Innovation in West Africa</dc:title>
+      <dc:subject>ad&amp;case africa</dc:subject>
+      <dc:subject>capacity building</dc:subject>
+      <dc:subject>cd level system</dc:subject>
+      <dc:subject>cd organizational environment</dc:subject>
+      <dc:subject>cd tools</dc:subject>
+      <dc:subject>food security cd gender &amp; inclusivness</dc:subject>
+      <dc:subject>is africa</dc:subject>
+      <dc:subject>is learning and knowledge</dc:subject>
+      <dc:creator>Sibiri Zoundi, Jean</dc:creator>
+      <dc:creator>Hitimana, Leonidas</dc:creator>
+      <dc:creator>Hussein, Karim</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2005</dcterms:dateIssued>
+      </dc:date>
+      <dc:description>
+         <dcterms:abstract>The paper reports on an initiative aiming to stimulate analyses, collect field data and case studies that encourage debates between regional actors, with a view to informing the development of regional policies and actions in order to promote and strengthen producer access to agricultural innovation, where most producers are anchored in the family economy.</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Sibiri Zoundi, Hitimana, Hussein - 2005 - The Family Economy and Agricultural Innovation in West Africa.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Report</dc:type>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

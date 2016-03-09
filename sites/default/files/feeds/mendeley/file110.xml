@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Capacity Development in Practice</dc:title>
+      <dc:subject>cd</dc:subject>
+      <dc:creator>Fowler, Alan</dc:creator>
+      <dc:creator>Jan, Ubels</dc:creator>
+      <dc:creator>Naa-Aku, Acquaye-Baddoo</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>Earthscan</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2010</dcterms:dateIssued>
+      </dc:date>
+      <dc:description>
+         <dcterms:abstract>Sample of capacity-development definitions An organization with capacity has the ability to function as a resilient, strategic and autonomous entity (Kaplan, 1999, p20). Capacity represents the potential for using resources effectively and maintaining gains in performance with gradually reduced levels of external support (LaFond and Brown, 2003, p7). Capacity is [the] potential to perform (Horton et al, 2003, p18). Capacity is the ability of people, organizations and society as a whole to manage their affairs successfully (OECD, 2006, p12). Capacity is that emergent contribution of attributes that enables a human system to create development value (Morgan, 2006, p8).</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Fowler, Jan, Naa-Aku - 2010 - Capacity Development in Practice.pdf</dc:identifier>
+      <dc:identifier scheme="ags:ISBN">9781844077410</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Book</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 1-361</dcterms:extent>
+      </dc:format>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

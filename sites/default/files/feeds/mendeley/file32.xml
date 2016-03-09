@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>From Best Practice to Best Fit: A Framework for Designing and Analyzing Pluralistic Agricultural Advisory Services Worldwide</dc:title>
+      <dc:subject>innovation policies</dc:subject>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>is extension</dc:subject>
+      <dc:subject>is research</dc:subject>
+      <dc:creator>Birner, Regina</dc:creator>
+      <dc:creator>Davis, Kristin</dc:creator>
+      <dc:creator>Pender, John</dc:creator>
+      <dc:creator>Nkonya, Ephraim</dc:creator>
+      <dc:creator>Anandajayasekeram, Ponniah</dc:creator>
+      <dc:creator>Ekboir, Javier</dc:creator>
+      <dc:creator>Mbabu, Adiel</dc:creator>
+      <dc:creator>Spielman, David J.</dc:creator>
+      <dc:creator>Horna, Daniela</dc:creator>
+      <dc:creator>Benin, Samuel</dc:creator>
+      <dc:creator>Cohen, Marc</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>International Food Policy Research Insitutue</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2006</dcterms:dateIssued>
+      </dc:date>
+      <dc:subject>Agricultural extension work</dc:subject>
+      <dc:subject>Capa</dc:subject>
+      <dc:subject>Pro-poor growth</dc:subject>
+      <dc:description>
+         <dcterms:abstract>The article provides a conceptual framework and discusses research methods for analyzing pluralistic agricultural advisory services. The framework can also assist policy-makers in identifying reform options. It addresses the following question: Which forms of providing and financing agricultural advisory services work best in which situation? The framework ‘disentangles’ agricultural advisory services by distinguishing between (1) governance structures, (2) capacity, (3) management, and (4) advisory methods. The framework suggests an impact chain approach to analyze the performance and impact of agricultural advisory services and discusses theoretical and empirical research methods that can be used when applying the framework. The framework shows that reforms of agricultural advisory services can combine different reform elements*such as decentralization, contracting out, using new advisory methods, and changing the management style*in different ways so as to best fit local circumstances. Using a New Institutional Economics approach (transaction costs approach), the article shows that the following sets of contextual factors need to be considered in this regard: the policy environment; the capacity of potential service providers; the type of production systems and market access of farm households; and the characteristics of local communities. The framework can be used to develop assessment tools for agricultural advisory services, to inform processes of reforming of agricultural advisory services and to guide inter-disciplinary research. The framework is unique in combining the insights from different disciplines, which have, so far, been treated separately in the literature. The framework can help policy-makers and analysts to move from ‘ideological’ discussions on reform models to an evidence-based ‘best fit’ approach.</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Birner et al. - 2006 - From Best Practice to Best Fit A Framework for Designing and Analyzing Pluralistic Agricultural Advisory Services.pdf</dc:identifier>
+      <dc:identifier scheme="ags:ISBN">1389224090</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Generic</dc:type>
+      <ags:citation>
+         <ags:citationIdentifier scheme="ags:ISSN">10.1080/13892240903309595</ags:citationIdentifier>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

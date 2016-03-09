@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Enhancing Agricultural Innovation: How to Go Beyond the Strengthening of Research Systems</dc:title>
+      <dc:subject>ad&amp;case geographical cross cutting</dc:subject>
+      <dc:subject>capacity assessment</dc:subject>
+      <dc:subject>cd level system or policy</dc:subject>
+      <dc:subject>cd organizational or environment</dc:subject>
+      <dc:subject>innovationinnovation systems</dc:subject>
+      <dc:subject>is actor private</dc:subject>
+      <dc:subject>is actor public</dc:subject>
+      <dc:creator>World Bank</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2006</dcterms:dateIssued>
+      </dc:date>
+      <dc:description>
+         <dcterms:abstract>The paper reports on the results of the international workshop, “Development of Research Systems to Support the Changing Agricultural Sector,” organized by the Agriculture and Rural Development Department of the World Bank in June 2004 in Washington, DC. The emphasis of the report is on one of the main conclusions of the workshop, which was that “strengthened research systems may increase the supply of new knowledge and new technologies, but such strengthening may not necessarily correlate very well with the capacity to innovate and adopt innovations throughout the agricultural sector, and thereby with economic growth.” The paper uses an innovation systems</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://World Bank - 2006 - Enhancing Agricultural Innovation How to Go Beyond the Strengthening of Research Systems.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Report</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 135</dcterms:extent>
+      </dc:format>
+      <ags:citation>
+         <ags:citationIdentifier scheme="ags:ISSN">World Bank. (2006). Enhancing Agricultural Innovation: How to Go Beyond the Strengthening of Research Systems. Washington, USA.</ags:citationIdentifier>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

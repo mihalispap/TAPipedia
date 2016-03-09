@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Institutional Constraints to Agriculture Development in Uganda<dcterms:alternative>Economic policy research center</dcterms:alternative>
+      </dc:title>
+      <dc:subject>africa</dc:subject>
+      <dc:subject>cd</dc:subject>
+      <dc:subject>is institutional</dc:subject>
+      <dc:subject>uganda</dc:subject>
+      <dc:creator>Bategeka, Lawrence</dc:creator>
+      <dc:creator>Kiiza, Julius</dc:creator>
+      <dc:creator>Kasirye, Ibrahim</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>Economic Policy Research Centre (EPRC)</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2013</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Bategeka, Kiiza, Kasirye - 2013 - Institutional Constraints to Agriculture Development in Uganda.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Book</dc:type>
+      <ags:citation>
+         <ags:citationTitle>Economic policy research center</ags:citationTitle>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>System Innovations. Knowledge regimes and design practices towards transitions for sustainable agriculture</dc:title>
+      <dc:subject>innovation platforms</dc:subject>
+      <dc:subject>knowledge and information sharing</dc:subject>
+      <dc:subject>learning&amp;facilitation</dc:subject>
+      <dc:creator>Barbier, Marc</dc:creator>
+      <dc:creator>Elzen, Boelie</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>INRA</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2012</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Barbier, Elzen - 2012 - System Innovations. Knowledge regimes and design practices towards transitions for sustainable agriculture.pdf</dc:identifier>
+      <dc:identifier scheme="dcterms:URI">
+            http://www4.inra.fr/sad_eng/Publications2/Free-e-books\nCiting
+         </dc:identifier>
+      <dc:identifier scheme="ags:ISBN">2738013066</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Book</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 264</dcterms:extent>
+      </dc:format>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

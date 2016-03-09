@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Development in Practice Videos that speak for themselves: when non-extensionists show agricultural videos to large audiences<dcterms:alternative>Development in Practice</dcterms:alternative>
+      </dc:title>
+      <dc:subject>africa</dc:subject>
+      <dc:subject>is extension</dc:subject>
+      <dc:subject>knowledge and information sharing</dc:subject>
+      <dc:subject>learning&amp;facilitation</dc:subject>
+      <dc:creator>Bentley, Jeffery</dc:creator>
+      <dc:creator>Mele, Paul Van</dc:creator>
+      <dc:creator>Okry, Florent</dc:creator>
+      <dc:creator>Zossou, Espérance</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2014</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Bentley et al. - 2014 - Development in Practice Videos that speak for themselves when non-extensionists show agricultural videos to larg.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Journal Article</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 921-929</dcterms:extent>
+      </dc:format>
+      <ags:citation>
+         <ags:citationTitle>Development in Practice</ags:citationTitle>
+         <ags:citationIdentifier scheme="ags:ISSN">10.1080/09614524.2014.942216</ags:citationIdentifier>
+         <ags:citationNumber>v.24(October)</ags:citationNumber>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

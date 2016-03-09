@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Agricultural Innovation Systems: An Investment Sourcebook</dc:title>
+      <dc:subject>ad&amp;case geographical cross cutting</dc:subject>
+      <dc:subject>benchmarking cap</dc:subject>
+      <dc:subject>cd organizational environment</dc:subject>
+      <dc:subject>cd stengthen</dc:subject>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>is extension</dc:subject>
+      <dc:subject>is institutional</dc:subject>
+      <dc:subject>is research</dc:subject>
+      <dc:subject>knowledge learning</dc:subject>
+      <dc:creator>World Bank</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>The World Bank</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2012</dcterms:dateIssued>
+      </dc:date>
+      <dc:description>
+         <dcterms:abstract>The sourcebook is targeted to the key operational staff in international and regional development agencies and national governments who design and implement lending projects and to the practitioners who design thematic programs and technical assistance packages. The sourcebook is also an important resource for the research community and nongovernmental organizations (NGOs) and may be a useful reference for the private sector, farmer organizations, and individuals with an interest in agricultural innovation. This overview begins with a discussion of why innovation is vital to agricultural development, how innovation occurs, and why complementary investments are needed to develop the capacity and enabling environment for agricultural innovation. It concludes with details on the sourcebook’s structure, a summary of the themes covered in each module, and a discussion of the cross-cutting themes treated throughout the sourcebook.</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://World Bank - 2012 - Agricultural Innovation Systems An Investment Sourcebook.pdf</dc:identifier>
+      <dc:identifier scheme="dcterms:URI">
+            http://belfercenter.ksg.harvard.edu/publication/21126/agricultural_innovation_systems.html
+         </dc:identifier>
+      <dc:identifier scheme="ags:ISBN">9780821386842</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Book</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 50-83</dcterms:extent>
+      </dc:format>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

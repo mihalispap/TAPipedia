@@ -1,0 +1,13 @@
+name = Feeds Crawler
+description = Crawl a site using Feeds.
+package = Feeds
+dependencies[] = feeds
+
+core = 7.x
+
+; Information added by drupal.org packaging script on 2013-09-30
+version = "7.x-2.x-dev"
+core = "7.x"
+project = "feeds_crawler"
+datestamp = "1380578301"
+

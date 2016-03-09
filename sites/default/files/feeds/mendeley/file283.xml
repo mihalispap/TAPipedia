@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Knowledge Sharing for Change: Designing and Facilitating Learning Processes with a Transformational Impact</dc:title>
+      <dc:subject>learning&amp;facilitation</dc:subject>
+      <dc:creator>Steinlin, Marc</dc:creator>
+      <dc:creator>Wildrig Jenkins, Catherine</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>IndigeniousPeopleKnowledge Consultants CC</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2010</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Steinlin, Wildrig Jenkins - 2010 - Knowledge Sharing for Change Designing and Facilitating Learning Processes with a Transformational Im.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Book</dc:type>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

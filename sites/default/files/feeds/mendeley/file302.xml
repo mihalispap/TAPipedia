@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Improving Policymaking for Agricultural and Rural Development in Africa: the role of ICTs and Knowledge Management</dc:title>
+      <dc:subject>ICTs</dc:subject>
+      <dc:subject>africa</dc:subject>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>knowledge and infromation sharing</dc:subject>
+      <dc:subject>rural development</dc:subject>
+      <dc:creator>Towela P.R., Nyirenda-Jere</dc:creator>
+      <dc:creator>A., Kazembe John</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2014</dcterms:dateIssued>
+      </dc:date>
+      <dc:subject>agriculture</dc:subject>
+      <dc:subject>and rural development</dc:subject>
+      <dc:subject>icts</dc:subject>
+      <dc:subject>knowledge management</dc:subject>
+      <dc:subject>policymaking</dc:subject>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Towela P.R., A. - 2014 - Improving Policymaking for Agricultural and Rural Development in Africa the role of ICTs and Knowledge Manageme.pdf</dc:identifier>
+      <dc:identifier scheme="ags:ISBN">9781784310875</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Unpublished Work</dc:type>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

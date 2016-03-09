@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * Implements hook_ctools_plugin_directory().
+*/
+function aklinkitplugin_ctools_plugin_directory($module, $plugin) {
+  if ($module == 'linkit' && !empty($plugin)) {
+    return "plugins/" . $plugin;
+  }
+}

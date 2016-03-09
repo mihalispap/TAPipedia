@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>FAO Good Learning Practices For Effective Capacity Development (Learning module 3)</dc:title>
+      <dc:subject>cd</dc:subject>
+      <dc:creator>FAO</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>Food and Agriculture Organization of the United Nations (FAO)</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2012</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://FAO - 2012 - FAO Good Learning Practices For Effective Capacity Development (Learning module 3).pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Book</dc:type>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

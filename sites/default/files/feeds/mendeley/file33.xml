@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Partnering for change in chains: The capacity of partnerships to promote sustainable change in global agrifood chains<dcterms:alternative>International Food and Agribusiness Management Review</dcterms:alternative>
+      </dc:title>
+      <dc:subject>innovation policies</dc:subject>
+      <dc:subject>innovations systems</dc:subject>
+      <dc:subject>is governance</dc:subject>
+      <dc:subject>is institutional</dc:subject>
+      <dc:subject>is partnership</dc:subject>
+      <dc:creator>Bitzer, Verena</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2012</dcterms:dateIssued>
+      </dc:date>
+      <dc:subject>Agrifood chains</dc:subject>
+      <dc:subject>Development</dc:subject>
+      <dc:subject>Governance</dc:subject>
+      <dc:subject>Intersectoral partnerships</dc:subject>
+      <dc:subject>Sustainable change</dc:subject>
+      <dc:description>
+         <dcterms:abstract>Intersectoral partnerships mirror the changing nature of the relationships among state, business and civil society organizations, and are often considered innovative mechanisms to overcome single actor failure in the context of globalization. This article analyzes the capacity of partnerships to promote sustainable change in global agrifood chains from a governance and a development perspective. The global coffee, cotton, and cocoa chains serve as main fields of application. From a governance perspective, the emergence of partnerships is largely positive inasmuch as partnerships act as initiators and agents of change which, although still mostly confined to niche markets, unfolds a chain-wide governance effect. From a development perspective, partnerships can be viewed critically as their top-down and business-driven natureleads to uncertain benefits for producers and results in the marginalization of certain development concerns. These differing conclusions can be explained by the fact that partnerships largely embody the neoliberal agenda, which raises specific questions, particularly from a development perspective. © 2012 International Food and Agribusiness Management Association (IFAMA).</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Bitzer - 2012 - Partnering for change in chains The capacity of partnerships to promote sustainable change in global agrifood chains.pdf</dc:identifier>
+      <dc:identifier scheme="ags:ISBN">9789461081315</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Journal Article</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 13-38</dcterms:extent>
+      </dc:format>
+      <ags:citation>
+         <ags:citationTitle>International Food and Agribusiness Management Review</ags:citationTitle>
+         <ags:citationNumber>v.15(SPECIALISSUEB)</ags:citationNumber>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

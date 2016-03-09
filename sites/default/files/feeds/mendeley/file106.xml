@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Extension, Poverty and Vulnerability: The Scope for Policy Reform - Final Report of a Study for the Neuchâtel Initiative</dc:title>
+      <dc:subject>ad&amp;case geographical cross cutting</dc:subject>
+      <dc:subject>is extension</dc:subject>
+      <dc:subject>is farmer organization</dc:subject>
+      <dc:subject>is private</dc:subject>
+      <dc:subject>is public</dc:subject>
+      <dc:creator>Farrington, John</dc:creator>
+      <dc:creator>Christoplos, Ian</dc:creator>
+      <dc:creator>D. Kidd, Andrew</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2002</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Farrington, Christoplos, D. Kidd - 2002 - Extension, Poverty and Vulnerability The Scope for Policy Reform - Final Report of a Study for.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Unpublished Work</dc:type>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

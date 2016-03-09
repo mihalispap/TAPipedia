@@ -1,0 +1,16 @@
+<?php
+/**
+ * @file
+ * Feeds Tamper: Search term by field.
+ *
+ */
+
+
+/**
+ * Implements hook_ctools_plugin_directory().
+ */
+function feeds_tamper_stbf_ctools_plugin_directory($module, $plugin) {
+  if ($module == 'feeds_tamper') {
+    return 'plugins';
+  }
+}

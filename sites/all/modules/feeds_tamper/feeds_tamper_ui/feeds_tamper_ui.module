@@ -1,0 +1,275 @@
+<?php
+
+/**
+ * @file
+ * Feeds Tamper UI - Defines the user interface for Feeds Tamper.
+ */
+
+/**
+ * Implements hook_menu().
+ */
+function feeds_tamper_ui_menu() {
+  $defaults = array(
+    'page callback' => 'drupal_get_form',
+    'access callback' => 'feeds_tamper_access',
+    'access arguments' => array(3),
+    'title arguments' => array(3),
+    'file' => 'feeds_tamper_ui.admin.inc',
+    'type' => MENU_CALLBACK,
+  );
+
+  $items = array();
+  $items['admin/structure/feeds/%feeds_importer/tamper'] = array(
+    'title' => 'Tamper',
+    'title arguments' => array(),
+    'page arguments' => array('feeds_tamper_ui_list_form', 3),
+    'type' => MENU_LOCAL_TASK,
+    'weight' => 10,
+  ) + $defaults;
+
+  $items['admin/structure/feeds/%feeds_importer/tamper/manage'] = array(
+    'title' => 'List',
+    'type' => MENU_DEFAULT_LOCAL_TASK,
+  );
+
+  $items['admin/structure/feeds/%feeds_importer/tamper/export'] = array(
+    'title' => 'Export',
+    'title arguments' => array(),
+    'page arguments' => array('feeds_tamper_ui_export_form', 3),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer feeds_tamper'),
+    'type' => MENU_LOCAL_TASK,
+    'weight' => 10,
+  ) + $defaults;
+
+  $items['admin/structure/feeds/%feeds_importer/tamper/add/%feeds_tamper_ui_source'] = array(
+    'title callback' => 'feeds_tamper_ui_add_title',
+    'title arguments' => array(6),
+    'page arguments' => array('feeds_tamper_ui_add_plugin_form', 3, 6),
+  ) + $defaults;
+
+  $items['admin/structure/feeds/%feeds_importer/tamper/%feeds_tamper_plugin_instance/edit'] = array(
+    'title callback' => 'feeds_tamper_ui_edit_title',
+    'page arguments' => array('feeds_tamper_ui_edit_plugin_form', 5),
+    'access arguments' => array(NULL, 5),
+  ) + $defaults;
+
+  $items['admin/structure/feeds/%feeds_importer/tamper/%feeds_tamper_plugin_instance/delete'] = array(
+    'title callback' => 'feeds_tamper_ui_delete_title',
+    'page arguments' => array('feeds_tamper_ui_delete_form', 5),
+    'access arguments' => array(NULL, 5),
+  ) + $defaults;
+
+
+  $items['admin/structure/feeds/%feeds_importer/tamper/import'] = array(
+    'title' => 'Import',
+    'title arguments' => array(),
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('feeds_tamper_ui_import_form'),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer feeds_tamper'),
+    'type' => MENU_LOCAL_TASK,
+    'weight' => 10,
+  ) + $defaults;
+
+
+
+  return $items;
+}
+
+/**
+ * Implements hook_theme().
+ */
+function feeds_tamper_ui_theme($existing, $type, $theme, $path) {
+  return array(
+    'feeds_tamper_ui_list_form' => array(
+      'render element' => 'form',
+      'file' => 'feeds_tamper_ui.admin.inc',
+    ),
+  );
+}
+
+/**
+ * Menu loader callback for plugin instances.
+ */
+function feeds_tamper_plugin_instance_load($instance_id) {
+  return feeds_tamper_load_instance($instance_id);
+}
+
+/**
+ * Menu loader callback for grabbing the source from the URL.
+ */
+function feeds_tamper_ui_source_load($source) {
+  // We've HEX encoded the source to allow all possible characters.
+  return pack('H*', $source);
+}
+
+/**
+ * Add plugin title callback.
+ */
+function feeds_tamper_ui_add_title($source) {
+  // Title callbacks get check_plain'ed already.
+  return t('Add plugin to: !source', array('!source' => $source));
+}
+
+/**
+ * Edit plugin title callback.
+ */
+function feeds_tamper_ui_edit_title($instance) {
+  if ($instance->export_type == EXPORT_IN_DATABASE) {
+    return t('Edit: @id', array('@id' => $instance->description));
+  }
+  return t('Override: @id', array('@id' => $instance->description));
+}
+
+/**
+ * Delete plugin title callback.
+ */
+function feeds_tamper_ui_delete_title($instance) {
+  if ($instance->export_type == EXPORT_IN_DATABASE) {
+    return t('Delete plugin: @id', array('@id', $instance->id));
+  }
+  return t('Revert plugin: @id', array('@id', $instance->id));
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ *
+ * Modify feeds_ui_overview_form(), adding Tamper links if the user has access.
+ */
+function feeds_tamper_ui_form_feeds_ui_overview_form_alter(&$form, &$form_state) {
+  if (!empty($form['enabled'])) {
+    foreach ($form['enabled'] as $id => &$table) {
+      if (feeds_tamper_access($id)) {
+        $table['operations']['#markup'] .= ' | ' . l(t('Tamper'), "admin/structure/feeds/$id/tamper");
+      }
+    }
+  }
+}
+
+
+
+
+
+/**
++ * Form constructor for importer form.
++ *
++ * @see feeds_tamper_ui_import_form_validate()
++ * @see feeds_tamper_ui_import_form_submit()
++ *
++ * @ingroup forms
++ */
+function feeds_tamper_ui_import_form($form, &$form_state) {
+  $form['importer'] = array(
+    '#title' => t('Import Data'),
+    '#type' => 'textarea',
+    '#rows' => 10,
+    '#required' => TRUE,
+    '#description' => t('Paste the text created by a feeds tamper export into this field.'),
+  );
+  $form['actions'] = array('#type' => 'actions');
+  $form['actions']['submit'] = array(
+    '#type' => 'submit',
+    '#value' => t('Import'),
+  );
+  return $form;
+}
+
+
+
+
+/**
++ * Form validation handler for feeds_tamper_ui_import_form_validate().
++ *
++ * @see feeds_tamper_ui_import_form_submit()
++ */
+function feeds_tamper_ui_import_form_validate($form, &$form_state) {
+  if ($form_state['triggering_element']['#value'] == t('Import')) {
+    if (!empty($form_state['values']['importer'])) {
+      $export = NULL;
+      ob_start();
+      eval($form_state['values']['importer']);
+      ob_end_clean();
+      $form_state['export'] = $export;
+      if (!is_array($export)) {
+        return form_set_error($form['importer'], t('Unable to interpret Feeds tamper importer code.'));
+      }
+      if (!empty($export)) {
+        foreach ($export as $value) {
+          $feeds_importer = feeds_importer_load($value->importer);
+          if (!empty($feeds_importer)) {
+            if (feeds_tamper_load_instance($value->id)) {
+              form_set_error('importer', t('The machine-readable name is already in use. It must be unique.'));
+              return;
+            }
+            $plugin_id = $value->plugin_id;
+            $plugin = feeds_tamper_get_plugin($plugin_id);
+            if ($plugin['validate'] && isset($value->settings)) {
+              $plugin['validate']($value->settings);
+            }
+          }
+          else {
+            form_set_error('importer', t('The feeds importer !importer does not exist', array('!importer' => $value->importer)));
+          }
+        }
+      }
+    }
+  }
+}
+
+/**
++ * Form submission handler for feeds_tamper_ui_import_form_submit().
++ *
++ * @see feeds_tamper_ui_import_form_validate()
++ */
+function feeds_tamper_ui_import_form_submit($form, &$form_state) {
+  if ($form_state['triggering_element']['#value'] == t('Import')) {
+    $export = $form_state['export'];
+    foreach ($export as $value) {
+      $obj = feeds_tamper_new_instance();
+      $obj->plugin_id = $value->plugin_id;
+      if (isset($value->settings)) {
+        $obj->settings = $value->settings;
+      }
+      $obj->importer = $value->importer;
+      $obj->source = $value->source;
+      $obj->description = $value->description;
+      $obj->id = $value->id;
+      feeds_tamper_save_instance($obj);
+      $source_name = feeds_tamper_ui_source_name($obj);
+      drupal_set_message(t('Plugin %description was successfully added to %source.', array(
+        '%description' => $obj->description,
+        '%source' => $source_name,
+        )
+      ));
+    }
+  }
+  $form_state['redirect'] = 'admin/structure/feeds/' . $obj->importer . '/tamper';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Calculate display name for source.
+ *
+ * @param stdClass $instance
+ *   A plugin instance object.
+ *
+ * @return string
+ *   The unsanitized name to display for a Feeds source.
+ */
+function feeds_tamper_ui_source_name(stdClass $instance) {
+  $importer = feeds_importer($instance->importer);
+  $sources = $importer->parser->getMappingSources();
+  return !empty($sources[$instance->source]['name']) ? $sources[$instance->source]['name'] : $instance->source;
+}

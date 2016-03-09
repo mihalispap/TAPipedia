@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Enhanced learning from multi-stakeholder partnerships: Lessons from the Enabling Rural Innovation in Africa programme<dcterms:alternative>Natural Resources Forum</dcterms:alternative>
+      </dc:title>
+      <dc:subject>africa</dc:subject>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>multi-stakeholders processes</dc:subject>
+      <dc:creator>Sanginga, Pascal C.</dc:creator>
+      <dc:creator>Chitsike, Colletah a.</dc:creator>
+      <dc:creator>Njuki, Jemimah</dc:creator>
+      <dc:creator>Kaaria, Susan</dc:creator>
+      <dc:creator>Kanzikwera, Rogers</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2007</dcterms:dateIssued>
+      </dc:date>
+      <dc:subject>Africa</dc:subject>
+      <dc:subject>Evaluation</dc:subject>
+      <dc:subject>Participatory learning</dc:subject>
+      <dc:subject>Partnerships</dc:subject>
+      <dc:subject>Reflexivity</dc:subject>
+      <dc:subject>Rural innovation</dc:subject>
+      <dc:subject>Structured learning</dc:subject>
+      <dc:description>
+         <dcterms:abstract>Despite increasing interest and support for multi-stakeholder partnerships, empirical applications of participatory evaluation approaches to enhance learning from partnerships are either uncommon or undocumented. This paper draws lessons on the use of participatory self-reflective approaches that facilitate structured learning on processes and outcomes of partnerships. Such practice is important to building partnerships, because it helps partners understand how they can develop more collaborative and responsive ways of managing partnerships. The paper is based on experience with the Enabling Rural Innovation (ERI) in Africa programme. Results highlight the dynamic process of partnership formation and the key elements that contribute to success. These include: (i) shared vision and complementarity, (ii) consistent support from senior leadership; (iii) evidence of institutional and individual benefits; (iv) investments in human and social capital; (v) joint resources mobilization. However, key challenges require coping with high staff turnover and over-commitment, conflicting personalities and institutional differences, high transaction costs, and sustaining partnerships with the private business sector. The paper suggests that institutionalizing multi-stakeholder partnerships requires participatory reflective practices that help structure and enhance learning, and incrementally help in building the capacity of research and development organisations to partner better and ultimately to innovate.</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Sanginga et al. - 2007 - Enhanced learning from multi-stakeholder partnerships Lessons from the Enabling Rural Innovation in Africa prog.pdf</dc:identifier>
+      <dc:identifier scheme="ags:ISBN">0165-0203</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Journal Article</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 273-285</dcterms:extent>
+      </dc:format>
+      <ags:citation>
+         <ags:citationTitle>Natural Resources Forum</ags:citationTitle>
+         <ags:citationIdentifier scheme="ags:ISSN">10.1111/j.1477-8947.2007.00166.x</ags:citationIdentifier>
+         <ags:citationNumber>v.31(4)</ags:citationNumber>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

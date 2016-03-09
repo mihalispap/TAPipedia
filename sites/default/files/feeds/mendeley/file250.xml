@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Innovation through action - An action research journey with smallholder farmers in Limpopo Province, South Africa: experiences of soil fertility management</dc:title>
+      <dc:subject>ad&amp;case africa</dc:subject>
+      <dc:subject>capacity knowledge learning</dc:subject>
+      <dc:subject>cd tools</dc:subject>
+      <dc:subject>is extension</dc:subject>
+      <dc:subject>is farmer organizations</dc:subject>
+      <dc:subject>is knowledge and learning</dc:subject>
+      <dc:subject>is south africa</dc:subject>
+      <dc:creator>Ramaru, J M</dc:creator>
+      <dc:creator>Hagmann, J</dc:creator>
+      <dc:creator>Mamabolo, Z M</dc:creator>
+      <dc:creator>Netshivhodza, M H</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>Wageningen Academic Publishers</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2009</dcterms:dateIssued>
+      </dc:date>
+      <dc:description>
+         <dcterms:abstract>Documents the learning process within the innovation perspective on soils fertility with took place in the Participatory Extension Approach in a county in South Africa.</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Ramaru et al. - 2009 - Innovation through action - An action research journey with smallholder farmers in Limpopo Province, South Africa.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Book</dc:type>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

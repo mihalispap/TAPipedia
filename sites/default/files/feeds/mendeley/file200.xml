@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Evaluation as a multi-stakeholder learning process : the Programme for Capacity and Theory Building for Universities and Research Centres in Endogenous Development (CAPTURED ) in Bolivia , Ghana and India<dcterms:alternative>Knowledge Management for Development Journal</dcterms:alternative>
+      </dc:title>
+      <dc:subject>bolivia</dc:subject>
+      <dc:subject>ghana</dc:subject>
+      <dc:subject>india</dc:subject>
+      <dc:subject>knowledge and learning</dc:subject>
+      <dc:subject>m&amp;e</dc:subject>
+      <dc:subject>m&amp;e africa</dc:subject>
+      <dc:subject>m&amp;e asia</dc:subject>
+      <dc:subject>m&amp;e latin america</dc:subject>
+      <dc:subject>multi-stakeholders</dc:subject>
+      <dc:creator>Millar, D.</dc:creator>
+      <dc:creator>Orellana, Rene</dc:creator>
+      <dc:creator>Delgado, Freddy</dc:creator>
+      <dc:creator>Nair, Baalakrishnan</dc:creator>
+      <dc:creator>Shankar, Darshan</dc:creator>
+      <dc:creator>Brouwers, Jan</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2013</dcterms:dateIssued>
+      </dc:date>
+      <dc:subject>bolivia</dc:subject>
+      <dc:subject>capacity building</dc:subject>
+      <dc:subject>design of the evaluation</dc:subject>
+      <dc:subject>development programmes</dc:subject>
+      <dc:subject>evaluation</dc:subject>
+      <dc:subject>ghana</dc:subject>
+      <dc:subject>higher education</dc:subject>
+      <dc:subject>india</dc:subject>
+      <dc:subject>of the</dc:subject>
+      <dc:subject>the present article reviews</dc:subject>
+      <dc:subject>the results and methodological</dc:subject>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Millar et al. - 2013 - Evaluation as a multi-stakeholder learning process the Programme for Capacity and Theory Building for Universiti.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Journal Article</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 47-62</dcterms:extent>
+      </dc:format>
+      <ags:citation>
+         <ags:citationTitle>Knowledge Management for Development Journal</ags:citationTitle>
+         <ags:citationNumber>v.9(3)</ags:citationNumber>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

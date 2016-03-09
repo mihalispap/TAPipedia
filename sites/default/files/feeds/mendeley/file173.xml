@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Series Strengthening Agricultural Innovation Capacity: Are Innovation Brokers the Answer?</dc:title>
+      <dc:subject>innovation brokering</dc:subject>
+      <dc:subject>innovation platforms</dc:subject>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>knowledge and learning</dc:subject>
+      <dc:subject>learning&amp;facilitation</dc:subject>
+      <dc:subject>multi-stakeholders processes</dc:subject>
+      <dc:subject>social learning</dc:subject>
+      <dc:creator>Klerkx, Laurens</dc:creator>
+      <dc:creator>Hall, Andy</dc:creator>
+      <dc:creator>Leeuwis, Cees</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2009</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Klerkx, Hall, Leeuwis - 2009 - Series Strengthening Agricultural Innovation Capacity Are Innovation Brokers the Answer.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Unpublished Work</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 1-47</dcterms:extent>
+      </dc:format>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

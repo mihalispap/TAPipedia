@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Development Challenges of Indian Agriculture<dcterms:alternative>Background Technical Papers, The National Medium Term Priority Framework, Government of India and FAO</dcterms:alternative>
+      </dc:title>
+      <dc:subject>asia</dc:subject>
+      <dc:subject>india</dc:subject>
+      <dc:subject>km</dc:subject>
+      <dc:subject>km blended</dc:subject>
+      <dc:creator>Ghosh, Gopi N</dc:creator>
+      <dc:creator>Ganguly, Raj</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2008</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Ghosh, Ganguly - 2008 - Development Challenges of Indian Agriculture.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Report</dc:type>
+      <ags:citation>
+         <ags:citationTitle>Background Technical Papers, The National Medium Term Priority Framework, Government of India and FAO</ags:citationTitle>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

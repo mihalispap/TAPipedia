@@ -1,0 +1,119 @@
+diff --git a/feeds_tamper_ui/feeds_tamper_ui.module b/feeds_tamper_ui/feeds_tamper_ui.module
+index dd98d83..322c5e3 100755
+--- a/feeds_tamper_ui/feeds_tamper_ui.module
++++ b/feeds_tamper_ui/feeds_tamper_ui.module
+@@ -59,6 +59,17 @@ function feeds_tamper_ui_menu() {
+     'page arguments' => array('feeds_tamper_ui_delete_form', 5),
+     'access arguments' => array(NULL, 5),
+   ) + $defaults;
++  
++  $items['admin/structure/feeds/%feeds_importer/tamper/import'] = array(
++    'title' => 'Import',
++    'title arguments' => array(),
++    'page callback' => 'drupal_get_form',
++    'page arguments' => array('feeds_tamper_ui_import_form'),
++    'access callback' => 'user_access',
++    'access arguments' => array('administer feeds_tamper'),
++    'type' => MENU_LOCAL_TASK,
++    'weight' => 10,
++  ) + $defaults;
+ 
+   return $items;
+ }
+@@ -215,3 +226,96 @@ function _feeds_tamper_clone_tamper_plugins(array &$form, array &$form_state) {
+     }
+   }
+ }
++
++/**
++ * Form constructor for importer form.
++ *
++ * @see feeds_tamper_ui_import_form_validate()
++ * @see feeds_tamper_ui_import_form_submit()
++ *
++ * @ingroup forms
++ */
++function feeds_tamper_ui_import_form($form, &$form_state) {
++  $form['importer'] = array(
++    '#title' => t('Import Data'),
++    '#type' => 'textarea',
++    '#rows' => 10,
++    '#required' => TRUE,
++    '#description' => t('Paste the text created by a feeds tamper export into this field.'),
++  );
++  $form['actions'] = array('#type' => 'actions');
++  $form['actions']['submit'] = array(
++    '#type' => 'submit',
++    '#value' => t('Import'),
++  );
++  return $form;
++}
++
++/**
++ * Form validation handler for feeds_tamper_ui_import_form_validate().
++ *
++ * @see feeds_tamper_ui_import_form_submit()
++ */
++function feeds_tamper_ui_import_form_validate($form, &$form_state) {
++  if ($form_state['triggering_element']['#value'] == t('Import')) {
++    if (!empty($form_state['values']['importer'])) {
++      $export = NULL;
++      ob_start();
++      eval($form_state['values']['importer']);
++      ob_end_clean();
++      $form_state['export'] = $export;
++      if (!is_array($export)) {
++        return form_set_error($form['importer'], t('Unable to interpret Feeds tamper importer code.'));
++      }
++      if (!empty($export)) {
++        foreach ($export as $value) {
++          $feeds_importer = feeds_importer_load($value->importer);
++          if (!empty($feeds_importer)) {
++            if (feeds_tamper_load_instance($value->id)) {
++              form_set_error('importer', t('The machine-readable name is already in use. It must be unique.'));
++              return;
++            }
++            $plugin_id = $value->plugin_id;
++            $plugin = feeds_tamper_get_plugin($plugin_id);
++            if ($plugin['validate'] && isset($value->settings)) {
++              $plugin['validate']($value->settings);
++            }
++          }
++          else {
++            form_set_error('importer', t('The feeds importer !importer does not exist', array('!importer' => $value->importer)));
++          }
++        }
++      }
++    }
++  }
++}
++
++/**
++ * Form submission handler for feeds_tamper_ui_import_form_submit().
++ *
++ * @see feeds_tamper_ui_import_form_validate()
++ */
++function feeds_tamper_ui_import_form_submit($form, &$form_state) {
++  if ($form_state['triggering_element']['#value'] == t('Import')) {
++    $export = $form_state['export'];
++    foreach ($export as $value) {
++      $obj = feeds_tamper_new_instance();
++      $obj->plugin_id = $value->plugin_id;
++      if (isset($value->settings)) {
++        $obj->settings = $value->settings;
++      }
++      $obj->importer = $value->importer;
++      $obj->source = $value->source;
++      $obj->description = $value->description;
++      $obj->id = $value->id;
++      feeds_tamper_save_instance($obj);
++      $source_name = feeds_tamper_ui_source_name($obj);
++      drupal_set_message(t('Plugin %description was successfully added to %source.', array(
++        '%description' => $obj->description,
++        '%source' => $source_name,
++        )
++      ));
++    }
++  }
++  $form_state['redirect'] = 'admin/structure/feeds/' . $obj->importer . '/tamper';
++}

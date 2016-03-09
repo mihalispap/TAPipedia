@@ -1,0 +1,71 @@
+<?php
+
+/**
+ * @file
+ * feeds_crawler.module
+ */
+
+/**
+ * Implements hook_feeds_plugings().
+ */
+function feeds_crawler_feeds_plugins() {
+  $path = drupal_get_path('module', 'feeds_crawler');
+  $info = array();
+
+  $info['FeedsCrawlerBase'] = array(
+    'hidden' => TRUE,
+    'handler' => array(
+      'parent' => 'FeedsHTTPFetcher',
+      'class' => 'FeedsCrawlerBase',
+      'file' => 'FeedsCrawlerBase.inc',
+      'path' => $path,
+    ),
+  );
+
+  $info['FeedsXPathCrawler'] = array(
+    'name' => 'Crawling Fetcher (XPath)',
+    'description' => 'Fetches multiple pages using XPath queries to find the next link.',
+    'help' => 'Download content from a URL or many.',
+    'handler' => array(
+      'parent' => 'FeedsCrawlerBase',
+      'class' => 'FeedsXPathCrawler',
+      'file' => 'FeedsXPathCrawler.inc',
+      'path' => $path,
+    ),
+  );
+
+  $info['FeedsPatternCrawler'] = array(
+    'name' => 'Crawling Fetcher (URL pattern)',
+    'description' => 'Fetches multiple pages using XPath queries to find the next link.',
+    'help' => 'Download content from a URL or many.',
+    'handler' => array(
+      'parent' => 'FeedsCrawlerBase',
+      'class' => 'FeedsPatternCrawler',
+      'file' => 'FeedsPatternCrawler.inc',
+      'path' => $path,
+    ),
+  );
+
+  $info['FeedsAtomCrawler'] = array(
+    'name' => 'Crawling Fetcher (Atom)',
+    'description' => 'Fetches multiple pages using Atom queries to find the next link.',
+    'help' => 'Download content from a URL or many.',
+    'handler' => array(
+      'parent' => 'FeedsCrawlerBase',
+      'class' => 'FeedsAtomCrawler',
+      'file' => 'FeedsAtomCrawler.inc',
+      'path' => $path,
+    ),
+  );
+
+  return $info;
+}
+
+/**
+ * Implements hook_ctools_plugin_api().
+ */
+function feeds_crawler_ctools_plugin_api($owner, $api) {
+  if ($owner == 'feeds' && $api == 'plugins') {
+    return array('version' => 1);
+  }
+}

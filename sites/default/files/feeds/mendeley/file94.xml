@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Agricultural Knowledge and Innovation Systems in Transition – a reflection paper</dc:title>
+      <dc:subject>ad&amp;case europe</dc:subject>
+      <dc:subject>cd europe</dc:subject>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>is actor research</dc:subject>
+      <dc:subject>is extension agency</dc:subject>
+      <dc:subject>is learning and knowledge</dc:subject>
+      <dc:subject>management and capacity</dc:subject>
+      <dc:creator>EU SCAR</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>European Commission (EC)</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2012</dcterms:dateIssued>
+      </dc:date>
+      <dc:description>
+         <dcterms:abstract>Reviews the links between knowledge and agricultural innovation in Europe as an input to the development of a future European agricultural knowledge system (includes ideas about M&amp;E)</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://EU SCAR - 2012 - Agricultural Knowledge and Innovation Systems in Transition – a reflection paper.pdf</dc:identifier>
+      <dc:identifier scheme="ags:ISBN">9789279222528</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Book</dc:type>
+      <ags:citation>
+         <ags:citationIdentifier scheme="ags:ISSN">10.2777/34991</ags:citationIdentifier>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

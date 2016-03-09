@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Technical Brief: USAID to Re-Engage in Supporting National Agricultural Research Systems</dc:title>
+      <dc:subject>agricultural research</dc:subject>
+      <dc:subject>cd</dc:subject>
+      <dc:subject>is research</dc:subject>
+      <dc:creator>Anderson, Jock</dc:creator>
+      <dc:creator>Roseboom, Joihannes</dc:creator>
+      <dc:creator>Associates, Weidemann</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2013</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Anderson, Roseboom, Associates - 2013 - Technical Brief USAID to Re-Engage in Supporting National Agricultural Research Systems.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Unpublished Work</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 1-6</dcterms:extent>
+      </dc:format>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

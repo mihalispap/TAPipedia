@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Agricultural Innovation Systems: A Framework for Analysing the Role of the Government</dc:title>
+      <dc:subject>ad&amp;case geographical cross cutting</dc:subject>
+      <dc:subject>capacity assessment</dc:subject>
+      <dc:subject>capacity building and development</dc:subject>
+      <dc:subject>cd concept development</dc:subject>
+      <dc:subject>cd system or policy</dc:subject>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>is actor public</dc:subject>
+      <dc:subject>is actor research</dc:subject>
+      <dc:subject>is institutional</dc:subject>
+      <dc:creator>OECD</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>Organisation for Economic Co-operation and Development (OECD)</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2013</dcterms:dateIssued>
+      </dc:date>
+      <dc:description>
+         <dcterms:abstract>Overview of agricultural innovation systems, outlining the main issues and trends (Part I), and develops a framework to analyze the role of government in fostering the creation and adoption of innovation in the agricultural and agri-food sector, i.e. primary agriculture, upstream and downstream industries (Part II). This reference is directly related to the discussion in the G20 that led to the creation of TAP</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://OECD - 2013 - Agricultural Innovation Systems A Framework for Analysing the Role of the Government.pdf</dc:identifier>
+      <dc:identifier scheme="ags:ISBN">9789264200593</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Book</dc:type>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

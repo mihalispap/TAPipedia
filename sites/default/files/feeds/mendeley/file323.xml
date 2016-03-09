@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Farmers’ organizations and agricultural innovation</dc:title>
+      <dc:subject>Africa</dc:subject>
+      <dc:subject>Benin</dc:subject>
+      <dc:subject>Rwanda</dc:subject>
+      <dc:subject>Tanzania</dc:subject>
+      <dc:subject>ad &amp;case africa</dc:subject>
+      <dc:subject>capacity knowledge learning</dc:subject>
+      <dc:subject>cd africa</dc:subject>
+      <dc:subject>cd level organizational or environment</dc:subject>
+      <dc:subject>improving knowledge and capacity of farmers</dc:subject>
+      <dc:subject>innovation platforms</dc:subject>
+      <dc:subject>innovation system</dc:subject>
+      <dc:subject>is actor farmer organization</dc:subject>
+      <dc:creator>Wennink, Bertus</dc:creator>
+      <dc:creator>Heemskerk, Willem</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>Royal Tropical Institute (KIT)</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2006</dcterms:dateIssued>
+      </dc:date>
+      <dc:description>
+         <dcterms:abstract>In-depth analysis of the role and capacity development needs of farmers organization in innovation processes, using the evidence from a number of case studies from contemporary SSA agriculture. Experiences indicate that FOs can play an important role in sharing knowledge-for-innovation by initiating multi-actor platforms for interactive learning and by implementing joint activity programmes (including use of the media) with extension services on a cost-sharing basis. A major challenge facing FOs is to develop sustainable funding mechanisms for these (farmer-led) initiatives.</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Wennink, Heemskerk - 2006 - Farmers’ organizations and agricultural innovation.pdf</dc:identifier>
+      <dc:identifier scheme="dcterms:URI">
+            http://www.kit.nl/kit/Publication?item=1965
+         </dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Generic</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 47-61</dcterms:extent>
+      </dc:format>
+      <ags:citation>
+         <ags:citationNumber>v.Bulletin 3()</ags:citationNumber>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>An FAO e-mail conference on agricultural innovation systems and family farming: The moderator’s summary</dc:title>
+      <dc:subject>capacity building and development</dc:subject>
+      <dc:subject>cd &amp; gender</dc:subject>
+      <dc:subject>cd concept assessment</dc:subject>
+      <dc:subject>cd concept enhancing</dc:subject>
+      <dc:subject>cd geographical cross cutting</dc:subject>
+      <dc:subject>cd system or policy</dc:subject>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>is actor extension</dc:subject>
+      <dc:subject>is actor extension agency</dc:subject>
+      <dc:subject>is actor farmer organization</dc:subject>
+      <dc:subject>is actor market</dc:subject>
+      <dc:subject>is actor ngo</dc:subject>
+      <dc:subject>is actor private</dc:subject>
+      <dc:subject>is actor public</dc:subject>
+      <dc:subject>is actor research</dc:subject>
+      <dc:subject>is organizational</dc:subject>
+      <dc:creator>Ruane, John</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>Food and Agriculture Oraganization of the United Nations (FAO)</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2012</dcterms:dateIssued>
+      </dc:date>
+      <dc:description>
+         <dcterms:abstract>Agricultural innovation systems; Farmer innovations; Farmer organizations; Access to market; Research and extension; Risk associated with innovation; Women farmers; Youth; ICTs; Innovation brokers</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Ruane - 2012 - An FAO e-mail conference on agricultural innovation systems and family farming The moderator’s summary.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Generic</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 1-12</dcterms:extent>
+      </dc:format>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

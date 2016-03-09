@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Bringing New Ideas into Practice: Experiments with Agricultural Innovation</dc:title>
+      <dc:subject>ad&amp;case africa</dc:subject>
+      <dc:subject>capacity building and development</dc:subject>
+      <dc:subject>cd system or policy</dc:subject>
+      <dc:subject>food security</dc:subject>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>is market</dc:subject>
+      <dc:subject>is platforms</dc:subject>
+      <dc:creator>Gildemacher, Peter</dc:creator>
+      <dc:creator>Mur, Remco</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>Royal Tropical Institute (KIT)</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2012</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Gildemacher, Mur - 2012 - Bringing New Ideas into Practice Experiments with Agricultural Innovation.pdf</dc:identifier>
+      <dc:identifier scheme="ags:ISBN">9789460222337</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Book</dc:type>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

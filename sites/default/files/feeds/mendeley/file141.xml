@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Integrated Agricultural Research for Development</dc:title>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>is africa</dc:subject>
+      <dc:subject>is research</dc:subject>
+      <dc:creator>Hawkins, Richard</dc:creator>
+      <dc:creator>Heemskerk, Willem</dc:creator>
+      <dc:creator>Booth, Robert</dc:creator>
+      <dc:creator>Daane, Jon</dc:creator>
+      <dc:creator>Maatman, Arno</dc:creator>
+      <dc:creator>Adekunle, A A</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2009</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Hawkins et al. - 2009 - Integrated Agricultural Research for Development(2).pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Report</dc:type>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

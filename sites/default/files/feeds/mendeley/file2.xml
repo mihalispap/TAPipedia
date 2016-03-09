@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Agricultural Innovation in Sub-Saharan Africa Experiences from multi-stakeholder approaches</dc:title>
+      <dc:subject>Africa</dc:subject>
+      <dc:subject>botswana</dc:subject>
+      <dc:subject>cameroon</dc:subject>
+      <dc:subject>cd</dc:subject>
+      <dc:subject>cd organizational</dc:subject>
+      <dc:subject>ethiopia</dc:subject>
+      <dc:subject>ghana</dc:subject>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>is research</dc:subject>
+      <dc:subject>kenyia</dc:subject>
+      <dc:subject>knowledge and information sharing</dc:subject>
+      <dc:subject>malawi</dc:subject>
+      <dc:subject>niger</dc:subject>
+      <dc:subject>nigeria</dc:subject>
+      <dc:subject>rwanda</dc:subject>
+      <dc:subject>uganda</dc:subject>
+      <dc:subject>zambia</dc:subject>
+      <dc:creator>A., Adekunle</dc:creator>
+      <dc:creator>J., Ellis-Jones</dc:creator>
+      <dc:creator>I., Ajibefun</dc:creator>
+      <dc:creator>R., Nyikal</dc:creator>
+      <dc:creator>S., Bangali</dc:creator>
+      <dc:creator>O., Fatunbi</dc:creator>
+      <dc:creator>A., Ange</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2012</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://A. et al. - 2012 - Agricultural Innovation in Sub-Saharan Africa Experiences from multi-stakeholder approaches.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Conference Proceedings</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 151</dcterms:extent>
+      </dc:format>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

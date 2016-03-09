@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Review of literature on evaluation methods relevant to extension</dc:title>
+      <dc:subject>m&amp;e</dc:subject>
+      <dc:subject>m&amp;e extension</dc:subject>
+      <dc:subject>m&amp;e impact assessment</dc:subject>
+      <dc:subject>m&amp;e tools</dc:subject>
+      <dc:creator>Martin, Adrienne</dc:creator>
+      <dc:creator>Gundel, Sabine</dc:creator>
+      <dc:creator>Apenteng, Essie</dc:creator>
+      <dc:creator>Pound, Barry</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2011</dcterms:dateIssued>
+      </dc:date>
+      <dc:subject>HJ Public Finance</dc:subject>
+      <dc:subject>S Agriculture (General)</dc:subject>
+      <dc:description>
+         <dcterms:abstract>This review of literature on evaluation methods focuses specifically on approaches and methodologies in evaluation which are relevant for evaluating initiatives in extension or rural advisory services. The context and scope of the review are discussed, followed by sections addressing the purposes, users and uses of evaluation, evaluation standards and criteria, approaches, rigour and attribution. The final three sections discuss the principles for evaluation of rural advisory services in highly complex situations, the strengths, weaknesses and gaps in existing approaches, and the ways forward</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Martin et al. - 2011 - Review of literature on evaluation methods relevant to extension.pdf</dc:identifier>
+      <dc:identifier scheme="dcterms:URI">
+            http://www.g-fras.org/en/knowledge/gfras-publications/file/63-review-of-literature-on-evaluation-methods-relevant-to-extension
+         </dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Report</dc:type>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

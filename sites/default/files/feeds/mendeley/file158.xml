@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Building on local dynamics:</dc:title>
+      <dc:subject>ad&amp;case africa</dc:subject>
+      <dc:subject>capacity building</dc:subject>
+      <dc:subject>capacity building and development</dc:subject>
+      <dc:subject>cd concept development</dc:subject>
+      <dc:subject>cd tools</dc:subject>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>is knowledge and information sharing</dc:subject>
+      <dc:creator>JOLISSA</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>JOLISSA</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2013</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://JOLISSA - 2013 - Building on local dynamics.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Generic</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 1-6</dcterms:extent>
+      </dc:format>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

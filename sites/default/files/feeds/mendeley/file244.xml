@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Science and Technology in Civil Society Innovation Trajectory of Spirulina Algal Technology<dcterms:alternative>Econoic and Polical Weekly</dcterms:alternative>
+      </dc:title>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>is asia</dc:subject>
+      <dc:subject>is extension</dc:subject>
+      <dc:subject>is india</dc:subject>
+      <dc:subject>is research</dc:subject>
+      <dc:creator>Prasad, C. Shambu</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2005</dcterms:dateIssued>
+      </dc:date>
+      <dc:description>
+         <dcterms:abstract>Role of civil society in extension, Science in civil society, institutional transformation</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Prasad - 2005 - Science and Technology in Civil Society Innovation Trajectory of Spirulina Algal Technology.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Journal Article</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 4363-4372</dcterms:extent>
+      </dc:format>
+      <ags:citation>
+         <ags:citationTitle>Econoic and Polical Weekly</ags:citationTitle>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

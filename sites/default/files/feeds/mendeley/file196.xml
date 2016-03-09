@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Workshop Report from the CGIAR Capacity Development Community of Practice</dc:title>
+      <dc:subject>agricultural innovation</dc:subject>
+      <dc:subject>capacity development</dc:subject>
+      <dc:subject>kenya</dc:subject>
+      <dc:creator>Manning-Thomas, Nadia</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2013</dcterms:dateIssued>
+      </dc:date>
+      <dc:subject>CGIAR</dc:subject>
+      <dc:subject>CGIAR Consortium</dc:subject>
+      <dc:subject>Cap</dc:subject>
+      <dc:subject>Capacity Development</dc:subject>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Manning-Thomas - 2013 - Workshop Report from the CGIAR Capacity Development Community of Practice.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Report</dc:type>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

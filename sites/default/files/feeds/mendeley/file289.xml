@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Tacit Knowledge and Innovation Capacity: Evidence from the Indian Livetsock Sector</dc:title>
+      <dc:subject>is asia</dc:subject>
+      <dc:subject>is india</dc:subject>
+      <dc:subject>is market</dc:subject>
+      <dc:subject>km methods</dc:subject>
+      <dc:subject>knowledge management</dc:subject>
+      <dc:creator>Sulaiman V., Rasheed</dc:creator>
+      <dc:creator>Thummuru, Laxmi</dc:creator>
+      <dc:creator>Hall, Andy</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2009</dcterms:dateIssued>
+      </dc:date>
+      <dc:description>
+         <dcterms:abstract>Innovation Systems, Innovation Capacity, Tacit Knowledge, Livestock, India, Knowledge management, Learning management</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Sulaiman V., Thummuru, Hall - 2009 - Tacit Knowledge and Innovation Capacity Evidence from the Indian Livetsock Sector.pdf</dc:identifier>
+      <dc:identifier scheme="dcterms:URI">
+            http://doi.wiley.com/10.1111/j.1467-629X.1980.tb00220.x
+         </dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Unpublished Work</dc:type>
+      <ags:citation>
+         <ags:citationIdentifier scheme="ags:ISSN">10.1111/j.1467-629X.1980.tb00220.x</ags:citationIdentifier>
+         <ags:citationNumber>v.058(31)</ags:citationNumber>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

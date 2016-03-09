@@ -1,0 +1,8 @@
+name = Inline Entity Form Autocomplete
+description = Provides an autocomplete widget for the Inline Entity Form module.
+core = 7.x
+
+dependencies[] = inline_entity_form
+
+files[] = tests/ief_autocomplete_field_settings.test
+files[] = tests/ief_autocomplete_widget.test

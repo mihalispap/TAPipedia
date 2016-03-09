@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Unlocking the Potential for Integrated Agricultural Research for Development in the Savanna of West Africa</dc:title>
+      <dc:subject>cd</dc:subject>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>is extension</dc:subject>
+      <dc:subject>is farmer organizations</dc:subject>
+      <dc:subject>is research</dc:subject>
+      <dc:subject>knowled and learning</dc:subject>
+      <dc:subject>west africa</dc:subject>
+      <dc:creator>A.A., Adekunle</dc:creator>
+      <dc:creator>A, Ayanwale</dc:creator>
+      <dc:creator>A O, Faunbi</dc:creator>
+      <dc:creator>L O, Olarinde</dc:creator>
+      <dc:creator>O, Oladunni</dc:creator>
+      <dc:creator>S, Nokoe</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>Forum for Agricultural Resarch in Africa (FARA)</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2014</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://A.A. et al. - 2014 - Unlocking the Potential for Integrated Agricultural Research for Development in the Savanna of West Africa.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Book</dc:type>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

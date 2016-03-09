@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Facilitating multi-stakeholder processes : balancing internal dynamics and institutional politics<dcterms:alternative>Knowledge Management for Development Journal</dcterms:alternative>
+      </dc:title>
+      <dc:subject>innovation platforms</dc:subject>
+      <dc:subject>knowledge and information sharing</dc:subject>
+      <dc:subject>learning&amp;facilitation</dc:subject>
+      <dc:subject>multi-stakeholders processes</dc:subject>
+      <dc:creator>Paassen, Van</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2013</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Paassen - 2013 - Facilitating multi-stakeholder processes balancing internal dynamics and institutional politics.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Journal Article</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 3-10</dcterms:extent>
+      </dc:format>
+      <ags:citation>
+         <ags:citationTitle>Knowledge Management for Development Journal</ags:citationTitle>
+         <ags:citationNumber>v.9(3)</ags:citationNumber>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

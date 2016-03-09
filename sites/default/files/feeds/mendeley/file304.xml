@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Agricultural Innovation in Latin America and the Caribbean: Institutional Scenarios and Mechanisms</dc:title>
+      <dc:subject>ad&amp;case latin america</dc:subject>
+      <dc:subject>capacity assessment</dc:subject>
+      <dc:subject>cd concept enhancing</dc:subject>
+      <dc:subject>cd latin america</dc:subject>
+      <dc:subject>cd system or policy</dc:subject>
+      <dc:subject>innovation</dc:subject>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>is actor extension</dc:subject>
+      <dc:subject>is actor private</dc:subject>
+      <dc:subject>is actor public</dc:subject>
+      <dc:subject>is actor research</dc:subject>
+      <dc:subject>is latin america</dc:subject>
+      <dc:subject>is technological</dc:subject>
+      <dc:subject>latin america</dc:subject>
+      <dc:subject>m&amp;e baseline</dc:subject>
+      <dc:creator>Trigo, Eduardo</dc:creator>
+      <dc:creator>Falconi, Cesar</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2013</dcterms:dateIssued>
+      </dc:date>
+      <dc:description>
+         <dcterms:abstract>Analysis of performance of Ag. Res in LAC and how thinking in capacity developments has evolved towards using a AIs framework. Focus on LAC</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Trigo, Falconi - 2013 - Agricultural Innovation in Latin America and the Caribbean Institutional Scenarios and Mechanisms.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Report</dc:type>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

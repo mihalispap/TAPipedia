@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Innovation grants to smallholder farmers: Revisiting the key assumptions in the impact pathways<dcterms:alternative>Food policy</dcterms:alternative>
+      </dc:title>
+      <dc:subject>family farming</dc:subject>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>m&amp;e capacity development</dc:subject>
+      <dc:subject>m&amp;e tools</dc:subject>
+      <dc:subject>small holders</dc:subject>
+      <dc:creator>Ton, Giel</dc:creator>
+      <dc:creator>Klerkx, Laurens</dc:creator>
+      <dc:creator>Grip, Karin De</dc:creator>
+      <dc:creator>Rau, Marie-luise</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2014</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Ton et al. - 2014 - Innovation grants to smallholder farmers Revisiting the key assumptions in the impact pathways.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Journal Article</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 9-23</dcterms:extent>
+      </dc:format>
+      <ags:citation>
+         <ags:citationTitle>Food policy</ags:citationTitle>
+         <ags:citationNumber>v.51()</ags:citationNumber>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

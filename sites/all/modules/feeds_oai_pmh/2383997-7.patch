@@ -1,0 +1,137 @@
+diff --git a/FeedsOAIHTTPFetcher.inc b/FeedsOAIHTTPFetcher.inc
+index 2679e61..3a329ee 100755
+--- a/FeedsOAIHTTPFetcher.inc
++++ b/FeedsOAIHTTPFetcher.inc
+@@ -197,7 +197,6 @@ class FeedsOAIHTTPFetcher extends FeedsHTTPFetcher {
+    */
+   public function sourceForm($source_config) {
+     $form = parent::sourceForm($source_config);
+-    $error = FALSE;
+ 
+     // If earliest_timestamp is not set, and source is, then get info from
+     // repository to populate settings.
+@@ -210,15 +209,9 @@ class FeedsOAIHTTPFetcher extends FeedsHTTPFetcher {
+       }
+       else {
+         drupal_set_message(t('There was a problem fetching repository information: !list', array('!list' => $result['output'])));
+-        $error = TRUE;
+       }
+     }
+ 
+-    if (isset($result) && $error == FALSE) {
+-      // Build options array for sets available in repository.
+-      $sets_options = feeds_oai_pmh_sets_options($result['repository']['sets']);
+-    }
+-
+     // Override the default "source" element provided by Feeds.
+     // Clearer label and description.
+     $form['source']['#title'] = t('URL of OAI-PMH endpoint');
+@@ -240,27 +233,17 @@ class FeedsOAIHTTPFetcher extends FeedsHTTPFetcher {
+       if ($result['status'] == 0) {
+         $source_config = array_merge($source_config, $result['repository']);
+       }
+-      elseif (isset($result['repository'])) {
+-        $sets_options = feeds_oai_pmh_sets_options($result['repository']['sets']);
+-      }
+-      else {
+-        $sets_options = feeds_oai_pmh_sets_options(array());
+-      }
+     }
+ 
++    // The set options are always created by the #process callback,
++    // feeds_oai_pmh_process_set_options(), even when the form is refreshed via
++    // AJAX.
+     $form['set'] = array(
+       '#type' => 'select',
+       '#title' => t('Set to fetch'),
+       '#default_value' => isset($source_config['set']) ? $source_config['set'] : NULL,
+-      '#options' => isset($sets_options) ? $sets_options : array(),
+-      '#suffix' => '',
+-      '#ajax' => array(
+-        'callback' => 'feeds_oai_pmh_ajax_callback',
+-        'wrapper' => 'ahah-element',  // ID of div element to update.
+-        'method' => 'replace',
+-        'effect' => 'fade',
+-        'event' => 'change',
+-      ),
++      '#options' => array(),
++      '#process' => array('feeds_oai_pmh_process_set_options'),
+     );
+ 
+     if (isset($source_config['source']) && isset($source_config['set'])) {
+diff --git a/feeds_oai_pmh.module b/feeds_oai_pmh.module
+index 7459bdc..7c4934c 100755
+--- a/feeds_oai_pmh.module
++++ b/feeds_oai_pmh.module
+@@ -1,4 +1,5 @@
+ <?php
++require_once(drupal_get_path('module', 'feeds_oai_pmh') . '/feeds_oai_pmh.inc');
+ 
+ /**
+  * Implementation of hook_feed_plugins().
+@@ -30,6 +31,33 @@ function feeds_oai_pmh_feeds_plugins() {
+ }
+ 
+ /**
++ * Fills the set options array based on the source field value.
++ */
++function feeds_oai_pmh_process_set_options($element, $form_state, $form) {
++  $current_source_url = $form_state['values']['feeds']['FeedsOAIHTTPFetcher']['source'];
++  $default_source_url = $form_state['complete form']['feeds']['FeedsOAIHTTPFetcher']['source']['#default_value'];
++
++  // Check for the source URL in the $form_state['values'] array.
++  if (!empty($current_source_url)) {
++    // Get the repository information, which includes a list of sets.
++    $result = feeds_oai_pmh_identify($form_state['values']['feeds']['FeedsOAIHTTPFetcher']['source']);
++    if ($result['status'] == 0) {
++      // The OAI-PMH Identify verb returned OK.  Create the set options.
++      $element['#options'] = feeds_oai_pmh_sets_options($result['repository']['sets']);
++    }
++  }
++
++  // Check to see if the source field value has changed.
++  if ($current_source_url != $default_source_url) {
++    // Clear the set element's values to prevent validation errors.
++    unset($element['#default_value']);
++    unset($element['#value']);
++  }
++
++  return $element;
++}
++
++/**
+  * Return a "drupalized" hierarchic options form element for the sets in a repository.
+  */
+ function feeds_oai_pmh_sets_options($sets) {
+@@ -50,21 +78,13 @@ function feeds_oai_pmh_sets_options($sets) {
+  * Callback function for AJAX setSpec element in form.
+  */
+ function feeds_oai_pmh_ajax_callback($form, $form_state) {
+-  require_once(drupal_get_path('module', 'feeds_oai_pmh') . '/feeds_oai_pmh.inc');
+-
+   // Validate the repository.
+   $oai_source_url = $form_state['values']['feeds']['FeedsOAIHTTPFetcher']['source'];
+-  
++
+   $result = feeds_oai_pmh_identify($oai_source_url);
+ 
+   if ($result['status'] == 0) {
+     // OAI-PMH Identify verb returned OK.
+-    // Change the form's set element.
+-    $form['feeds']['FeedsOAIHTTPFetcher']['set']['#options'] = feeds_oai_pmh_sets_options($result['repository']['sets']);
+-    $set = $form_state['values']['feeds']['FeedsOAIHTTPFetcher']['set'];
+-    if ($set) {
+-      $form['feeds']['FeedsOAIHTTPFetcher']['set']['#default_value'] = $set;
+-    }
+     if (isset($result['repository']['earliest_timestamp']) && $result['repository']['earliest_timestamp'] > 0) {
+       $date = format_date((int)$result['repository']['earliest_timestamp'], 'custom', 'M d, Y');
+       $form['feeds']['FeedsOAIHTTPFetcher']['dates']['#description'] = t('Note: earliest record reported by repository is @date',
+@@ -72,8 +92,6 @@ function feeds_oai_pmh_ajax_callback($form, $form_state) {
+     }
+   }
+   else {
+-    // Empty sets.
+-    $form['feeds']['FeedsOAIHTTPFetcher']['set']['#options'] = feeds_oai_pmh_sets_options(array());
+     $form['feeds']['FeedsOAIHTTPFetcher']['dates']['#description'] = '';
+     drupal_set_message($result['output'], 'error');
+   }

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Water Resource Research and Education in Mountain Communities</dc:title>
+      <dc:subject>km</dc:subject>
+      <dc:subject>latin america</dc:subject>
+      <dc:creator>García, María Cecilia Roa</dc:creator>
+      <dc:creator>García, Clara Eugenia Roa</dc:creator>
+      <dc:creator>Brown, Sandra</dc:creator>
+      <dc:creator>Cordero, Elena</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2008</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://García et al. - 2008 - Water Resource Research and Education in Mountain Communities.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Report</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 196-200</dcterms:extent>
+      </dc:format>
+      <ags:citation>
+         <ags:citationIdentifier scheme="ags:ISSN">10.1659/mrd.1038</ags:citationIdentifier>
+         <ags:citationNumber>v.28(3/4)</ags:citationNumber>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

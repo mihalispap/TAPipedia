@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Stakeholder participation in agricultural research projects: A conceptual framework for reflection and decision-making<dcterms:alternative>Agriculture and Human Values</dcterms:alternative>
+      </dc:title>
+      <dc:subject>is research</dc:subject>
+      <dc:subject>learning&amp;facilitation</dc:subject>
+      <dc:subject>participatory research</dc:subject>
+      <dc:creator>Neef, Andreas</dc:creator>
+      <dc:creator>Neubert, Dieter</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2011</dcterms:dateIssued>
+      </dc:date>
+      <dc:subject>Agricultural research</dc:subject>
+      <dc:subject>Framework</dc:subject>
+      <dc:subject>Participatory approaches</dc:subject>
+      <dc:subject>Scientists</dc:subject>
+      <dc:subject>Stakeholders</dc:subject>
+      <dc:subject>Typologies</dc:subject>
+      <dc:description>
+         <dcterms:abstract>Recent discourse in the field of participatory agricultural research has focused on how to blend vari- ous forms and intensities of stakeholder participation with quality agricultural science, moving beyond the simple ‘‘farmer-first’’ ideology of the 1980s and early 1990s. Yet, most existing frameworks of participation in agricultural research still adhere to a linear typology of participatory research with an inherent claim of ‘‘the more participation, the better.’’ In this article, we propose a new framework that looks at participatory research elements along different dimensions and attributes and thus takes into account the diversity and dynamics of agricultural research projects. The framework provides a basis for agricultural researchers engaged in participatory processes with local stakeholders to decide for which issues and in which phases certain participatory elements could be used in a specific research context. Rather than aiming at maximizing the adoption of participatory methods, it can thus become a tool for opti- mizing the use of participatory approaches in agricultural research. We conclude that this framework can be a starting point for a more thoughtful integration of participatory elements in agricultural research projects that does justice to the multidimensional and dynamic nature of stakeholder participation in varying contexts.</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Neef, Neubert - 2011 - Stakeholder participation in agricultural research projects A conceptual framework for reflection and decision-ma.pdf</dc:identifier>
+      <dc:identifier scheme="ags:ISBN">0889-048X</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Journal Article</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 179-194</dcterms:extent>
+      </dc:format>
+      <ags:citation>
+         <ags:citationTitle>Agriculture and Human Values</ags:citationTitle>
+         <ags:citationIdentifier scheme="ags:ISSN">10.1007/s10460-010-9272-z</ags:citationIdentifier>
+         <ags:citationNumber>v.28(2)</ags:citationNumber>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

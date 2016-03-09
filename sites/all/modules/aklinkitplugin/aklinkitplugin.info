@@ -1,0 +1,5 @@
+name = AK linkit plugin
+description = Extend linkit to support search biblio nodes by author
+package = Agro Know
+core = 7.x
+files[] = plugins/linkit_search/aklinkitplugin.class.php

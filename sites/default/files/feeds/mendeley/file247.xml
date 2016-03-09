@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Agricultural Innovation Systems: From Diagnostics toward Operational Practices Systems<dcterms:alternative>Agriculture and Rural Development</dcterms:alternative>
+      </dc:title>
+      <dc:subject>ad &amp;case geographical cross cutting</dc:subject>
+      <dc:subject>capacity assessment</dc:subject>
+      <dc:subject>cd  gender &amp; inclusivness</dc:subject>
+      <dc:subject>cd concept assessment</dc:subject>
+      <dc:subject>cd food security</dc:subject>
+      <dc:subject>cd geographical cross cutting</dc:subject>
+      <dc:subject>cd organizational environment</dc:subject>
+      <dc:subject>cd system or policy</dc:subject>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>is actor extension</dc:subject>
+      <dc:subject>is actor farmer organization</dc:subject>
+      <dc:subject>is actor market</dc:subject>
+      <dc:subject>is actor ngo</dc:subject>
+      <dc:subject>is actor primary</dc:subject>
+      <dc:subject>is actor private</dc:subject>
+      <dc:subject>is actor public</dc:subject>
+      <dc:subject>is actor research</dc:subject>
+      <dc:subject>m&amp;e impact assessment</dc:subject>
+      <dc:creator>Rajalahti, Riikka</dc:creator>
+      <dc:creator>Janssen, Willem</dc:creator>
+      <dc:creator>Pehu, Eija</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>The World Bank</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2008</dcterms:dateIssued>
+      </dc:date>
+      <dc:description>
+         <dcterms:abstract>Proceedings of a workshop dealing with issues around enhancing agricultural innovation and the impact and usefulness of ag R&amp;D. It includes stakeholders analysis, different levels of case studies and specific innovation experiences and has policy and specific action recommendations.</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Rajalahti, Janssen, Pehu - 2008 - Agricultural Innovation Systems From Diagnostics toward Operational Practices Systems.pdf</dc:identifier>
+      <dc:identifier scheme="dcterms:URI">
+            http://scholar.google.com/scholar?hl=en&amp;btnG=Search&amp;q=intitle:Agricultural+Innovation+Systems:+From+Diagnostics+toward+Operational+Practices+Systems#0
+         </dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Conference Proceedings</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 87</dcterms:extent>
+      </dc:format>
+      <ags:citation>
+         <ags:citationTitle>Agriculture and Rural Development</ags:citationTitle>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

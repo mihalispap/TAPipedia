@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Gender and Inclusion Toolbox : Participatory Research in Climate</dc:title>
+      <dc:subject>africa</dc:subject>
+      <dc:subject>cd tools</dc:subject>
+      <dc:subject>climate change</dc:subject>
+      <dc:subject>gender equality</dc:subject>
+      <dc:creator>Christine, Jost</dc:creator>
+      <dc:creator>Nafisa, Ferdous</dc:creator>
+      <dc:creator>Taylor, D. Spicer</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>CGIAR Research Program on Climate Change, Agriculture and Food Security (CCAFS)</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2014</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Christine, Nafisa, Taylor - 2014 - Gender and Inclusion Toolbox Participatory Research in Climate.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Book</dc:type>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

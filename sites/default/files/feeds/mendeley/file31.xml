@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Analyzing the functional dynamics of technological innovation systems : A scheme of analysis<dcterms:alternative>Research Policy</dcterms:alternative>
+      </dc:title>
+      <dc:subject>innovation policies</dc:subject>
+      <dc:subject>innvoations systems</dc:subject>
+      <dc:subject>knowledge and learning</dc:subject>
+      <dc:creator>Bergek, Anna</dc:creator>
+      <dc:creator>Jacobsson, S.</dc:creator>
+      <dc:creator>Carlsson, Bo</dc:creator>
+      <dc:creator>Lindmark, S.</dc:creator>
+      <dc:creator>Rickne, A.</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2008</dcterms:dateIssued>
+      </dc:date>
+      <dc:subject>Dynamics</dc:subject>
+      <dc:subject>Functional analysis</dc:subject>
+      <dc:subject>Innovation system</dc:subject>
+      <dc:description>
+         <dcterms:abstract>Various researchers and policy analysts have made empirical studies of innovation systems in order to understand their current structure and trace their dynamics. However, policy makers often experience difficulties in extracting practical guidelines from studies of this kind. In this paper, we operationalize our previous work on a functional approach to analyzing innovation system dynamics into a practical scheme of analysis for policy makers. The scheme is based on previous literature and our own experience in developing and applying functional thinking. It can be used by policy makers not only to identify the key policy issues but also to set policy goals. © 2007 Elsevier B.V. All rights reserved.</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Bergek et al. - 2008 - Analyzing the functional dynamics of technological innovation systems A scheme of analysis.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Journal Article</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 407-429</dcterms:extent>
+      </dc:format>
+      <ags:citation>
+         <ags:citationTitle>Research Policy</ags:citationTitle>
+         <ags:citationNumber>v.37(3)</ags:citationNumber>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

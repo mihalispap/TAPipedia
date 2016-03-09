@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Institutional learning and change: a review of concepts and principles</dc:title>
+      <dc:subject>m&amp;e</dc:subject>
+      <dc:subject>m&amp;e approach</dc:subject>
+      <dc:subject>m&amp;e asia</dc:subject>
+      <dc:subject>m&amp;e tools. india</dc:subject>
+      <dc:creator>Hall, Andy</dc:creator>
+      <dc:creator>Raina, Rajeswari</dc:creator>
+      <dc:creator>V, Rasheed Sulaiman</dc:creator>
+      <dc:creator>Clark, Norman</dc:creator>
+      <dc:creator>Prasad, Shambu</dc:creator>
+      <dc:creator>Naik, Guru</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2005</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Hall et al. - 2005 - Institutional learning and change a review of concepts and principles.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Report</dc:type>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

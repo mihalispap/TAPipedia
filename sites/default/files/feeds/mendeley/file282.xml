@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>A Knowledge Share Fair and a KM4Dev meeting in Colombia, May 2010: involving people in a rich environment of dialogue on agriculture and knowledge management in Latin America and the Caribbean<dcterms:alternative>Knowledge Management for Development Journal</dcterms:alternative>
+      </dc:title>
+      <dc:subject>caribbean</dc:subject>
+      <dc:subject>km</dc:subject>
+      <dc:subject>km geographical cross-cutting</dc:subject>
+      <dc:subject>latin america</dc:subject>
+      <dc:creator>Staiger-Rivas, Simone</dc:creator>
+      <dc:creator>Salokhe, Gauri</dc:creator>
+      <dc:creator>Smith, John</dc:creator>
+      <dc:creator>Jordan, Tania</dc:creator>
+      <dc:creator>Palmieri, Viviana</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2010</dcterms:dateIssued>
+      </dc:date>
+      <dc:description>
+         <dcterms:abstract>During May 2010 the International Centre for Tropical Agriculture (CIAT) hosted two exciting events related to knowledge management (KM): The Knowledge Share Fair for Latin America and the Caribbean, funded by the Food and Agriculture Organization of the United Nations (FAO), and a regional meeting of the Knowledge Management for Development (KM4Dev) community. Both events benefited from the enormous positive energy of its participants and the broad range of experiences that were shared. The Fair was attended by 200 professionals from more than 70 organizations and 18 countries and showcased more than 40 experiences related to KM in agriculture, development and food security. The affiliated KM4Dev meeting resulted in a strong endorsement of the existing regional network for KM called SIWA (Comunidad Latinoamericana y Caribeña de Saberes Compartidos).; During May 2010 the International Centre for Tropical Agriculture (CIAT) hosted two exciting events related to knowledge management (KM): The Knowledge Share Fair for Latin America and the Caribbean, funded by the Food and Agriculture Organization of the United Nations (FAO), and a regional meeting of the Knowledge Management for Development (KM4Dev) community. Both events benefited from the enormous positive energy of its participants and the broad range of experiences that were shared. The Fair was attended by 200 professionals from more than 70 organizations and 18 countries and showcased more than 40 experiences related to KM in agriculture, development and food security. The affiliated KM4Dev meeting resulted in a strong endorsement of the existing regional network for KM called SIWA (Comunidad Latinoamericana y Caribeña de Saberes Compartidos).</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Staiger-Rivas et al. - 2010 - A Knowledge Share Fair and a KM4Dev meeting in Colombia, May 2010 involving people in a rich environment o.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Journal Article</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 151-158</dcterms:extent>
+      </dc:format>
+      <ags:citation>
+         <ags:citationTitle>Knowledge Management for Development Journal</ags:citationTitle>
+         <ags:citationIdentifier scheme="ags:ISSN">10.1080/19474199.2010.531755</ags:citationIdentifier>
+         <ags:citationNumber>v.6(2)</ags:citationNumber>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

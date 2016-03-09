@@ -1,0 +1,170 @@
+$feeds_importer = new stdClass();
+$feeds_importer->disabled = FALSE; /* Edit this to true to make a default feeds_importer disabled initially */
+$feeds_importer->api_version = 1;
+$feeds_importer->id = 'agris_files_importer';
+$feeds_importer->config = array(
+  'name' => 'Agris files importer',
+  'description' => '',
+  'fetcher' => array(
+    'plugin_key' => 'FeedsFileFetcher',
+    'config' => array(
+      'allowed_extensions' => 'txt csv tsv xml opml html htm',
+      'direct' => FALSE,
+      'directory' => 'public://feeds',
+      'allowed_schemes' => array(
+        0 => 'public',
+      ),
+    ),
+  ),
+  'parser' => array(
+    'plugin_key' => 'FeedsXPathParserXML',
+    'config' => array(
+      'sources' => array(
+        'xpathparser:0' => 'dc:title[1]/text()',
+        'xpathparser:1' => 'dc:description/dcterms:abstract/text()',
+        'xpathparser:2' => 'dc:creator/ags:creatorPersonal/text()',
+        'xpathparser:3' => 'dc:identifier[@scheme="dcterms:URI"]/text()',
+        'xpathparser:4' => 'dc:type/text()',
+        'xpathparser:5' => 'dc:subject/ags:subjectThesaurus/text()',
+        'xpathparser:6' => 'dc:date/dcterms:dateIssued/text()',
+        'xpathparser:7' => 'dc:format/dcterms:extent/text()',
+        'xpathparser:8' => 'dc:publisher/ags:publisherName/text()',
+        'xpathparser:9' => 'dc:identifier[@scheme="ags:ISBN"]/text()',
+        'xpathparser:10' => 'ags:citation/ags:citationIdentifier[@scheme="ags:ISSN"]/text()',
+      ),
+      'rawXML' => array(
+        'xpathparser:0' => 0,
+        'xpathparser:1' => 0,
+        'xpathparser:2' => 0,
+        'xpathparser:3' => 0,
+        'xpathparser:4' => 0,
+        'xpathparser:5' => 0,
+        'xpathparser:6' => 0,
+        'xpathparser:7' => 0,
+        'xpathparser:8' => 0,
+        'xpathparser:9' => 0,
+        'xpathparser:10' => 0,
+      ),
+      'context' => '/ags:resources/ags:resource',
+      'exp' => array(
+        'errors' => 0,
+        'debug' => array(
+          'context' => 0,
+          'xpathparser:0' => 0,
+          'xpathparser:1' => 0,
+          'xpathparser:2' => 0,
+          'xpathparser:3' => 0,
+          'xpathparser:4' => 0,
+          'xpathparser:5' => 0,
+          'xpathparser:6' => 0,
+          'xpathparser:7' => 0,
+          'xpathparser:8' => 0,
+          'xpathparser:9' => 0,
+          'xpathparser:10' => 0,
+        ),
+      ),
+      'allow_override' => 1,
+    ),
+  ),
+  'processor' => array(
+    'plugin_key' => 'FeedsNodeProcessor',
+    'config' => array(
+      'expire' => '-1',
+      'author' => '1',
+      'authorize' => 1,
+      'mappings' => array(
+        0 => array(
+          'source' => 'xpathparser:0',
+          'target' => 'title',
+          'unique' => 1,
+        ),
+        1 => array(
+          'source' => 'xpathparser:1',
+          'target' => 'body',
+          'unique' => FALSE,
+        ),
+        2 => array(
+          'source' => 'Blank source 1',
+          'target' => 'language',
+          'unique' => FALSE,
+        ),
+        3 => array(
+          'source' => 'xpathparser:2',
+          'target' => 'field_authors:label',
+          'unique' => FALSE,
+        ),
+        4 => array(
+          'source' => 'xpathparser:3',
+          'target' => 'field_resource_url:title',
+          'unique' => FALSE,
+        ),
+        5 => array(
+          'source' => 'Blank source 2',
+          'target' => 'field_resource_url:url',
+          'unique' => FALSE,
+        ),
+        6 => array(
+          'source' => 'xpathparser:4',
+          'target' => 'field_type',
+          'unique' => FALSE,
+        ),
+        7 => array(
+          'source' => 'xpathparser:5',
+          'target' => 'field_topics',
+          'unique' => FALSE,
+        ),
+        8 => array(
+          'source' => 'xpathparser:6',
+          'target' => 'field_publication_date:start',
+          'unique' => FALSE,
+        ),
+        9 => array(
+          'source' => 'Blank source 3',
+          'target' => 'field_publication_date:end',
+          'unique' => FALSE,
+        ),
+        10 => array(
+          'source' => 'xpathparser:7',
+          'target' => 'field_journal_pages',
+          'unique' => FALSE,
+        ),
+        11 => array(
+          'source' => 'xpathparser:8',
+          'target' => 'field_publisher:label',
+          'unique' => FALSE,
+        ),
+        12 => array(
+          'source' => 'xpathparser:9',
+          'target' => 'field_isbn',
+          'unique' => FALSE,
+        ),
+        13 => array(
+          'source' => 'xpathparser:10',
+          'target' => 'field_issn',
+          'unique' => FALSE,
+        ),
+        14 => array(
+          'source' => 'xpathparser:11',
+          'target' => 'field_provider:label',
+          'unique' => FALSE,
+        ),
+        15 => array(
+          'source' => 'Blank source 4',
+          'target' => 'title_field:et:en',
+          'unique' => FALSE,
+        ),
+      ),
+      'update_existing' => '2',
+      'update_non_existent' => 'skip',
+      'input_format' => 'plain_text',
+      'skip_hash_check' => 1,
+      'bundle' => 'resource',
+    ),
+  ),
+  'content_type' => 'agris_importer_',
+  'update' => 0,
+  'import_period' => '-1',
+  'expire_period' => 3600,
+  'import_on_create' => 0,
+  'process_in_background' => 0,
+);

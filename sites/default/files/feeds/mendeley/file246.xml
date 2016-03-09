@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Building capacities for innovation management in extension and advisory services</dc:title>
+      <dc:subject>cd</dc:subject>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>is extension</dc:subject>
+      <dc:creator>R.V., Sulaiman</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>CTA</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2013</dcterms:dateIssued>
+      </dc:date>
+      <dc:subject>action research</dc:subject>
+      <dc:subject>and output</dc:subject>
+      <dc:subject>conflicts</dc:subject>
+      <dc:subject>expanding the mandate of</dc:subject>
+      <dc:subject>expertise</dc:subject>
+      <dc:subject>facilitating access to inputs</dc:subject>
+      <dc:subject>functions</dc:subject>
+      <dc:subject>mediating</dc:subject>
+      <dc:subject>south asia</dc:subject>
+      <dc:subject>while the need for</dc:subject>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://R.V. - 2013 - Building capacities for innovation management in extension and advisory services.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Conference Proceedings</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 1-8</dcterms:extent>
+      </dc:format>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

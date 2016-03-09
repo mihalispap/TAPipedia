@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Rural innovation systems and networks: ﬁndings from a study of Ethiopian smallholders</dc:title>
+      <dc:subject>ethiopia</dc:subject>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>is africa</dc:subject>
+      <dc:subject>is networks</dc:subject>
+      <dc:subject>is smallholders</dc:subject>
+      <dc:creator>Spielman, David J.</dc:creator>
+      <dc:creator>Davis, Kristin</dc:creator>
+      <dc:creator>Negash, Martha</dc:creator>
+      <dc:creator>Gezahegn, Ayele</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2010</dcterms:dateIssued>
+      </dc:date>
+      <dc:subject>Agricultural development</dc:subject>
+      <dc:subject>Ethiopia</dc:subject>
+      <dc:subject>Innovation</dc:subject>
+      <dc:subject>Social learning</dc:subject>
+      <dc:subject>Social networks</dc:subject>
+      <dc:subject>smallholder farming</dc:subject>
+      <dc:subject>technology</dc:subject>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Spielman et al. - 2010 - Rural innovation systems and networks ﬁndings from a study of Ethiopian smallholders.pdf</dc:identifier>
+      <dc:identifier scheme="dcterms:URI">
+            https://lirias.kuleuven.be/bitstream/123456789/283161/1/fulltext[1].pdf
+         </dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Report</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 18</dcterms:extent>
+      </dc:format>
+      <ags:citation>
+         <ags:citationIdentifier scheme="ags:ISSN">10.1007/s10460-010-9273-y</ags:citationIdentifier>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Reflection methods: Tools to make learning more explicit</dc:title>
+      <dc:subject>l&amp;f tools</dc:subject>
+      <dc:subject>learning&amp;facilitation</dc:subject>
+      <dc:creator>Gordijn, F.</dc:creator>
+      <dc:creator>Helder, J.</dc:creator>
+      <dc:creator>Eernstman, N.</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>Centre for Development Innovation, Wageningen UR</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2012</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Gordijn, Helder, Eernstman - 2012 - Reflection methods Tools to make learning more explicit.pdf</dc:identifier>
+      <dc:identifier scheme="ags:ISBN">9789461734037</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Book</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 62</dcterms:extent>
+      </dc:format>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

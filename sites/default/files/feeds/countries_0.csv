@@ -1,0 +1,527 @@
+name, vocabulary_machine_name, description, format, weight, parent, description_field, field_iso3, field_linked_uris, field_old_geopolitical_ontology_, name_field, synonyms_synonyms, synonyms_synonyms, Term name
+Afghanistan,countries,,,1,,,AFG,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Afghanistan,http://aims.fao.org/aos/geopolitical.owl#Afghanistan,Afghanistan,Afganistán,,Afghanistan
+Africa,countries,"Africa is the world's second-largest and second most-populous continent, after Asia. At about 30.2 million km² (11.7 million sq mi) including adjacent islands, it covers 6% of the Earth's total surface area and 20.4% of the total land area.[2] With 1.0 billion people (as of 2009, see table) in 61 territories, it accounts for about 14.72% of the world's human population.",plain_text,0,,"Africa is the world's second-largest and second most-populous continent, after Asia. At about 30.2 million km² (11.7 million sq mi) including adjacent islands, it covers 6% of the Earth's total surface area and 20.4% of the total land area.[2] With 1.0 billion people (as of 2009, see table) in 61 territories, it accounts for about 14.72% of the world's human population.",,,,Africa,,,Africa
+Afrique du Sud,countries,,,521,,,,,,Afrique du Sud,,,Afrique du Sud
+Aland Islands,countries,,,7,,,,,,Aland Islands,Islas de Åland,Åland,Aland Islands
+Albania,countries,,,5,,,ALB,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Albania,http://aims.fao.org/aos/geopolitical.owl#Albania,Albania,Albanie,,Albania
+Algeria,countries,,,137,,,DZA,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Algeria,http://aims.fao.org/aos/geopolitical.owl#Algeria,Algeria,Algérie,,Algeria
+American Samoa,countries,,plain_text,0,,,,,,American Samoa,,,American Samoa
+Andorra,countries,,,10,,,AND,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Andorra,http://aims.fao.org/aos/geopolitical.owl#Andorra,Andorra,Andorre,,Andorra
+Angola,countries,,,3,,,AGO,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Angola,http://aims.fao.org/aos/geopolitical.owl#Angola,Angola,,,Angola
+Anguilla,countries,,,4,,,,,,Anguilla,,,Anguilla
+Antarctica,countries,,,22,,,,,,Antarctica,Antártida,Antarctique,Antarctica
+Antigua and Barbuda,countries,,,31,,,ATG,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Antigua_and_Barbuda,http://aims.fao.org/aos/geopolitical.owl#Antigua_and_Barbuda,Antigua and Barbuda,Antigua y Barbuda,Antigua-et-Barbuda,Antigua and Barbuda
+Argelia,countries,,,138,,,,,,Argelia,,,Argelia
+Argentina,countries,,,15,,,ARG,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Argentina,http://aims.fao.org/aos/geopolitical.owl#Argentina,Argentina,Argentine,,Argentina
+Armenia,countries,,,17,,,ARM,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Armenia,http://aims.fao.org/aos/geopolitical.owl#Armenia,Armenia,Arménie,,Armenia
+Aruba,countries,,,0,,,,,,Aruba,,,Aruba
+Ashmore and Cartier Islands,countries,,,25,,,,,,Ashmore and Cartier Islands,,,Ashmore and Cartier Islands
+Asia,countries,,plain_text,-1,,,,,,Asia,,,Asia
+Australia,countries,,,34,,,AUS,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Australia,http://aims.fao.org/aos/geopolitical.owl#Australia,Australia,Australie,,Australia
+Austria,countries,,,36,,,AUT,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Austria,http://aims.fao.org/aos/geopolitical.owl#Austria,Austria,Autriche,,Austria
+Azerbaijan,countries,,,38,,,AZE,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Azerbaijan,http://aims.fao.org/aos/geopolitical.owl#Azerbaijan,Azerbaijan,Azerbaiyán,Azerbaïdjan,Azerbaijan
+Bahamas,countries,,,55,,,BHS,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Bahamas_the,http://aims.fao.org/aos/geopolitical.owl#Bahamas_the,Bahamas,,,Bahamas
+Bahrain,countries,,,53,,,BHR,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Bahrain,http://aims.fao.org/aos/geopolitical.owl#Bahrain,Bahrain,Bahrein,,Bahrain
+Bangladesh,countries,,,50,,,BGD,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Bangladesh,http://aims.fao.org/aos/geopolitical.owl#Bangladesh,Bangladesh,,,Bangladesh
+Barbados,countries,,,73,,,BRB,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Barbados,http://aims.fao.org/aos/geopolitical.owl#Barbados,Barbados,Barbade,,Barbados
+Belarus,countries,,,62,,,BLR,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Belarus,http://aims.fao.org/aos/geopolitical.owl#Belarus,Belarus,,,Belarus
+Belgium,countries,,,42,,,BEL,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Belgium,http://aims.fao.org/aos/geopolitical.owl#Belgium,Belgium,Bélgica,Belgique,Belgium
+Belize,countries,,,63,,,BLZ,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Belize,http://aims.fao.org/aos/geopolitical.owl#Belize,Belize,Belice,,Belize
+Benin,countries,,,45,,,BEN,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Benin,http://aims.fao.org/aos/geopolitical.owl#Benin,Benin,,,Benin
+Bermudas,countries,,,66,,,,,,Bermudas,Bermuda,Bermudes,Bermudas
+Bhutan,countries,,,76,,,BTN,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Bhutan,http://aims.fao.org/aos/geopolitical.owl#Bhutan,Bhutan,Bhoutan,,Bhutan
+Bolivia,countries,,,68,,,BOL,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Bolivia,http://aims.fao.org/aos/geopolitical.owl#Bolivia,Bolivia,Bolivie,,Bolivia
+"Bonaire, Sint Eustatius and Saba",countries,,,46,,,,,,"Bonaire, Sint Eustatius and Saba","Bonaire, Sint Eustatius y Saba","Bonaire, Sint Eustatius et Saba","Bonaire, Sint Eustatius and Saba"
+Bosnia and Herzegovina,countries,,,56,,,BIH,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Bosnia_and_Herzegovina,http://aims.fao.org/aos/geopolitical.owl#Bosnia_and_Herzegovina,Bosnia and Herzegovina,Bosnia y Herzegovina,Bosnie-Herzégovine,Bosnia and Herzegovina
+Botswana,countries,,,78,,,BWA,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Botswana,http://aims.fao.org/aos/geopolitical.owl#Botswana,Botswana,,,Botswana
+Brazil,countries,,,70,,,BRA,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Brazil,http://aims.fao.org/aos/geopolitical.owl#Brazil,Brazil,Brasil,Brésil,Brazil
+British Indian Ocean Territory,countries,,,229,,,,,,British Indian Ocean Territory,,,British Indian Ocean Territory
+British Virgin Islands,countries,,,505,,,,,,British Virgin Islands,,,British Virgin Islands
+Brunei Darussalam,countries,,,75,,,BRN,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Brunei_Darussalam,http://aims.fao.org/aos/geopolitical.owl#Brunei_Darussalam,Brunei Darussalam,,,Brunei Darussalam
+Bulgaria,countries,,,51,,,BGR,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Bulgaria,http://aims.fao.org/aos/geopolitical.owl#Bulgaria,Bulgaria,Bulgarie,,Bulgaria
+Burkina Faso,countries,,,49,,,BFA,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Burkina_Faso,http://aims.fao.org/aos/geopolitical.owl#Burkina_Faso,Burkina Faso,,,Burkina Faso
+Burundi,countries,,,41,,,BDI,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Burundi,http://aims.fao.org/aos/geopolitical.owl#Burundi,Burundi,,,Burundi
+Cabo Verde,countries,,,107,,,,,,Cabo Verde,,,Cabo Verde
+Cambodge,countries,,,264,,,,,,Cambodge,,,Cambodge
+Cambodia,countries,,,262,,,KHM,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Cambodia,http://aims.fao.org/aos/geopolitical.owl#Cambodia,Cambodia,,,Cambodia
+Camboya,countries,,,263,,,,,,Camboya,,,Camboya
+Cameroon,countries,,,91,,,CMR,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Cameroon,http://aims.fao.org/aos/geopolitical.owl#Cameroon,Cameroon,,,Cameroon
+Cameroun,countries,,,93,,,,,,Cameroun,,,Cameroun
+Camerún,countries,,,92,,,,,,Camerún,,,Camerún
+Canada,countries,,,82,,,CAN,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Canada,http://aims.fao.org/aos/geopolitical.owl#Canada,Canada,,,Canada
+Cap-Vert,countries,,,108,,,,,,Cap-Vert,,,Cap-Vert
+Cape Verde,countries,,,106,,,CPV,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Cape_Verde,http://aims.fao.org/aos/geopolitical.owl#Cape_Verde,Cape Verde,,,Cape Verde
+Caribbean,countries,,plain_text,0,,,,,,Caribbean,,,Caribbean
+Cayman Islands,countries,,,113,,,,,,Cayman Islands,,,Cayman Islands
+CÃ´te d'Ivoire,countries,,,0,,,CIV,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Cote_d_Ivoire,http://aims.fao.org/aos/geopolitical.owl#Cote_d_Ivoire,CÃ´te d'Ivoire,,,CÃ´te d'Ivoire
+Central African Republic,countries,,,79,,,CAF,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Central_African_Republic_the,http://aims.fao.org/aos/geopolitical.owl#Central_African_Republic_the,Central African Republic,,,Central African Republic
+Central America,countries,,plain_text,0,,,,,,Central America,,,Central America
+Central Asia,countries,,plain_text,0,,,,,,Central Asia,,,Central Asia
+Chad,countries,,,461,,,TCD,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Chad,http://aims.fao.org/aos/geopolitical.owl#Chad,Chad,,,Chad
+Chile,countries,,,86,,,CHL,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Chile,http://aims.fao.org/aos/geopolitical.owl#Chile,Chile,,,Chile
+Chili,countries,,,87,,,,,,Chili,,,Chili
+China,countries,,,88,,,CHN,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/China,http://aims.fao.org/aos/geopolitical.owl#China,China,,,China
+Chine,countries,,,89,,,,,,Chine,,,Chine
+Chipre,countries,,,120,,,,,,Chipre,,,Chipre
+Chypre,countries,,,121,,,,,,Chypre,,,Chypre
+Chypre du Nord,countries,,,118,,,,,,Chypre du Nord,,,Chypre du Nord
+Colombia,countries,,,101,,,COL,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Colombia,http://aims.fao.org/aos/geopolitical.owl#Colombia,Colombia,,,Colombia
+Colombie,countries,,,102,,,,,,Colombie,,,Colombie
+Comoras,countries,,,104,,,,,,Comoras,,,Comoras
+Comores,countries,,,105,,,,,,Comores,,,Comores
+Comoros,countries,,,103,,,COM,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Comoros_the,http://aims.fao.org/aos/geopolitical.owl#Comoros_the,Comoros,,,Comoros
+Congo,countries,,,97,,,COG,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Congo_the,http://aims.fao.org/aos/geopolitical.owl#Congo_the,Congo,,,Congo
+"Congo, Dem. Rep.",countries,,plain_text,0,,,,,,"Congo, Dem. Rep.",,,"Congo, Dem. Rep."
+"Congo, Rep.",countries,,plain_text,0,,,,,,"Congo, Rep.",,,"Congo, Rep."
+Cook Islands,countries,,,98,,,COK,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Cook_Islands_the,http://aims.fao.org/aos/geopolitical.owl#Cook_Islands_the,Cook Islands,,,Cook Islands
+Corea,countries,,,383,,,,,,Corea,,,Corea
+Corée,countries,,,384,,,,,,Corée,,,Corée
+Costa Rica,countries,,,109,,,CRI,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Costa_Rica,http://aims.fao.org/aos/geopolitical.owl#Costa_Rica,Costa Rica,,,Costa Rica
+Côte d'Ivoire,countries,,,90,,,,,,Côte d'Ivoire,,,Côte d'Ivoire
+Croacia,countries,,,213,,,,,,Croacia,,,Croacia
+Croatia,countries,,,212,,,HRV,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Croatia,http://aims.fao.org/aos/geopolitical.owl#Croatia,Croatia,,,Croatia
+Croatie,countries,,,214,,,,,,Croatie,,,Croatie
+Cuba,countries,,,110,,,CUB,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Cuba,http://aims.fao.org/aos/geopolitical.owl#Cuba,Cuba,,,Cuba
+Curaçao,countries,,,112,,,,,,Curaçao,,,Curaçao
+Curaþao,countries,,,111,,,,,,Curaþao,,,Curaþao
+Cyprus,countries,,,119,,,CYP,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Cyprus,http://aims.fao.org/aos/geopolitical.owl#Cyprus,Cyprus,,,Cyprus
+Czech Republic,countries,,,122,,,CZE,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Czech_Republic_the,http://aims.fao.org/aos/geopolitical.owl#Czech_Republic_the,Czech Republic,,,Czech Republic
+Danemark,countries,,,133,,,,,,Danemark,,,Danemark
+Democratic Republic of the Congo,countries,,,94,,,COD,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Democratic_Republic_of_the_Congo,http://aims.fao.org/aos/geopolitical.owl#Democratic_Republic_of_the_Congo,Democratic Republic of the Congo,,,Democratic Republic of the Congo
+Denmark,countries,,,131,,,DNK,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Denmark,http://aims.fao.org/aos/geopolitical.owl#Denmark,Denmark,,,Denmark
+Dinamarca,countries,,,132,,,,,,Dinamarca,,,Dinamarca
+Djibouti,countries,,,128,,,DJI,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Djibouti,http://aims.fao.org/aos/geopolitical.owl#Djibouti,Djibouti,,,Djibouti
+Dominica,countries,,,129,,,DMA,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Dominica,http://aims.fao.org/aos/geopolitical.owl#Dominica,Dominica,,,Dominica
+Dominican Republic,countries,,,134,,,DOM,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Dominican_Republic_the,http://aims.fao.org/aos/geopolitical.owl#Dominican_Republic_the,Dominican Republic,,,Dominican Republic
+Dominique,countries,,,130,,,,,,Dominique,,,Dominique
+East Africa,countries,,plain_text,0,,,,,,East Africa,,,East Africa
+East Asia & Pacific,countries,,plain_text,0,,,,,,East Asia & Pacific,,,East Asia & Pacific
+Eastern Europe,countries,,plain_text,0,,,,,,Eastern Europe,,,Eastern Europe
+Ecuador,countries,,,140,,,ECU,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Ecuador,http://aims.fao.org/aos/geopolitical.owl#Ecuador,Ecuador,,,Ecuador
+Egipto,countries,,,143,,,,,,Egipto,,,Egipto
+Egypt,countries,,,142,,,EGY,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Egypt,http://aims.fao.org/aos/geopolitical.owl#Egypt,Egypt,,,Egypt
+Égypte,countries,,,144,,,,,,Égypte,,,Égypte
+el Iraq,countries,,,237,,,,,,el Iraq,,,el Iraq
+El Salvador,countries,,,423,,,SLV,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/El_Salvador,http://aims.fao.org/aos/geopolitical.owl#El_Salvador,El Salvador,,,El Salvador
+el Yemen,countries,,,518,,,,,,el Yemen,,,el Yemen
+Emiratos Árabes Unidos,countries,,,13,,,,,,Emiratos Árabes Unidos,,,Emiratos Árabes Unidos
+Émirats arabes unis,countries,,,14,,,,,,Émirats arabes unis,,,Émirats arabes unis
+Équateur,countries,,,141,,,,,,Équateur,,,Équateur
+Equatorial Guinea,countries,,,188,,,GNQ,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Equatorial_Guinea,http://aims.fao.org/aos/geopolitical.owl#Equatorial_Guinea,Equatorial Guinea,,,Equatorial Guinea
+Eritrea,countries,,,145,,,ERI,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Eritrea,http://aims.fao.org/aos/geopolitical.owl#Eritrea,Eritrea,,,Eritrea
+Érythrée,countries,,,146,,,,,,Érythrée,,,Érythrée
+Eslovaquia,countries,,,443,,,,,,Eslovaquia,,,Eslovaquia
+Eslovenia,countries,,,446,,,,,,Eslovenia,,,Eslovenia
+Espagne,countries,,,149,,,,,,Espagne,,,Espagne
+España,countries,,,148,,,,,,España,,,España
+Estados Unidos de América,countries,,,494,,,,,,Estados Unidos de América,,,Estados Unidos de América
+Estonia,countries,,,150,,,EST,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Estonia,http://aims.fao.org/aos/geopolitical.owl#Estonia,Estonia,,,Estonia
+Estonie,countries,,,151,,,,,,Estonie,,,Estonie
+États-Unis d'Amérique,countries,,,495,,,,,,États-Unis d'Amérique,,,États-Unis d'Amérique
+Ethiopia,countries,,,152,,,ETH,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Ethiopia,http://aims.fao.org/aos/geopolitical.owl#Ethiopia,Ethiopia,,,Ethiopia
+Éthiopie,countries,,,154,,,,,,Éthiopie,,,Éthiopie
+Etiopía,countries,,,153,,,,,,Etiopía,,,Etiopía
+Europe,countries,,plain_text,8,,,,,,Europe,,,Europe
+Falkland Islands,countries,,,160,,,,,,Falkland Islands,,,Falkland Islands
+Falkland Islands (Malvinas),countries,,plain_text,0,,,,,,Falkland Islands (Malvinas),,,Falkland Islands (Malvinas)
+Faroe Islands,countries,,,165,,,FRO,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Faroe_Islands,http://aims.fao.org/aos/geopolitical.owl#Faroe_Islands,Faroe Islands,,,Faroe Islands
+Fédération de Russie,countries,,,399,,,,,,Fédération de Russie,,,Fédération de Russie
+Fidji,countries,,,159,,,,,,Fidji,,,Fidji
+Fiji,countries,,,158,,,FJI,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Fiji,http://aims.fao.org/aos/geopolitical.owl#Fiji,Fiji,,,Fiji
+Filipinas,countries,,,371,,,,,,Filipinas,,,Filipinas
+Finland,countries,,,155,,,FIN,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Finland,http://aims.fao.org/aos/geopolitical.owl#Finland,Finland,,,Finland
+Finlande,countries,,,157,,,,,,Finlande,,,Finlande
+Finlandia,countries,,,156,,,,,,Finlandia,,,Finlandia
+France,countries,,,163,,,FRA,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/France,http://aims.fao.org/aos/geopolitical.owl#France,France,,,France
+Francia,countries,,,164,,,,,,Francia,,,Francia
+French Guiana,countries,,,201,,,,,,French Guiana,,,French Guiana
+French Polynesia,countries,,,389,,,,,,French Polynesia,,,French Polynesia
+French Southern and Antarctic Lands,countries,,,28,,,,,,French Southern and Antarctic Lands,,,French Southern and Antarctic Lands
+Gabon,countries,,,170,,,GAB,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Gabon,http://aims.fao.org/aos/geopolitical.owl#Gabon,Gabon,,,Gabon
+Gambia,countries,,,184,,,GMB,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Gambia__the,http://aims.fao.org/aos/geopolitical.owl#Gambia__the,Gambia,,,Gambia
+Gambie,countries,,,185,,,,,,Gambie,,,Gambie
+Georgia,countries,,,174,,,GEO,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Georgia,http://aims.fao.org/aos/geopolitical.owl#Georgia,Georgia,,,Georgia
+Géorgie,countries,,,175,,,,,,Géorgie,,,Géorgie
+Géorgie du Sud-et-les Îles Sandwich du Sud,countries,,,414,,,,,,Géorgie du Sud-et-les Îles Sandwich du Sud,,,Géorgie du Sud-et-les Îles Sandwich du Sud
+Germany,countries,,,125,,,DEU,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Germany,http://aims.fao.org/aos/geopolitical.owl#Germany,Germany,Alemania,Allemagne,Germany
+Ghana,countries,,,178,,,GHA,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Ghana,http://aims.fao.org/aos/geopolitical.owl#Ghana,Ghana,,,Ghana
+Gibraltar,countries,,,179,,,,,,Gibraltar,,,Gibraltar
+Glaciar de Siachen,countries,,,254,,,,,,Glaciar de Siachen,,,Glaciar de Siachen
+Glacier de Siachen,countries,,,255,,,,,,Glacier de Siachen,,,Glacier de Siachen
+Global,countries,,plain_text,-2,,,,,,Global,,,Global
+Granada,countries,,,195,,,,,,Granada,,,Granada
+Grèce,countries,,,193,,,,,,Grèce,,,Grèce
+Grecia,countries,,,192,,,,,,Grecia,,,Grecia
+Greece,countries,,,191,,,GRC,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Greece,http://aims.fao.org/aos/geopolitical.owl#Greece,Greece,,,Greece
+Greenland,countries,,,197,,,,,,Greenland,,,Greenland
+Grenada,countries,,,194,,,GRD,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Grenada,http://aims.fao.org/aos/geopolitical.owl#Grenada,Grenada,,,Grenada
+Grenade,countries,,,196,,,,,,Grenade,,,Grenade
+Groenland,countries,,,199,,,,,,Groenland,,,Groenland
+Groenlandia,countries,,,198,,,,,,Groenlandia,,,Groenlandia
+Guadalupe,countries,,,183,,,,,,Guadalupe,,,Guadalupe
+Guadeloupe,countries,,,182,,,,,,Guadeloupe,,,Guadeloupe
+Guam,countries,,,202,,,,,,Guam,,,Guam
+Guatemala,countries,,,200,,,GTM,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Guatemala,http://aims.fao.org/aos/geopolitical.owl#Guatemala,Guatemala,,,Guatemala
+Guayana francesa,countries,,,203,,,,,,Guayana francesa,,,Guayana francesa
+Guernesey,countries,,,177,,,,,,Guernesey,,,Guernesey
+Guernsey,countries,,,176,,,,,,Guernsey,,,Guernsey
+Guinea,countries,,,180,,,GIN,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Guinea,http://aims.fao.org/aos/geopolitical.owl#Guinea,Guinea,,,Guinea
+Guinea Ecuatorial,countries,,,189,,,,,,Guinea Ecuatorial,,,Guinea Ecuatorial
+Guinea-Bissau,countries,,,186,,,GNB,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Guinea-Bissau,http://aims.fao.org/aos/geopolitical.owl#Guinea-Bissau,Guinea-Bissau,,,Guinea-Bissau
+Guinée,countries,,,181,,,,,,Guinée,,,Guinée
+Guinée équatoriale,countries,,,190,,,,,,Guinée équatoriale,,,Guinée équatoriale
+Guinée-Bissau,countries,,,187,,,,,,Guinée-Bissau,,,Guinée-Bissau
+Gulf States,countries,,plain_text,0,,,,,,Gulf States,,,Gulf States
+Guyana,countries,,,205,,,GUY,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Guyana,http://aims.fao.org/aos/geopolitical.owl#Guyana,Guyana,,,Guyana
+Guyane française,countries,,,204,,,,,,Guyane française,,,Guyane française
+Haiti,countries,,,215,,,HTI,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Haiti,http://aims.fao.org/aos/geopolitical.owl#Haiti,Haiti,,,Haiti
+Heard Island and McDonald Islands,countries,,,208,,,,,,Heard Island and McDonald Islands,,,Heard Island and McDonald Islands
+Holy See,countries,,,498,,,VAT,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Holy_See,http://aims.fao.org/aos/geopolitical.owl#Holy_See,Holy See,,,Holy See
+Honduras,countries,,,211,,,HND,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Honduras,http://aims.fao.org/aos/geopolitical.owl#Honduras,Honduras,,,Honduras
+Hong Kong,countries,,,207,,,,,,Hong Kong,,,Hong Kong
+Hong Kong S.A.R.,countries,,,206,,,,,,Hong Kong S.A.R.,,,Hong Kong S.A.R.
+"Hong Kong S.A.R., China",countries,,plain_text,0,,,,,,"Hong Kong S.A.R., China",,,"Hong Kong S.A.R., China"
+Hongrie,countries,,,218,,,,,,Hongrie,,,Hongrie
+Hungary,countries,,,216,,,HUN,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Hungary,http://aims.fao.org/aos/geopolitical.owl#Hungary,Hungary,,,Hungary
+Hungría,countries,,,217,,,,,,Hungría,,,Hungría
+Iceland,countries,,,238,,,ISL,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Iceland,http://aims.fao.org/aos/geopolitical.owl#Iceland,Iceland,,,Iceland
+Île de Man,countries,,,223,,,,,,Île de Man,,,Île de Man
+Île Norfolk,countries,,,346,,,,,,Île Norfolk,,,Île Norfolk
+Îles Ashmore-et-Cartier,countries,,,27,,,,,,Îles Ashmore-et-Cartier,,,Îles Ashmore-et-Cartier
+Îles Caïmanes,countries,,,115,,,,,,Îles Caïmanes,,,Îles Caïmanes
+Îles Cook,countries,,,100,,,,,,Îles Cook,,,Îles Cook
+Îles Féroé,countries,,,167,,,,,,Îles Féroé,,,Îles Féroé
+Îles Heard-et-MacDonald,countries,,,210,,,,,,Îles Heard-et-MacDonald,,,Îles Heard-et-MacDonald
+Îles Malvinas,countries,,,162,,,,,,Îles Malvinas,,,Îles Malvinas
+Îles Mariannes du Nord,countries,,,324,,,,,,Îles Mariannes du Nord,,,Îles Mariannes du Nord
+Îles Marshall,countries,,,312,,,,,,Îles Marshall,,,Îles Marshall
+Îles Pitcairn,countries,,,367,,,,,,Îles Pitcairn,,,Îles Pitcairn
+Îles Salomon,countries,,,420,,,,,,Îles Salomon,,,Îles Salomon
+Îles Turques et Caïques,countries,,,460,,,,,,Îles Turques et Caïques,,,Îles Turques et Caïques
+Îles Vierges britanniques,countries,,,507,,,,,,Îles Vierges britanniques,,,Îles Vierges britanniques
+Îles Vierges des États-Unis,countries,,,510,,,,,,Îles Vierges des États-Unis,,,Îles Vierges des États-Unis
+Îles Wallis et Futuna,countries,,,515,,,,,,Îles Wallis et Futuna,,,Îles Wallis et Futuna
+Inde,countries,,,225,,,,,,Inde,,,Inde
+India,countries,,,224,,,IND,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/India,http://aims.fao.org/aos/geopolitical.owl#India,India,,,India
+Indian Ocean Territories,countries,,,226,,,,,,Indian Ocean Territories,,,Indian Ocean Territories
+Indonesia,countries,,,219,,,IDN,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Indonesia,http://aims.fao.org/aos/geopolitical.owl#Indonesia,Indonesia,,,Indonesia
+Indonésie,countries,,,220,,,,,,Indonésie,,,Indonésie
+Iran,countries,,,235,,,IRN,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Iran_Islamic_Rep_of_,http://aims.fao.org/aos/geopolitical.owl#Iran_Islamic_Rep_of_,Iran,,,Iran
+Iraq,countries,,,236,,,IRQ,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Iraq,http://aims.fao.org/aos/geopolitical.owl#Iraq,Iraq,,,Iraq
+Ireland,countries,,,232,,,IRL,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Ireland,http://aims.fao.org/aos/geopolitical.owl#Ireland,Ireland,,,Ireland
+Irlanda,countries,,,233,,,,,,Irlanda,,,Irlanda
+Irlande,countries,,,234,,,,,,Irlande,,,Irlande
+Isla de Man,countries,,,222,,,,,,Isla de Man,,,Isla de Man
+Isla Norfolk,countries,,,345,,,,,,Isla Norfolk,,,Isla Norfolk
+Islande,countries,,,240,,,,,,Islande,,,Islande
+Islandia,countries,,,239,,,,,,Islandia,,,Islandia
+Islas Ashmore y Cartier,countries,,,26,,,,,,Islas Ashmore y Cartier,,,Islas Ashmore y Cartier
+Islas Caimán,countries,,,114,,,,,,Islas Caimán,,,Islas Caimán
+Islas Cook,countries,,,99,,,,,,Islas Cook,,,Islas Cook
+Islas Feroe,countries,,,166,,,,,,Islas Feroe,,,Islas Feroe
+Islas Georgias del Sur y Sandwich del Sur,countries,,,413,,,,,,Islas Georgias del Sur y Sandwich del Sur,,,Islas Georgias del Sur y Sandwich del Sur
+Islas Heard y McDonald,countries,,,209,,,,,,Islas Heard y McDonald,,,Islas Heard y McDonald
+Islas Malvinas,countries,,,161,,,,,,Islas Malvinas,,,Islas Malvinas
+Islas Marianas del Norte,countries,,,323,,,,,,Islas Marianas del Norte,,,Islas Marianas del Norte
+Islas Marshall,countries,,,311,,,,,,Islas Marshall,,,Islas Marshall
+Islas Pitcairn,countries,,,366,,,,,,Islas Pitcairn,,,Islas Pitcairn
+Islas Salomón,countries,,,419,,,,,,Islas Salomón,,,Islas Salomón
+Islas Turcas y Caicos,countries,,,459,,,,,,Islas Turcas y Caicos,,,Islas Turcas y Caicos
+Islas Vírgenes,countries,,,506,,,,,,Islas Vírgenes,,,Islas Vírgenes
+Islas Vírgenes de los Estados Unidos,countries,,,509,,,,,,Islas Vírgenes de los Estados Unidos,,,Islas Vírgenes de los Estados Unidos
+Islas Wallis y Futuna,countries,,,514,,,,,,Islas Wallis y Futuna,,,Islas Wallis y Futuna
+Isle of Man,countries,,,221,,,,,,Isle of Man,,,Isle of Man
+Israel,countries,,,241,,,ISR,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Israel,http://aims.fao.org/aos/geopolitical.owl#Israel,Israel,,,Israel
+Italia,countries,,,243,,,,,,Italia,,,Italia
+Italie,countries,,,244,,,,,,Italie,,,Italie
+Italy,countries,,,242,,,ITA,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Italy,http://aims.fao.org/aos/geopolitical.owl#Italy,Italy,,,Italy
+Jamaica,countries,,,245,,,JAM,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Jamaica,http://aims.fao.org/aos/geopolitical.owl#Jamaica,Jamaica,,,Jamaica
+Jamaïque,countries,,,246,,,,,,Jamaïque,,,Jamaïque
+Japan,countries,,,251,,,JPN,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Japan,http://aims.fao.org/aos/geopolitical.owl#Japan,Japan,,,Japan
+Japón,countries,,,252,,,,,,Japón,,,Japón
+Jersey,countries,,,247,,,,,,Jersey,,,Jersey
+Jordan,countries,,,248,,,JOR,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Jordan,http://aims.fao.org/aos/geopolitical.owl#Jordan,Jordan,,,Jordan
+Jordania,countries,,,249,,,,,,Jordania,,,Jordania
+Jordanie,countries,,,250,,,,,,Jordanie,,,Jordanie
+Kazajstán,countries,,,257,,,,,,Kazajstán,,,Kazajstán
+Kazakhstan,countries,,,256,,,KAZ,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Kazakhstan,http://aims.fao.org/aos/geopolitical.owl#Kazakhstan,Kazakhstan,,,Kazakhstan
+Kenya,countries,,,258,,,KEN,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Kenya,http://aims.fao.org/aos/geopolitical.owl#Kenya,Kenya,,,Kenya
+Kirghizistan,countries,,,261,,,,,,Kirghizistan,,,Kirghizistan
+Kirguistán,countries,,,260,,,,,,Kirguistán,,,Kirguistán
+Kiribati,countries,,,265,,,KIR,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Kiribati,http://aims.fao.org/aos/geopolitical.owl#Kiribati,Kiribati,,,Kiribati
+Korea,countries,,,382,,,PRK,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Democratic_People_s_Republic_of_Korea_the,http://aims.fao.org/aos/geopolitical.owl#Democratic_People_s_Republic_of_Korea_the,Korea,,,Korea
+Kosovo,countries,,,272,,,,,,Kosovo,,,Kosovo
+Koweït,countries,,,274,,,,,,Koweït,,,Koweït
+Kuwait,countries,,,273,,,KWT,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Kuwait,http://aims.fao.org/aos/geopolitical.owl#Kuwait,Kuwait,,,Kuwait
+Kyrgyzstan,countries,,,259,,,KGZ,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Kyrgyzstan,http://aims.fao.org/aos/geopolitical.owl#Kyrgyzstan,Kyrgyzstan,,,Kyrgyzstan
+Lao,countries,,,275,,,LAO,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Lao_People_s_Democratic_Republic__the,http://aims.fao.org/aos/geopolitical.owl#Lao_People_s_Democratic_Republic__the,Lao,,,Lao
+Laos,countries,,plain_text,0,,,,,,Laos,,,Laos
+Latin America,countries,,plain_text,7,,,,,,Latin America,,,Latin America
+Latvia,countries,,,294,,,LVA,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Latvia,http://aims.fao.org/aos/geopolitical.owl#Latvia,Latvia,,,Latvia
+Lebanon,countries,,,276,,,LBN,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Lebanon,http://aims.fao.org/aos/geopolitical.owl#Lebanon,Lebanon,,,Lebanon
+Lesotho,countries,,,288,,,LSO,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Lesotho,http://aims.fao.org/aos/geopolitical.owl#Lesotho,Lesotho,,,Lesotho
+Letonia,countries,,,295,,,,,,Letonia,,,Letonia
+Lettonie,countries,,,296,,,,,,Lettonie,,,Lettonie
+Liban,countries,,,278,,,,,,Liban,,,Liban
+Líbano,countries,,,277,,,,,,Líbano,,,Líbano
+Liberia,countries,,,279,,,LBR,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Liberia,http://aims.fao.org/aos/geopolitical.owl#Liberia,Liberia,,,Liberia
+Libia,countries,,,281,,,,,,Libia,,,Libia
+Libya,countries,,,280,,,LBY,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Libya,http://aims.fao.org/aos/geopolitical.owl#Libya,Libya,,,Libya
+Libye,countries,,,282,,,,,,Libye,,,Libye
+Liechtenstein,countries,,,286,,,LIE,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Liechtenstein,http://aims.fao.org/aos/geopolitical.owl#Liechtenstein,Liechtenstein,,,Liechtenstein
+Lithuania,countries,,,289,,,LTU,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Lithuania,http://aims.fao.org/aos/geopolitical.owl#Lithuania,Lithuania,,,Lithuania
+Lituania,countries,,,290,,,,,,Lituania,,,Lituania
+Lituanie,countries,,,291,,,,,,Lituanie,,,Lituanie
+Luxembourg,countries,,,292,,,LUX,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Luxembourg,http://aims.fao.org/aos/geopolitical.owl#Luxembourg,Luxembourg,,,Luxembourg
+Luxemburgo,countries,,,293,,,,,,Luxemburgo,,,Luxemburgo
+Macao,countries,,,298,,,,,,Macao,,,Macao
+Macao S.A.R,countries,,,297,,,,,,Macao S.A.R,,,Macao S.A.R
+"Macao S.A.R., China",countries,,plain_text,0,,,,,,"Macao S.A.R., China",,,"Macao S.A.R., China"
+Macédoine,countries,,,314,,,,,,Macédoine,,,Macédoine
+Macedonia,countries,,,313,,,MKD,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/The_former_Yugoslav_Republic_of_Macedonia,http://aims.fao.org/aos/geopolitical.owl#The_former_Yugoslav_Republic_of_Macedonia,Macedonia,,,Macedonia
+Madagascar,countries,,,305,,,MDG,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Madagascar,http://aims.fao.org/aos/geopolitical.owl#Madagascar,Madagascar,,,Madagascar
+MadeUpCountry,countries,,,0,,,,,,MadeUpCountry,,,MadeUpCountry
+Malaisie,countries,,,337,,,,,,Malaisie,,,Malaisie
+Malasia,countries,,,336,,,,,,Malasia,,,Malasia
+Malawi,countries,,,334,,,MWI,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Malawi,http://aims.fao.org/aos/geopolitical.owl#Malawi,Malawi,,,Malawi
+Malaysia,countries,,,335,,,MYS,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Malaysia,http://aims.fao.org/aos/geopolitical.owl#Malaysia,Malaysia,,,Malaysia
+Maldivas,countries,,,307,,,,,,Maldivas,,,Maldivas
+Maldives,countries,,,306,,,MDV,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Maldives,http://aims.fao.org/aos/geopolitical.owl#Maldives,Maldives,,,Maldives
+Mali,countries,,,315,,,MLI,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Mali,http://aims.fao.org/aos/geopolitical.owl#Mali,Mali,,,Mali
+Malta,countries,,,316,,,MLT,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Malta,http://aims.fao.org/aos/geopolitical.owl#Malta,Malta,,,Malta
+Malte,countries,,,317,,,,,,Malte,,,Malte
+Maroc,countries,,,302,,,,,,Maroc,,,Maroc
+Marruecos,countries,,,301,,,,,,Marruecos,,,Marruecos
+Marshall Islands,countries,,,310,,,MHL,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Marshall_Islands__the,http://aims.fao.org/aos/geopolitical.owl#Marshall_Islands__the,Marshall Islands,,,Marshall Islands
+Martinica,countries,,,330,,,,,,Martinica,,,Martinica
+Martinique,countries,,,329,,,,,,Martinique,,,Martinique
+Maurice,countries,,,333,,,,,,Maurice,,,Maurice
+Mauricio,countries,,,332,,,,,,Mauricio,,,Mauricio
+Mauritania,countries,,,326,,,MRT,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Mauritania,http://aims.fao.org/aos/geopolitical.owl#Mauritania,Mauritania,,,Mauritania
+Mauritanie,countries,,,327,,,,,,Mauritanie,,,Mauritanie
+Mauritius,countries,,,331,,,MUS,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Mauritius,http://aims.fao.org/aos/geopolitical.owl#Mauritius,Mauritius,,,Mauritius
+Mexico,countries,,,308,,,MEX,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Mexico,http://aims.fao.org/aos/geopolitical.owl#Mexico,Mexico,,,Mexico
+Mexique,countries,,,309,,,,,,Mexique,,,Mexique
+Micronesia,countries,,,168,,,FSM,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Micronesia__Fed_States_of_,http://aims.fao.org/aos/geopolitical.owl#Micronesia__Fed_States_of_,Micronesia,,,Micronesia
+"Micronesia, Fed. Sts.",countries,,plain_text,0,,,,,,"Micronesia, Fed. Sts.",,,"Micronesia, Fed. Sts."
+Micronésie,countries,,,169,,,,,,Micronésie,,,Micronésie
+Middle East,countries,,plain_text,0,,,,,,Middle East,,,Middle East
+Moldova,countries,,,304,,,MDA,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Republic_of_Moldova,http://aims.fao.org/aos/geopolitical.owl#Republic_of_Moldova,Moldova,,,Moldova
+Monaco,countries,,,303,,,MCO,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Monaco,http://aims.fao.org/aos/geopolitical.owl#Monaco,Monaco,,,Monaco
+Mongolia,countries,,,320,,,MNG,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Mongolia,http://aims.fao.org/aos/geopolitical.owl#Mongolia,Mongolia,,,Mongolia
+Mongolie,countries,,,321,,,,,,Mongolie,,,Mongolie
+Montenegro,countries,,,319,,,MNE,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Montenegro,http://aims.fao.org/aos/geopolitical.owl#Montenegro,Montenegro,,,Montenegro
+Montserrat,countries,,,328,,,,,,Montserrat,,,Montserrat
+Morocco,countries,,,300,,,MAR,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Morocco,http://aims.fao.org/aos/geopolitical.owl#Morocco,Morocco,,,Morocco
+Mozambique,countries,,,325,,,MOZ,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Mozambique,http://aims.fao.org/aos/geopolitical.owl#Mozambique,Mozambique,,,Mozambique
+Myanmar,countries,,,318,,,MMR,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Myanmar,http://aims.fao.org/aos/geopolitical.owl#Myanmar,Myanmar,,,Myanmar
+Namibia,countries,,,338,,,NAM,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Namibia,http://aims.fao.org/aos/geopolitical.owl#Namibia,Namibia,,,Namibia
+Namibie,countries,,,339,,,,,,Namibie,,,Namibie
+Nauru,countries,,,358,,,NRU,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Nauru,http://aims.fao.org/aos/geopolitical.owl#Nauru,Nauru,,,Nauru
+Nepal,countries,,,357,,,NPL,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Nepal,http://aims.fao.org/aos/geopolitical.owl#Nepal,Nepal,,,Nepal
+Netherlands,countries,,,351,,,NLD,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Netherlands_the,http://aims.fao.org/aos/geopolitical.owl#Netherlands_the,Netherlands,,,Netherlands
+Netherlands Antilles,countries,,plain_text,0,,,,,,Netherlands Antilles,,,Netherlands Antilles
+New Caledonia,countries,,,340,,,,,,New Caledonia,,,New Caledonia
+New Zealand,countries,,,359,,,NZL,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/New_Zealand,http://aims.fao.org/aos/geopolitical.owl#New_Zealand,New Zealand,,,New Zealand
+Nicaragua,countries,,,348,,,NIC,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Nicaragua,http://aims.fao.org/aos/geopolitical.owl#Nicaragua,Nicaragua,,,Nicaragua
+Niger,countries,,,343,,,NER,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Niger_the,http://aims.fao.org/aos/geopolitical.owl#Niger_the,Niger,,,Niger
+Nigeria,countries,,,347,,,NGA,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Nigeria,http://aims.fao.org/aos/geopolitical.owl#Nigeria,Nigeria,,,Nigeria
+Nioué,countries,,,350,,,,,,Nioué,,,Nioué
+Niue,countries,,,349,,,NIU,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Niue,http://aims.fao.org/aos/geopolitical.owl#Niue,Niue,,,Niue
+Norfolk Island,countries,,,344,,,,,,Norfolk Island,,,Norfolk Island
+North Africa,countries,,plain_text,4,,,,,,North Africa,,,North Africa
+North America,countries,,plain_text,10,,,,,,North America,,,North America
+North Korea,countries,,plain_text,0,,,,,,North Korea,,,North Korea
+Northern Cyprus,countries,,,116,,,,,,Northern Cyprus,,,Northern Cyprus
+Northern Mariana Islands,countries,,,322,,,,,,Northern Mariana Islands,,,Northern Mariana Islands
+Noruega,countries,,,355,,,,,,Noruega,,,Noruega
+Norvège,countries,,,356,,,,,,Norvège,,,Norvège
+Norway,countries,,,354,,,NOR,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Norway,http://aims.fao.org/aos/geopolitical.owl#Norway,Norway,,,Norway
+Nouvelle-Calédonie,countries,,,342,,,,,,Nouvelle-Calédonie,,,Nouvelle-Calédonie
+Nouvelle-Zélande,countries,,,361,,,,,,Nouvelle-Zélande,,,Nouvelle-Zélande
+Nueva Caledonia,countries,,,341,,,,,,Nueva Caledonia,,,Nueva Caledonia
+Nueva Zelandia,countries,,,360,,,,,,Nueva Zelandia,,,Nueva Zelandia
+Oceania,countries,,plain_text,11,,,,,,Oceania,,,Oceania
+Oman,countries,,,362,,,OMN,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Oman,http://aims.fao.org/aos/geopolitical.owl#Oman,Oman,,,Oman
+Ouganda,countries,,,489,,,,,,Ouganda,,,Ouganda
+Ouzbékistan,countries,,,497,,,,,,Ouzbékistan,,,Ouzbékistan
+Países Bajos,countries,,,352,,,,,,Países Bajos,,,Países Bajos
+Pakistan,countries,,,363,,,PAK,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Pakistan,http://aims.fao.org/aos/geopolitical.owl#Pakistan,Pakistan,,,Pakistan
+Palaos,countries,,,373,,,,,,Palaos,,,Palaos
+Palau,countries,,,372,,,PLW,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Palau,http://aims.fao.org/aos/geopolitical.owl#Palau,Palau,,,Palau
+Palestina,countries,,,388,,,,,,Palestina,,,Palestina
+Palestine,countries,,,387,,,,,,Palestine,,,Palestine
+Panama,countries,,,364,,,PAN,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Panama,http://aims.fao.org/aos/geopolitical.owl#Panama,Panama,,,Panama
+Papouasie-Nouvelle-Guinée,countries,,,376,,,,,,Papouasie-Nouvelle-Guinée,,,Papouasie-Nouvelle-Guinée
+Papua New Guinea,countries,,,374,,,PNG,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Papua_New_Guinea,http://aims.fao.org/aos/geopolitical.owl#Papua_New_Guinea,Papua New Guinea,,,Papua New Guinea
+Papua Nueva Guinea,countries,,,375,,,,,,Papua Nueva Guinea,,,Papua Nueva Guinea
+Paraguay,countries,,,386,,,PRY,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Paraguay,http://aims.fao.org/aos/geopolitical.owl#Paraguay,Paraguay,,,Paraguay
+Pays-Bas,countries,,,353,,,,,,Pays-Bas,,,Pays-Bas
+Pérou,countries,,,369,,,,,,Pérou,,,Pérou
+Peru,countries,,,368,,,PER,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Peru,http://aims.fao.org/aos/geopolitical.owl#Peru,Peru,,,Peru
+Philippines,countries,,,370,,,PHL,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Philippines__the,http://aims.fao.org/aos/geopolitical.owl#Philippines__the,Philippines,,,Philippines
+Pitcairn Islands,countries,,,365,,,,,,Pitcairn Islands,,,Pitcairn Islands
+Poland,countries,,,377,,,POL,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Poland,http://aims.fao.org/aos/geopolitical.owl#Poland,Poland,,,Poland
+Polinesia Francesa,countries,,,390,,,,,,Polinesia Francesa,,,Polinesia Francesa
+Pologne,countries,,,379,,,,,,Pologne,,,Pologne
+Polonia,countries,,,378,,,,,,Polonia,,,Polonia
+Polynésie française,countries,,,391,,,,,,Polynésie française,,,Polynésie française
+Porto Rico,countries,,,381,,,,,,Porto Rico,,,Porto Rico
+Portugal,countries,,,385,,,PRT,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Portugal,http://aims.fao.org/aos/geopolitical.owl#Portugal,Portugal,,,Portugal
+Puerto Rico,countries,,,380,,,,,,Puerto Rico,,,Puerto Rico
+Qatar,countries,,,392,,,QAT,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Qatar,http://aims.fao.org/aos/geopolitical.owl#Qatar,Qatar,,,Qatar
+Reino Unido,countries,,,172,,,,,,Reino Unido,,,Reino Unido
+Republic of Korea,countries,,,269,,,KOR,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Republic_of_Korea__the,http://aims.fao.org/aos/geopolitical.owl#Republic_of_Korea__the,Republic of Korea,,,Republic of Korea
+República Centroafricana,countries,,,80,,,,,,República Centroafricana,,,República Centroafricana
+República Checa,countries,,,123,,,,,,República Checa,,,República Checa
+República de Corea,countries,,,270,,,,,,República de Corea,,,República de Corea
+República Democrática del Congo,countries,,,95,,,,,,República Democrática del Congo,,,República Democrática del Congo
+República Dominicana,countries,,,135,,,,,,República Dominicana,,,República Dominicana
+República Turca del Norte de Chipre,countries,,,117,,,,,,República Turca del Norte de Chipre,,,República Turca del Norte de Chipre
+République arabe syrienne,countries,,,457,,,,,,République arabe syrienne,,,République arabe syrienne
+République centrafricaine,countries,,,81,,,,,,République centrafricaine,,,République centrafricaine
+République de Corée,countries,,,271,,,,,,République de Corée,,,République de Corée
+République démocratique du Congo,countries,,,96,,,,,,République démocratique du Congo,,,République démocratique du Congo
+République dominicaine,countries,,,136,,,,,,République dominicaine,,,République dominicaine
+République tchèque,countries,,,124,,,,,,République tchèque,,,République tchèque
+République-Unie de Tanzanie,countries,,,487,,,,,,République-Unie de Tanzanie,,,République-Unie de Tanzanie
+Reunión,countries,,,394,,,,,,Reunión,,,Reunión
+Romania,countries,,,393,,,ROU,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Romania,http://aims.fao.org/aos/geopolitical.owl#Romania,Romania,,,Romania
+Roumanie,countries,,,396,,,,,,Roumanie,,,Roumanie
+Royaume-Uni,countries,,,173,,,,,,Royaume-Uni,,,Royaume-Uni
+Rumania,countries,,,395,,,,,,Rumania,,,Rumania
+Rusia,countries,,,398,,,,,,Rusia,,,Rusia
+Russia,countries,,,397,,,RUS,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Russian_Federation__the,http://aims.fao.org/aos/geopolitical.owl#Russian_Federation__the,Russia,,,Russia
+Rwanda,countries,,,400,,,RWA,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Rwanda,http://aims.fao.org/aos/geopolitical.owl#Rwanda,Rwanda,,,Rwanda
+Sahara Occidental,countries,,,402,,,,,,Sahara Occidental,,,Sahara Occidental
+Saint Barthélemy,countries,,,59,,,,,,Saint Barthélemy,,,Saint Barthélemy
+"Saint Helena, Ascension and Tristan da Cunha",countries,,,415,,,,,,"Saint Helena, Ascension and Tristan da Cunha",,,"Saint Helena, Ascension and Tristan da Cunha"
+Saint Kitts and Nevis,countries,,,266,,,KNA,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Saint_Kitts_and_Nevis,http://aims.fao.org/aos/geopolitical.owl#Saint_Kitts_and_Nevis,Saint Kitts and Nevis,,,Saint Kitts and Nevis
+Saint Kitts y Nevis,countries,,,267,,,,,,Saint Kitts y Nevis,,,Saint Kitts y Nevis
+Saint Lucia,countries,,,283,,,LCA,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Saint_Lucia,http://aims.fao.org/aos/geopolitical.owl#Saint_Lucia,Saint Lucia,,,Saint Lucia
+Saint Pierre and Miquelon,countries,,,430,,,,,,Saint Pierre and Miquelon,,,Saint Pierre and Miquelon
+Saint Vincent and Grenadines,countries,,plain_text,0,,,,,,Saint Vincent and Grenadines,,,Saint Vincent and Grenadines
+Saint Vincent and the Grenadines,countries,,,501,,,VCT,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Saint_Vincent_and_the_Grenadines,http://aims.fao.org/aos/geopolitical.owl#Saint_Vincent_and_the_Grenadines,Saint Vincent and the Grenadines,,,Saint Vincent and the Grenadines
+Saint-Barthélemy,countries,,,61,,,,,,Saint-Barthélemy,,,Saint-Barthélemy
+Saint-Kitts-et-Nevis,countries,,,268,,,,,,Saint-Kitts-et-Nevis,,,Saint-Kitts-et-Nevis
+Saint-Marin,countries,,,425,,,,,,Saint-Marin,,,Saint-Marin
+Saint-Martin,countries,,,299,,,,,,Saint-Martin,,,Saint-Martin
+Saint-Pierre y Miquelon,countries,,,431,,,,,,Saint-Pierre y Miquelon,,,Saint-Pierre y Miquelon
+Saint-Pierre-et-Miquelon,countries,,,432,,,,,,Saint-Pierre-et-Miquelon,,,Saint-Pierre-et-Miquelon
+Saint-Siège,countries,,,500,,,,,,Saint-Siège,,,Saint-Siège
+Saint-Vincent-et-les Grenadines,countries,,,503,,,,,,Saint-Vincent-et-les Grenadines,,,Saint-Vincent-et-les Grenadines
+"Sainte-Hélène, Ascension et Tristan de Cunha",countries,,,417,,,,,,"Sainte-Hélène, Ascension et Tristan de Cunha",,,"Sainte-Hélène, Ascension et Tristan de Cunha"
+Sainte-Lucie,countries,,,285,,,,,,Sainte-Lucie,,,Sainte-Lucie
+Samoa,countries,,,516,,,WSM,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Samoa,http://aims.fao.org/aos/geopolitical.owl#Samoa,Samoa,American Samoa,,Samoa
+Samoa américaines,countries,,,21,,,,,,Samoa américaines,,,Samoa américaines
+Samoa Americana,countries,,,20,,,,,,Samoa Americana,,,Samoa Americana
+San Bartolomé,countries,,,60,,,,,,San Bartolomé,,,San Bartolomé
+San Marino,countries,,,424,,,SMR,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/San_Marino,http://aims.fao.org/aos/geopolitical.owl#San_Marino,San Marino,,,San Marino
+San Vicente y las Granadinas,countries,,,502,,,,,,San Vicente y las Granadinas,,,San Vicente y las Granadinas
+"Santa Elena, Ascension y Tristan da Cunha",countries,,,416,,,,,,"Santa Elena, Ascension y Tristan da Cunha",,,"Santa Elena, Ascension y Tristan da Cunha"
+Santa Lucía,countries,,,284,,,,,,Santa Lucía,,,Santa Lucía
+Santa Sede,countries,,,499,,,,,,Santa Sede,,,Santa Sede
+Santo Tomé y Príncipe,countries,,,439,,,,,,Santo Tomé y Príncipe,,,Santo Tomé y Príncipe
+Sao Tome and Principe,countries,,,438,,,STP,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Sao_Tome_and_Principe,http://aims.fao.org/aos/geopolitical.owl#Sao_Tome_and_Principe,Sao Tome and Principe,,,Sao Tome and Principe
+Sao Tomé-et-Principe,countries,,,440,,,,,,Sao Tomé-et-Principe,,,Sao Tomé-et-Principe
+Saudi Arabia,countries,,,403,,,SAU,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Saudi_Arabia,http://aims.fao.org/aos/geopolitical.owl#Saudi_Arabia,Saudi Arabia,Arabia Saudita,Arabie saoudite,Saudi Arabia
+Senegal,countries,,,408,,,SEN,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Senegal,http://aims.fao.org/aos/geopolitical.owl#Senegal,Senegal,,,Senegal
+Serbia,countries,,,433,,,SRB,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Serbia,http://aims.fao.org/aos/geopolitical.owl#Serbia,Serbia,,,Serbia
+Serbie,countries,,,434,,,,,,Serbie,,,Serbie
+Seychelles,countries,,,454,,,SYC,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Seychelles,http://aims.fao.org/aos/geopolitical.owl#Seychelles,Seychelles,,,Seychelles
+Siachen Glacier,countries,,,253,,,,,,Siachen Glacier,,,Siachen Glacier
+Sierra Leona,countries,,,422,,,,,,Sierra Leona,,,Sierra Leona
+Sierra Leone,countries,,,421,,,SLE,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Sierra_Leone,http://aims.fao.org/aos/geopolitical.owl#Sierra_Leone,Sierra Leone,,,Sierra Leone
+Singapore,countries,,,409,,,SGP,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Singapore,http://aims.fao.org/aos/geopolitical.owl#Singapore,Singapore,,,Singapore
+Singapour,countries,,,411,,,,,,Singapour,,,Singapour
+Singapur,countries,,,410,,,,,,Singapur,,,Singapur
+Sint Maarten,countries,,,453,,,,,,Sint Maarten,,,Sint Maarten
+Siria,countries,,,456,,,,,,Siria,,,Siria
+Slovakia,countries,,,442,,,SVK,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Slovakia,http://aims.fao.org/aos/geopolitical.owl#Slovakia,Slovakia,,,Slovakia
+Slovaquie,countries,,,444,,,,,,Slovaquie,,,Slovaquie
+Slovenia,countries,,,445,,,SVN,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Slovenia,http://aims.fao.org/aos/geopolitical.owl#Slovenia,Slovenia,,,Slovenia
+Slovénie,countries,,,447,,,,,,Slovénie,,,Slovénie
+Solomon Islands,countries,,,418,,,SLB,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Solomon_Islands,http://aims.fao.org/aos/geopolitical.owl#Solomon_Islands,Solomon Islands,,,Solomon Islands
+Somalia,countries,,,428,,,SOM,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Somalia,http://aims.fao.org/aos/geopolitical.owl#Somalia,Somalia,,,Somalia
+Somalie,countries,,,429,,,,,,Somalie,,,Somalie
+Somaliland,countries,,,426,,,,,,Somaliland,,,Somaliland
+Somalilandia,countries,,,427,,,,,,Somalilandia,,,Somalilandia
+Soudan,countries,,,407,,,,,,Soudan,,,Soudan
+Soudan du Sud,countries,,,437,,,,,,Soudan du Sud,,,Soudan du Sud
+South Africa,countries,,,519,,,ZAF,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/South_Africa,http://aims.fao.org/aos/geopolitical.owl#South_Africa,South Africa,,,South Africa
+South America,countries,,plain_text,0,,,,,,South America,,,South America
+South Asia,countries,,plain_text,1,,,,,,South Asia,,,South Asia
+South Georgia and South Sandwich Islands,countries,,,412,,,,,,South Georgia and South Sandwich Islands,,,South Georgia and South Sandwich Islands
+South Korea,countries,,plain_text,0,,,,,,South Korea,,,South Korea
+South Sudan,countries,,,435,,,SSD,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/South_Sudan,http://aims.fao.org/aos/geopolitical.owl#South_Sudan,South Sudan,,,South Sudan
+Southern Africa,countries,,plain_text,1,,,,,,Southern Africa,,,Southern Africa
+Spain,countries,,,147,,,ESP,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Spain,http://aims.fao.org/aos/geopolitical.owl#Spain,Spain,,,Spain
+Sri Lanka,countries,,,287,,,LKA,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Sri_Lanka,http://aims.fao.org/aos/geopolitical.owl#Sri_Lanka,Sri Lanka,,,Sri Lanka
+Sudáfrica,countries,,,520,,,,,,Sudáfrica,,,Sudáfrica
+Sudan,countries,,,406,,,SDN,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Sudan_the,http://aims.fao.org/aos/geopolitical.owl#Sudan_the,Sudan,,,Sudan
+Sudán del Sur,countries,,,436,,,,,,Sudán del Sur,,,Sudán del Sur
+Suecia,countries,,,449,,,,,,Suecia,,,Suecia
+Suède,countries,,,450,,,,,,Suède,,,Suède
+Suisse,countries,,,85,,,,,,Suisse,,,Suisse
+Suiza,countries,,,84,,,,,,Suiza,,,Suiza
+Suriname,countries,,,441,,,SUR,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Suriname,http://aims.fao.org/aos/geopolitical.owl#Suriname,Suriname,,,Suriname
+Swaziland,countries,,,451,,,SWZ,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Swaziland,http://aims.fao.org/aos/geopolitical.owl#Swaziland,Swaziland,,,Swaziland
+Swazilandia,countries,,,452,,,,,,Swazilandia,,,Swazilandia
+Sweden,countries,,,448,,,SWE,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Sweden,http://aims.fao.org/aos/geopolitical.owl#Sweden,Sweden,,,Sweden
+Switzerland,countries,,,83,,,CHE,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Switzerland,http://aims.fao.org/aos/geopolitical.owl#Switzerland,Switzerland,,,Switzerland
+Syria,countries,,plain_text,0,,,,,,Syria,,,Syria
+Syrian Arab Republic,countries,,,455,,,SYR,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Syrian_Arab_Republic_the,http://aims.fao.org/aos/geopolitical.owl#Syrian_Arab_Republic_the,Syrian Arab Republic,,,Syrian Arab Republic
+Tadjikistan,countries,,,469,,,,,,Tadjikistan,,,Tadjikistan
+Tailandia,countries,,,465,,,,,,Tailandia,,,Tailandia
+Tajikistan,countries,,,467,,,TJK,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Tajikistan,http://aims.fao.org/aos/geopolitical.owl#Tajikistan,Tajikistan,,,Tajikistan
+Tanzanía,countries,,,486,,,,,,Tanzanía,,,Tanzanía
+Tayikistán,countries,,,468,,,,,,Tayikistán,,,Tayikistán
+Tchad,countries,,,462,,,,,,Tchad,,,Tchad
+Terres australes et antarctiques françaises,countries,,,30,,,,,,Terres australes et antarctiques françaises,,,Terres australes et antarctiques françaises
+Territoire britannique de l'océan Indien,countries,,,231,,,,,,Territoire britannique de l'océan Indien,,,Territoire britannique de l'océan Indien
+Territoire de l'océan Indien,countries,,,228,,,,,,Territoire de l'océan Indien,,,Territoire de l'océan Indien
+Territorio Británico del Océano Índico,countries,,,230,,,,,,Territorio Británico del Océano Índico,,,Territorio Británico del Océano Índico
+Territorio del Océano Índico,countries,,,227,,,,,,Territorio del Océano Índico,,,Territorio del Océano Índico
+Thailand,countries,,,464,,,THA,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Thailand,http://aims.fao.org/aos/geopolitical.owl#Thailand,Thailand,,,Thailand
+Thaïlande,countries,,,466,,,,,,Thaïlande,,,Thaïlande
+Tierras Australes y Antárticas Francesas,countries,,,29,,,,,,Tierras Australes y Antárticas Francesas,,,Tierras Australes y Antárticas Francesas
+Timor-Leste,countries,,,473,,,TLS,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Timor-Leste,http://aims.fao.org/aos/geopolitical.owl#Timor-Leste,Timor-Leste,,,Timor-Leste
+Togo,countries,,,463,,,TGO,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Togo,http://aims.fao.org/aos/geopolitical.owl#Togo,Togo,,,Togo
+Tokélaou,countries,,,471,,,,,,Tokélaou,,,Tokélaou
+Tokelau,countries,,,470,,,TKL,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Tokelau,http://aims.fao.org/aos/geopolitical.owl#Tokelau,Tokelau,,,Tokelau
+Tonga,countries,,,474,,,TON,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Tonga,http://aims.fao.org/aos/geopolitical.owl#Tonga,Tonga,,,Tonga
+Trinidad and Tobago,countries,,,475,,,TTO,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Trinidad_and_Tobago,http://aims.fao.org/aos/geopolitical.owl#Trinidad_and_Tobago,Trinidad and Tobago,,,Trinidad and Tobago
+Trinidad y Tabago,countries,,,476,,,,,,Trinidad y Tabago,,,Trinidad y Tabago
+Trinité-et-Tobago,countries,,,477,,,,,,Trinité-et-Tobago,,,Trinité-et-Tobago
+Túnez,countries,,,479,,,,,,Túnez,,,Túnez
+Tunisia,countries,,,478,,,TUN,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Tunisia,http://aims.fao.org/aos/geopolitical.owl#Tunisia,Tunisia,,,Tunisia
+Tunisie,countries,,,480,,,,,,Tunisie,,,Tunisie
+Turkey,countries,,,481,,,TUR,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Turkey,http://aims.fao.org/aos/geopolitical.owl#Turkey,Turkey,,,Turkey
+Turkmenistan,countries,,,472,,,TKM,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Turkmenistan,http://aims.fao.org/aos/geopolitical.owl#Turkmenistan,Turkmenistan,,,Turkmenistan
+Turks and Caicos Islands,countries,,,458,,,,,,Turks and Caicos Islands,,,Turks and Caicos Islands
+Turquía,countries,,,482,,,,,,Turquía,,,Turquía
+Turquie,countries,,,483,,,,,,Turquie,,,Turquie
+Tuvalu,countries,,,484,,,TUV,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Tuvalu,http://aims.fao.org/aos/geopolitical.owl#Tuvalu,Tuvalu,,,Tuvalu
+Ucrania,countries,,,491,,,,,,Ucrania,,,Ucrania
+Uganda,countries,,,488,,,UGA,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Uganda,http://aims.fao.org/aos/geopolitical.owl#Uganda,Uganda,,,Uganda
+Ukraine,countries,,,490,,,UKR,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Ukraine,http://aims.fao.org/aos/geopolitical.owl#Ukraine,Ukraine,,,Ukraine
+United Arab Emirates,countries,,,12,,,ARE,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/United_Arab_Emirates__the,http://aims.fao.org/aos/geopolitical.owl#United_Arab_Emirates__the,United Arab Emirates,,,United Arab Emirates
+United Kingdom,countries,,,171,,,GBR,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/United_Kingdom_of_Great_Britain_and_Northern_Ireland__the,http://aims.fao.org/aos/geopolitical.owl#United_Kingdom_of_Great_Britain_and_Northern_Ireland__the,United Kingdom,,,United Kingdom
+United Republic of Tanzania,countries,,,485,,,TZA,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/United_Republic_of_Tanzania__the,http://aims.fao.org/aos/geopolitical.owl#United_Republic_of_Tanzania__the,United Republic of Tanzania,,,United Republic of Tanzania
+United States of America,countries,,,493,,,USA,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/United_States_of_America,http://aims.fao.org/aos/geopolitical.owl#United_States_of_America,United States of America,,,United States of America
+United States Virgin Islands,countries,,,508,,,,,,United States Virgin Islands,,,United States Virgin Islands
+Uruguay,countries,,,492,,,URY,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Uruguay,http://aims.fao.org/aos/geopolitical.owl#Uruguay,Uruguay,,,Uruguay
+Uzbekistan,countries,,,496,,,UZB,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Uzbekistan,http://aims.fao.org/aos/geopolitical.owl#Uzbekistan,Uzbekistan,,,Uzbekistan
+Vanuatu,countries,,,512,,,VUT,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Vanuatu,http://aims.fao.org/aos/geopolitical.owl#Vanuatu,Vanuatu,,,Vanuatu
+Venezuela,countries,,,504,,,VEN,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Venezuela,http://aims.fao.org/aos/geopolitical.owl#Venezuela,Venezuela,,,Venezuela
+Viet Nam,countries,,,511,,,VNM,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Viet_Nam,http://aims.fao.org/aos/geopolitical.owl#Viet_Nam,Viet Nam,,,Viet Nam
+Vietnam,countries,,plain_text,0,,,,,,Vietnam,,,Vietnam
+Wallis and Futuna Islands,countries,,,513,,,,,,Wallis and Futuna Islands,,,Wallis and Futuna Islands
+West and Central Africa,countries,,plain_text,2,,,,,,West and Central Africa,,,West and Central Africa
+West Bank and Gaza,countries,,plain_text,0,,,,,,West Bank and Gaza,,,West Bank and Gaza
+Western Europe,countries,,plain_text,0,,,,,,Western Europe,,,Western Europe
+Western Sahara,countries,,,401,,,,,,Western Sahara,,,Western Sahara
+Yemen,countries,,,517,,,YEM,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Yemen,http://aims.fao.org/aos/geopolitical.owl#Yemen,Yemen,,,Yemen
+Zambia,countries,,,522,,,ZMB,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Zambia,http://aims.fao.org/aos/geopolitical.owl#Zambia,Zambia,,,Zambia
+Zambie,countries,,,523,,,,,,Zambie,,,Zambie
+Zimbabwe,countries,,,524,,,ZWE,http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Zimbabwe,http://aims.fao.org/aos/geopolitical.owl#Zimbabwe,Zimbabwe,,,Zimbabwe

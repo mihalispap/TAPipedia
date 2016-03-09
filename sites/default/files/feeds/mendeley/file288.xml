@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Studying Rural Innovation Management: a Framework and Early Findings from Riu in South Asia</dc:title>
+      <dc:subject>is</dc:subject>
+      <dc:subject>is asia</dc:subject>
+      <dc:subject>is research</dc:subject>
+      <dc:creator>Sulaiman V., Rasheed</dc:creator>
+      <dc:creator>Hall, Andy</dc:creator>
+      <dc:creator>Reddy, Vamsidhar</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2010</dcterms:dateIssued>
+      </dc:date>
+      <dc:subject>Actions</dc:subject>
+      <dc:subject>Agricultural research</dc:subject>
+      <dc:subject>Development</dc:subject>
+      <dc:subject>Functions</dc:subject>
+      <dc:subject>Innovation</dc:subject>
+      <dc:subject>Innovation management</dc:subject>
+      <dc:subject>Innovation trajectory</dc:subject>
+      <dc:subject>Organisational format</dc:subject>
+      <dc:subject>Policy</dc:subject>
+      <dc:subject>South Asia</dc:subject>
+      <dc:subject>Tools</dc:subject>
+      <dc:subject>Value chain Development</dc:subject>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Sulaiman V., Hall, Reddy - 2010 - Studying Rural Innovation Management a Framework and Early Findings from Riu in South Asia.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Unpublished Work</dc:type>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

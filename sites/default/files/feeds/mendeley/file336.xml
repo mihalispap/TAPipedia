@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Overview of WBI ’ s Capacity Development and Results Framework: Approach to guide the Assessment, Design, Monitoring, and Evaluation of Capacity Development Efforts</dc:title>
+      <dc:subject>cd</dc:subject>
+      <dc:subject>cd tools</dc:subject>
+      <dc:subject>impact assessment</dc:subject>
+      <dc:subject>innovation policies</dc:subject>
+      <dc:subject>m&amp;e</dc:subject>
+      <dc:creator>World Bank Institute</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>World Bank Institute</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2011</dcterms:dateIssued>
+      </dc:date>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://World Bank Institute - 2011 - Overview of WBI ’ s Capacity Development and Results Framework Approach to guide the Assessment, Design, M.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Generic</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 1-3</dcterms:extent>
+      </dc:format>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

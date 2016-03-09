@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Conceptualising Inclusive Innovation: Modifying Systems of Innovation Frameworks to Understand Diffusion of New Technology to Low-Income Consumers<dcterms:alternative>European Journal of Development Research</dcterms:alternative>
+      </dc:title>
+      <dc:subject>africa</dc:subject>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:creator>Foster, Christopher</dc:creator>
+      <dc:creator>Heeks, Richard</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2013</dcterms:dateIssued>
+      </dc:date>
+      <dc:subject>bottom</dc:subject>
+      <dc:subject>inclusive innovation</dc:subject>
+      <dc:subject>mobile phones</dc:subject>
+      <dc:subject>systems of innovation</dc:subject>
+      <dc:description>
+         <dcterms:abstract>Inclusive innovation is the means by which new goods and services are developed for and/or by the billions living on lowest incomes. Although a topic of increasing interest, it has been relatively under-researched and under-conceptualised to date. This article studies arguably the most successful new technology to reach low-income groups: the mobile phone, focusing specifically on its diffusion in Kenya. Systems of innovation are shown to be an appropriate frame for conceptualisation of inclusive innovation. However, the conventional content of this framework must be modified to allow for particular features of inclusive innovation, including the nature of innovations required, the actors involved and their interrelations, the type of learning they undertake, and the institutional environment in which they operate. Four system domains must be effective if inclusive innovation is to succeed: the product, its retailing and support, the micro-enterprises that provide these demand-side services, and the wider context © 2013 European Association of Development Research and Training Institutes.</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Foster, Heeks - 2013 - Conceptualising Inclusive Innovation Modifying Systems of Innovation Frameworks to Understand Diffusion of New Te.pdf</dc:identifier>
+      <dc:identifier scheme="dcterms:URI">
+            http://www.palgrave-journals.com/doifinder/10.1057/ejdr.2013.7
+         </dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Journal Article</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 333-355</dcterms:extent>
+      </dc:format>
+      <ags:citation>
+         <ags:citationTitle>European Journal of Development Research</ags:citationTitle>
+         <ags:citationIdentifier scheme="ags:ISSN">10.1057/ejdr.2013.7</ags:citationIdentifier>
+         <ags:citationNumber>v.25(3)</ags:citationNumber>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

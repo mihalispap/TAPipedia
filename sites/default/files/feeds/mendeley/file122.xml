@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Catalysing innovation: from theory to action</dc:title>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>is research</dc:subject>
+      <dc:creator>Gildemacher, Peter</dc:creator>
+      <dc:creator>Wongtschowski, Mariana</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2013</dcterms:dateIssued>
+      </dc:date>
+      <dc:subject>agricultural innovation</dc:subject>
+      <dc:subject>catalysing innovation</dc:subject>
+      <dc:subject>from theory to action</dc:subject>
+      <dc:subject>impact at scale</dc:subject>
+      <dc:subject>research</dc:subject>
+      <dc:subject>rural development</dc:subject>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Gildemacher, Wongtschowski - 2013 - Catalysing innovation from theory to action.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Report</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 1-10</dcterms:extent>
+      </dc:format>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

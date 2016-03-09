@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Systems Perspectives on Developing-Country Agriculture : A Critical Review</dc:title>
+      <dc:subject>capacity development</dc:subject>
+      <dc:subject>cd level system or policy</dc:subject>
+      <dc:subject>cd tools</dc:subject>
+      <dc:subject>is learning and knowledge</dc:subject>
+      <dc:creator>Spielman, David J</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2005</dcterms:dateIssued>
+      </dc:date>
+      <dc:subject>Agricultural research</dc:subject>
+      <dc:subject>Cooperation</dc:subject>
+      <dc:subject>Innovation</dc:subject>
+      <dc:subject>Networks</dc:subject>
+      <dc:subject>Technological innovation</dc:subject>
+      <dc:subject>game theory</dc:subject>
+      <dc:description>
+         <dcterms:abstract>Innovation systems perspectives on agricultural research and technological change are fast becoming a popular approach to the study of how society generates, disseminates, and utilizes knowledge. The innovation systems literature represents a significant change from the conventional, linear approach to research and development by providing an analytical framework that explores complex relationships among heterogeneous agents, social and economic institutions, and endogenously determined technological and institutional opportunities. Recent empirical work extends the innovation systems approach from studies of national innovation systems in industrialized-country manufacturing to developing-country agriculture, and shifts the emphasis from a unidirectional technology transfer approach to a more complex, process- based systems approach. This shift in perspective is appropriate for the study of developing-country agriculture because it captures the intricate relationships between diverse actors, processes of institutional learning and change, market and nonmarket institutions, public policy, poverty reduction, and socioeconomic development. Early applications of the innovation systems framework to developing-country agriculture suggest opportunities for more intensive and extensive analysis. There is ample scope for empirical studies to make greater use of the theoretical content available in the literature, and to employ more diverse methodologies, both qualitative and quantitative. Further, there is room to improve the relevance of empirical studies to the iv analysis of public policies that support science, technology, and innovation, as well as to policies that promote poverty reduction and economic growth. This paper attempts to examine these issues with respect to recent applications of the innovation systems framework to developing-country agriculture, and suggests several ways to strengthen the mode of inquiry and quality of analysis. The paper begins by tracing the literature on innovation systems from its roots in evolutionary economics and systems theory, followed by a review of recent applications to developing-country agriculture. This discussion is followed by the presentation of a model of an innovation system derived from a series of game theoretic and population game models in which heterogeneous agents interact and evolve through strategic patterns of behavior. The paper then reviews the strengths and weaknesses of recent applied work in developing-country agriculture and concludes with recommendations for improving analytical strength, relevance to public policy, and relevance to poverty reduction. Contents</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Spielman - 2005 - Systems Perspectives on Developing-Country Agriculture A Critical Review.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Unpublished Work</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 58</dcterms:extent>
+      </dc:format>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

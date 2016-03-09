@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Operational Field Guide for Developing and Managing Local Agricultural Innovation Platforms</dc:title>
+      <dc:subject>ad&amp;case africa</dc:subject>
+      <dc:subject>africa</dc:subject>
+      <dc:subject>capacity building</dc:subject>
+      <dc:subject>cd learning and knowledge</dc:subject>
+      <dc:subject>cd tools</dc:subject>
+      <dc:subject>is</dc:subject>
+      <dc:subject>is africa</dc:subject>
+      <dc:subject>is learning and knowledge</dc:subject>
+      <dc:creator>Makini, Felister</dc:creator>
+      <dc:creator>Kamau, Geoffrey</dc:creator>
+      <dc:creator>Makelo, Margaret</dc:creator>
+      <dc:creator>Adekunle, Wale</dc:creator>
+      <dc:creator>Mburathi, George</dc:creator>
+      <dc:creator>Misiko, Michael</dc:creator>
+      <dc:creator>Pali, Pamela</dc:creator>
+      <dc:creator>Dixon, John</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>Australian Center for International Agricultural Research</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2013</dcterms:dateIssued>
+      </dc:date>
+      <dc:description>
+         <dcterms:abstract>Document aimed for discussion and learning about innovation platforms (InPs). It has been informed by experiences and lessons from the existing agricultural innovation platforms in Southern, Eastern and Western Africa.</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Makini et al. - 2013 - Operational Field Guide for Developing and Managing Local Agricultural Innovation Platforms.pdf</dc:identifier>
+      <dc:identifier scheme="ags:ISBN">9789966300041</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Book</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 1-92</dcterms:extent>
+      </dc:format>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

@@ -1,0 +1,70 @@
+;Theme info
+name = Heshel
+description = Heshel ready for use Industries, School, hospital, corporative, travel, fashion, jewellery and any business.
+package = Core
+version = VERSION
+core = 7.x
+screenshot = 'screenshot.png'
+
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/theme.css
+stylesheets[all][] = css/shop.css
+stylesheets[all][] = css/revslider.css
+stylesheets[all][] = css/update.css
+
+
+; Add a script
+
+scripts[] = js/bootstrap.min.js
+scripts[] = js/modules.js
+scripts[] = js/theme.js
+scripts[] = js/jquery.countdown.min.js
+scripts[] = js/shop.js
+scripts[] = js/slick.min.js
+scripts[] = js/jquery.isotope.min.js
+scripts[] = js/sorting.js
+scripts[] = js/demo_panel.js
+scripts[] = js/update.js
+scripts[] = js/twitter.js
+scripts[] = js/jflickrfeed.js
+
+
+;Core regions
+regions[header_info] = 'Header Info'
+regions[header_social] = 'Header Social'
+regions[header_cart] = 'Header Cart'
+regions[header_user] = 'Header User'
+regions[search_header] = 'Search Header'
+regions[main_menu] = 'Main Menu'
+regions[search_2_header] = 'Search 2 Header'
+regions[top_content] = 'Top Content'
+regions[content] = 'Main Content'
+regions[section_content] = 'Section Content'
+regions[sitemap_content] = 'Sitemap Content'
+regions[sidebar] = 'Sidebar'
+regions[sidebar_contact] = 'Sidebar Contact'
+regions[sidebar_shop] = 'Sidebar Shop'
+regions[bot_content] = 'Bot Content'
+regions[bot_2_content] = 'Bot 2 Content'
+regions[login_popup] = 'Login Popup'
+regions[footer_widget] = 'Footer Widget'
+regions[footer_bottom] = 'Footer Bottom'
+
+
+;Features (core settings)
+features[] = 'logo'
+features[] = 'name'
+features[] = 'node_user_picture'
+features[] = 'comment_user_picture'
+features[] = 'comment_user_verification'
+
+;Breadcrumb
+settings[breadcrumb_display] = 'yes'
+settings[breadcrumb_separator] = ' &#187; '
+settings[breadcrumb_home] = 1
+
+settings[footer_copyright_message] = ' © All rights reserved. Created by <a href="#">Drupalet</a>. '
+
+version = "7.x"
+project = "Heshel"
+datestamp = "1365027012"

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Creating Sustainable Science</dc:title>
+      <dc:subject>capacity develoment</dc:subject>
+      <dc:subject>cd knowledge and learning</dc:subject>
+      <dc:subject>is</dc:subject>
+      <dc:subject>is institutional</dc:subject>
+      <dc:creator>World Bank</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2010</dcterms:dateIssued>
+      </dc:date>
+      <dc:description>
+         <dcterms:abstract>Background note for the development of an AIS Investment Sourcebook that provides a menu of tools and guidance to invest in agricultural innovation in different contexts. The content is drawn on tested good practice examples and innovative approaches with emphasis on lessons learned, benefits and impacts, implementation issues, and replicability</dcterms:abstract>
+      </dc:description>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://World Bank - 2010 - Creating Sustainable Science.pdf</dc:identifier>
+      <dc:identifier scheme="ags:ISBN">0415213576\r0415213584 (pbk.)</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Report</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 201-216</dcterms:extent>
+      </dc:format>
+      <ags:citation>
+         <ags:citationIdentifier scheme="ags:ISSN">10.1086/649274</ags:citationIdentifier>
+         <ags:citationNumber>v.12(1)</ags:citationNumber>
+      </ags:citation>
+   </ags:resource>
+</ags:resources>

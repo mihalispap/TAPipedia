@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Value Chain Development for Decent Work: A Guide for development practitioners, government and private sector initiatives</dc:title>
+      <dc:subject>learning&amp;facilitation</dc:subject>
+      <dc:subject>lf organizational</dc:subject>
+      <dc:creator>Herr, Matthias L.</dc:creator>
+      <dc:creator>Muzira, Tapera J.</dc:creator>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2009</dcterms:dateIssued>
+      </dc:date>
+      <dc:subject>Value Chain Global</dc:subject>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://Herr, Muzira - 2009 - Value Chain Development for Decent Work A Guide for development practitioners, government and private sector initi.pdf</dc:identifier>
+      <dc:identifier scheme="ags:ISBN">9789221222309</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Report</dc:type>
+      <dc:format>
+         <dcterms:extent>p. p246</dcterms:extent>
+      </dc:format>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ags:resources
+  SYSTEM "http://purl.org/agmes/agrisap/dtd/">
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2"
+               xmlns:dcterms="http://purl.org/dc/terms/">
+   <ags:resource ags:ARN="UA2015600001">
+      <dc:title>Innovation systems and Institutional change</dc:title>
+      <dc:subject>africa</dc:subject>
+      <dc:subject>family farming</dc:subject>
+      <dc:subject>innovation systems</dc:subject>
+      <dc:subject>is extension</dc:subject>
+      <dc:subject>is institutions</dc:subject>
+      <dc:creator>N.G., Roling</dc:creator>
+      <dc:creator>D., Hounkonnou</dc:creator>
+      <dc:publisher>
+         <ags:publisherName>CTA</ags:publisherName>
+      </dc:publisher>
+      <dc:date>
+         <dcterms:dateIssued scheme="dcterms:W3CDTF">2012</dcterms:dateIssued>
+      </dc:date>
+      <dc:subject>interlocking</dc:subject>
+      <dc:subject>new interactions</dc:subject>
+      <dc:subject>opportunities</dc:subject>
+      <dc:subject>pathways</dc:subject>
+      <dc:subject>smallholder farming</dc:subject>
+      <dc:identifier scheme="dcterms:URI">internal-pdf://N.G., D. - 2012 - Innovation systems and Institutional change.pdf</dc:identifier>
+      <dc:type scheme="dcterms:DCMIType">Conference Proceedings</dc:type>
+      <dc:format>
+         <dcterms:extent>p. 1-11</dcterms:extent>
+      </dc:format>
+      <ags:citation/>
+   </ags:resource>
+</ags:resources>

@@ -1,0 +1,12 @@
+name = Feeds Tamper: Search term by field
+description = Feeds Tamper: Search term by field.
+package = Feeds
+core = 7.x
+dependencies[] = feeds_tamper
+
+; Information added by drupal.org packaging script on 2013-06-26
+version = "7.x-1.0-alpha1"
+core = "7.x"
+project = "feeds_tamper_stbf"
+datestamp = "1372238755"
+
