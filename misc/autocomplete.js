@@ -113,11 +113,8 @@ Drupal.jsAC.prototype.onkeyup = function (input, e) {
  * Puts the currently highlighted suggestion into the autocomplete field.
  */
 Drupal.jsAC.prototype.select = function (node) {
-  //this.input.value = $(node).data('autocompleteValue').replace(/\(.*\)/i, "");
   this.input.value = $(node).data('autocompleteValue');
   $(this.input).trigger('autocompleteSelect', [node]);
-  //console.log($(node).data('innerText'));
-  console.log($(node));
 };
 
 /**
