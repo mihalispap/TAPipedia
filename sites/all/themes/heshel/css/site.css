@@ -1591,7 +1591,7 @@ span.author-value {padding-right:5px;}
 #edit-field-vocabularies label {width:120%;}
 #edit-field-languages label {width:120%;}
 
-img.logo_def {z-index:99999;}
+img.logo_def {z-index:99999; display:inline!important;}
 
 
 

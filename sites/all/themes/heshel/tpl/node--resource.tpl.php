@@ -47,6 +47,11 @@ if($page) { ?>
 		$url=str_replace('+','%20',$url);
 		//$url=$base_url.$node->field_resource_url['und'][0]['url'];
 	}
+	if(empty($url))
+	{
+		$url=file_create_url($node->field_attached_resource['und'][0]['uri']);
+		
+	}
 	//print_r($content);
 	//hide($content['comments']);
 	//hide($content['field_resource_url']);
@@ -56,7 +61,7 @@ if($page) { ?>
 	<?php
 	//print render($content['statistics']);
 ?>
-
+<div style="display:none;"><?php print_r($url);?></div>
 <div id="rginfo">
 <?php 
 	//$provider=node_load($content['field_dataprovider']['#object']->field_dataprovider['und'][0]['target_id']);
