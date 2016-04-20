@@ -9,6 +9,15 @@
     float: left;
     padding: 20px;
     margin: 30px;}*/
+	
+#mobile-welcome {display:none;}	
+#mheader {    font-size: 25px;
+    padding-top: 2%;
+    padding-bottom: 2%;}
+#mtext {    color: #d9a734 !important;
+    font-size: 16px;
+    padding-bottom: 2%;}
+	
 #action-icons {padding-left: 5%;}
 #action-icons #action #img {    position: relative;
     margin-top: -70%;
@@ -546,6 +555,13 @@ div[class^="md-layer-"], div[class*=" md-layer-"]
 @media screen and (max-width: 650px) {
 	div[class^="md-layer-"], div[class*=" md-layer-"] 
 		{display:none !important;}
+		
+	div#mobile-welcome{    background: rgba(97,52,107,0.9);
+    color: #ffffff !important;
+    text-align: center;
+    font-size: 3.75em;
+    font-weight: 700;display:block;}	
+		
 }
 	
 @media screen and (max-width: 1180px) {

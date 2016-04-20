@@ -209,6 +209,8 @@
     });
 
     var jqObject = this.jqObject;
+	
+	//console.log(jqObject);
 
     var autocompleteDataKey = typeof(this.jqObject.data('autocomplete')) === 'object' ? 'item.autocomplete' : 'ui-autocomplete';
 
@@ -224,24 +226,38 @@
       throbber.removeClass('autocomplete-deluxe-open');
     });
 
-    // Monkey patch the _renderItem function jquery so we can highlight the
-    // text, that we already entered.
-    $.ui.autocomplete.prototype._renderItem = function( ul, item) {
-      var t = item.label;
-      if (this.term != "") {
-        var escapedValue = Drupal.autocomplete_deluxe.escapeRegex( this.term );
-        var re = new RegExp('()*""' + escapedValue + '""|' + escapedValue + '()*', 'gi');
-        var t = item.label.replace(re,"<span class='autocomplete-deluxe-highlight-char'>$&</span>");
-      }
+	
+	
+		// Monkey patch the _renderItem function jquery so we can highlight the
+		// text, that we already entered.
+		$.ui.autocomplete.prototype._renderItem = function( ul, item) {
+			
+			//if(this.term=="")
+			//	return;
+				//return $( "<li>Please start typing...</li>" ).appendTo( ul );
+			
+		  var t = item.label;
+		  if (this.term != "") {
+			var escapedValue = Drupal.autocomplete_deluxe.escapeRegex( this.term );
+			var re = new RegExp('()*""' + escapedValue + '""|' + escapedValue + '()*', 'gi');
+			var t = item.label.replace(re,"<span class='autocomplete-deluxe-highlight-char'>$&</span>");
+			
+			//console.log("test1"+re+"||");
+			
+		  }
 
-      return $( "<li></li>" )
-        .data(autocompleteDataKey, item)
-        .append( "<a>" + t + "</a>" )
-        .appendTo( ul );
-    };
+		  return $( "<li></li>" )
+			.data(autocompleteDataKey, item)
+			.append( "<a>" + t + "</a>" )
+			.appendTo( ul );
+		};
+	
   };
 
   Drupal.autocomplete_deluxe.Widget.prototype.generateValues = function(data) {
+	  
+	  //console.log("test1");
+	  
     var result = new Array();
     for (var index in data) {
       result.push(data[index]);
@@ -263,6 +279,8 @@
   Drupal.autocomplete_deluxe.SingleWidget.prototype.setup = function() {
     var jqObject = this.jqObject;
     var parent = jqObject.parent();
+	
+	//console.log("test2");
 
     parent.mousedown(function() {
       if (parent.hasClass('autocomplete-deluxe-single-open')) {
@@ -301,6 +319,8 @@
     this.item = item;
     var self = this;
 
+	//console.log("test3");
+	
     var close = $('<a class="autocomplete-deluxe-item-delete" href="javascript:void(0)"></a>').appendTo(this.element);
     // Use single quotes because of the double quote encoded stuff.
     var input = $('<input type="hidden" value=\'' + this.value + '\'/>').appendTo(this.element);
@@ -327,6 +347,8 @@
     var items = this.items;
     var self = this;
     this.valueForm = value_input;
+	
+	//console.log("VI:"+value_input);
 
     // Override the resize function, so that the suggestion list doesn't resizes
     // all the time.
@@ -366,6 +388,9 @@
 
     // Adds a value to the list.
     this.addValue = function(ui_item) {
+		
+		//console.log("test25");
+		
       var item = new Drupal.autocomplete_deluxe.MultipleWidget.Item(self, ui_item);
       item.element.insertBefore(jqObject);
       items[ui_item.value] = item;
@@ -376,11 +401,17 @@
     };
 
     parent.mouseup(function() {
+		
+		//console.log("test24");
+		
       jqObject.autocomplete('search', '');
       jqObject.focus();
     });
 
     jqObject.bind("autocompleteselect", function(event, ui) {
+		
+		//console.log("test23");
+		
       self.addValue(ui.item);
       jqObject.width(25);
       // Return false to prevent setting the last term as value for the jqObject.
@@ -399,6 +430,9 @@
     var clear = false;
 
     jqObject.keypress(function (event) {
+		
+		//console.log("test22");
+		
       var value = jqObject.val();
       // If a comma was entered and there is none or more then one comma,or the
       // enter key was entered, then enter the new term.
@@ -443,6 +477,9 @@
 
 
     jqObject.keyup(function (event) {
+		
+		//console.log("test21");
+		
       if (clear) {
         // Trigger the search, so it display the values for an empty string.
         jqObject.autocomplete('search', '');

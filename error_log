@@ -1957,3 +1957,23 @@
 [14-Mar-2016 20:41:25 Europe/Helsinki] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 24922617 bytes) in /home/tapipedia/public_html/includes/form.inc on line 4052
 [14-Mar-2016 20:41:40 Europe/Helsinki] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 24922617 bytes) in /home/tapipedia/public_html/includes/form.inc on line 4052
 [14-Mar-2016 20:41:49 Europe/Helsinki] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 24922568 bytes) in /home/tapipedia/public_html/includes/form.inc on line 4052
+[23-Mar-2016 18:12:49 Europe/Helsinki] PHP Fatal error:  Call to undefined function mb_strtoupper() in /home/tapipedia/public_html/sites/all/modules/synonyms/synonyms.module on line 354
+[23-Mar-2016 18:13:58 Europe/Helsinki] PHP Fatal error:  Call to undefined function mb_strtoupper() in /home/tapipedia/public_html/sites/all/modules/synonyms/synonyms.module on line 354
+[23-Mar-2016 18:15:02 Europe/Helsinki] PHP Fatal error:  Call to undefined function mb_strtoupper() in /home/tapipedia/public_html/sites/all/modules/synonyms/synonyms.module on line 354
+[30-Mar-2016 19:17:43 Europe/Helsinki] PHP Fatal error:  Call to undefined function mb_strtoupper() in /home/tapipedia/public_html/sites/all/modules/synonyms/synonyms.module on line 354
+[30-Mar-2016 19:18:12 Europe/Helsinki] PHP Fatal error:  Call to undefined function mb_strtoupper() in /home/tapipedia/public_html/sites/all/modules/synonyms/synonyms.module on line 354
+[11-Apr-2016 11:51:30 Europe/Helsinki] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 24923586 bytes) in /home/tapipedia/public_html/includes/theme.inc on line 1528
+[11-Apr-2016 11:52:39 Europe/Helsinki] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 24923480 bytes) in /home/tapipedia/public_html/includes/form.inc on line 4052
+[11-Apr-2016 11:52:43 Europe/Helsinki] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 24923480 bytes) in /home/tapipedia/public_html/includes/form.inc on line 4052
+[11-Apr-2016 11:52:43 Europe/Helsinki] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 24923480 bytes) in /home/tapipedia/public_html/includes/form.inc on line 4052
+[11-Apr-2016 11:52:48 Europe/Helsinki] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 24923480 bytes) in /home/tapipedia/public_html/includes/form.inc on line 4052
+[11-Apr-2016 11:52:48 Europe/Helsinki] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 24923480 bytes) in /home/tapipedia/public_html/includes/form.inc on line 4052
+[11-Apr-2016 11:52:49 Europe/Helsinki] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 24923480 bytes) in /home/tapipedia/public_html/includes/form.inc on line 4052
+[11-Apr-2016 11:52:50 Europe/Helsinki] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 24923480 bytes) in /home/tapipedia/public_html/includes/form.inc on line 4052
+[11-Apr-2016 11:52:50 Europe/Helsinki] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 24923480 bytes) in /home/tapipedia/public_html/includes/form.inc on line 4052
+[15-Apr-2016 15:35:42 Europe/Helsinki] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 24953515 bytes) in /home/tapipedia/public_html/includes/theme.inc on line 1528
+[15-Apr-2016 15:35:45 Europe/Helsinki] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 24953409 bytes) in /home/tapipedia/public_html/includes/form.inc on line 4052
+[15-Apr-2016 15:35:50 Europe/Helsinki] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 24953409 bytes) in /home/tapipedia/public_html/includes/form.inc on line 4052
+[15-Apr-2016 15:35:53 Europe/Helsinki] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 24953409 bytes) in /home/tapipedia/public_html/includes/form.inc on line 4052
+[15-Apr-2016 15:35:56 Europe/Helsinki] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 24953409 bytes) in /home/tapipedia/public_html/includes/form.inc on line 4052
+[15-Apr-2016 15:35:56 Europe/Helsinki] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 24953409 bytes) in /home/tapipedia/public_html/includes/form.inc on line 4052
